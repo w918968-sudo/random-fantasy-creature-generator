@@ -38,6 +38,9 @@ yarn-error.log*
 .vitest
 .eslintcache
 
+# downloaded raw data cache (dev-time only)
+.cache/
+
 # vercel
 .vercel
 
