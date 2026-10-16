@@ -1,9 +1,17 @@
 "use client";
 
 import { useEffect } from "react";
+import dynamic from "next/dynamic";
 import type { BaseStats, GeneratedPokemon } from "@/lib/types";
 import { getSpecies } from "@/lib/data/species";
 import { TypeBadge } from "./type-badge";
+
+// Lazy-load the move list so moves/learnsets JSON (~1 MB) stays out of the
+// initial bundle and is fetched only when a detail panel opens.
+const MoveList = dynamic(() => import("./move-list").then((m) => m.MoveList), {
+  ssr: false,
+  loading: () => <p className="text-sm text-slate-400">Loading moves…</p>,
+});
 
 const GEN_LABELS = [
   "Generation I",
@@ -196,6 +204,10 @@ export function PokemonDetail({
                 );
               })}
             </ul>
+          </Section>
+
+          <Section title="Moves">
+            <MoveList speciesId={species.speciesId} />
           </Section>
 
           <Section title="Evolution">

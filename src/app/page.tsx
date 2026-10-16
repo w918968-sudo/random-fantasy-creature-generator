@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import type { GeneratedPokemon } from "@/lib/types";
 import { useGenerator } from "@/lib/use-generator";
 import { buildCopyText } from "@/lib/copy-results";
@@ -9,6 +10,13 @@ import { FilterPanel } from "@/components/filter-panel";
 import { SettingsPanel } from "@/components/settings-panel";
 import { PokemonCard } from "@/components/pokemon-card";
 import { PokemonDetail } from "@/components/pokemon-detail";
+
+// Team analysis pulls in the battle data (~1 MB), so it is loaded only when the
+// user asks for it in team mode.
+const TeamAnalysisView = dynamic(
+  () => import("@/components/team-analysis-view").then((m) => m.TeamAnalysisView),
+  { ssr: false, loading: () => <p className="text-sm text-slate-500">Analyzing…</p> },
+);
 
 function prefersReducedMotion(): boolean {
   return (
@@ -25,8 +33,10 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [copyFeedback, setCopyFeedback] = useState<string | null>(null);
   const [epoch, setEpoch] = useState(0);
+  const [showAnalysis, setShowAnalysis] = useState(false);
 
   const generatedCount = state.results.filter(Boolean).length;
+  const team = state.results.filter((r): r is GeneratedPokemon => r !== null);
 
   async function handleGenerate() {
     if (isGenerating) return;
@@ -68,7 +78,13 @@ export default function Home() {
       </header>
 
       <div className="mb-6 flex justify-center">
-        <ModeTabs mode={g.mode} onChange={g.setMode} />
+        <ModeTabs
+          mode={g.mode}
+          onChange={(mode) => {
+            g.setMode(mode);
+            setShowAnalysis(false);
+          }}
+        />
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[340px_1fr]">
@@ -136,6 +152,16 @@ export default function Home() {
                   {copyFeedback && (
                     <span className="text-sm text-slate-500">{copyFeedback}</span>
                   )}
+                  {g.mode === "team" && team.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setShowAnalysis((s) => !s)}
+                      aria-pressed={showAnalysis}
+                      className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold text-blue-600 ring-1 ring-blue-200 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+                    >
+                      {showAnalysis ? "Hide Analysis" : "Analyze Team"}
+                    </button>
+                  )}
                   <button
                     type="button"
                     onClick={handleCopy}
@@ -175,6 +201,12 @@ export default function Home() {
                   );
                 })}
               </div>
+
+              {g.mode === "team" && showAnalysis && team.length > 0 && (
+                <div className="rounded-2xl bg-white/70 p-4 shadow-sm ring-1 ring-slate-200 backdrop-blur">
+                  <TeamAnalysisView team={team} />
+                </div>
+              )}
             </>
           )}
         </div>
