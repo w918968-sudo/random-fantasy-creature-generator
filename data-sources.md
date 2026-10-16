@@ -19,7 +19,9 @@ Status legend: ✅ verified for production · ⚠️ partially verified · ❌ n
 | ID | Type | Source | Version / Commit | License | Commercial / redistribution verified | Reviewed |
 |----|------|--------|------------------|---------|--------------------------------------|----------|
 | `species-metadata` | species, stats, abilities, types, evolution | PokéAPI | 🔄 VERIFY | Repo: BSD-3-Clause — does **not** cover Pokémon IP | ❌ | — |
-| `sv-moves-legality` | Scarlet/Violet learnsets & legality | Smogon / Pokémon Showdown data | 🔄 VERIFY (pin commit) | 🔄 VERIFY | ❌ | — |
+| `sv-moves-legality` | Scarlet/Violet learnsets (species → move ids) | [@pkmn/dex](https://github.com/pkmn/ps) (data derived from Pokémon Showdown) | **0.10.11** (npm) | MIT (confirmed in package.json) — covers the **code/data package**, not Pokémon names/trademarks | ⚠️ code license ✅; game data is factual mechanics, names remain ©/™ Nintendo/Game Freak/The Pokémon Company | 2026-10-17 |
+| `sv-moves` | move power/type/category/accuracy | [@pkmn/dex](https://github.com/pkmn/ps) | **0.10.11** (npm) | MIT (confirmed) — same caveat as above | ⚠️ (same as above) | 2026-10-17 |
+| `sv-type-chart` | Gen 9 type effectiveness | [@smogon/calc](https://github.com/smogon/damage-calc) | **0.12.0** (npm) | MIT (confirmed) — factual game mechanics | ⚠️ (same as above) | 2026-10-17 |
 
 ## Images / sprites
 

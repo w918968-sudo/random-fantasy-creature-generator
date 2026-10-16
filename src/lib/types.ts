@@ -148,3 +148,55 @@ export const ALL_TYPES: readonly TypeName[] = [
   "Steel",
   "Fairy",
 ];
+
+/** Move category used by the damage calculator and move list. */
+export type MoveCategory = "Physical" | "Special" | "Status";
+
+export interface Move {
+  id: string;
+  name: string;
+  type: TypeName;
+  /** Base power; 0 for status moves. */
+  power: number;
+  /** Percent accuracy; null for never-miss/status. */
+  accuracy: number | null;
+  category: MoveCategory;
+}
+
+/** Type effectiveness multiplier: 0 (immune), 0.5, 1, or 2. */
+export type TypeMultiplier = 0 | 0.5 | 1 | 2;
+
+/** attack type -> defense type -> multiplier. */
+export type TypeChart = Record<TypeName, Record<TypeName, TypeMultiplier>>;
+
+export interface DefensiveSummary {
+  /** Team members taking ×2 or ×4 from this attacking type. */
+  weak: number;
+  /** Team members taking ×0.25 or ×0.5. */
+  resist: number;
+  /** Team members taking ×0. */
+  immune: number;
+}
+
+export interface TeamOverview {
+  averageBaseStatTotal: number;
+  /** type -> count of team members carrying it. */
+  typeSpread: Partial<Record<TypeName, number>>;
+  legendaryCount: number;
+  shinyCount: number;
+  /** generation -> count. */
+  generationSpread: Partial<Record<number, number>>;
+  distinctTypeCount: number;
+}
+
+export interface TeamAnalysis {
+  overview: TeamOverview;
+  /** attacking type -> how the team's members collectively fare against it. */
+  defensive: Record<TypeName, DefensiveSummary>;
+  /** defending type -> number of members able to hit it super-effectively. */
+  offensive: Record<TypeName, number>;
+  /** Attacking types that 3+ members are weak to (most urgent gaps). */
+  weaknessHighlights: TypeName[];
+  /** Attacking types that at least 2 members resist or are immune to. */
+  resistanceHighlights: TypeName[];
+}
