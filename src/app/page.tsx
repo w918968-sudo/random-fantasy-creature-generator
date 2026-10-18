@@ -18,6 +18,13 @@ const TeamAnalysisView = dynamic(
   { ssr: false, loading: () => <p className="text-sm text-slate-500">Analyzing…</p> },
 );
 
+// The damage calculator pulls in @smogon/calc plus the moves/learnsets data, so
+// it is loaded only when the user opens it.
+const DamageCalculator = dynamic(
+  () => import("@/components/damage-calculator").then((m) => m.DamageCalculator),
+  { ssr: false },
+);
+
 function prefersReducedMotion(): boolean {
   return (
     typeof window !== "undefined" &&
@@ -34,6 +41,7 @@ export default function Home() {
   const [copyFeedback, setCopyFeedback] = useState<string | null>(null);
   const [epoch, setEpoch] = useState(0);
   const [showAnalysis, setShowAnalysis] = useState(false);
+  const [showCalc, setShowCalc] = useState(false);
 
   const generatedCount = state.results.filter(Boolean).length;
   const team = state.results.filter((r): r is GeneratedPokemon => r !== null);
@@ -75,6 +83,13 @@ export default function Home() {
           and type filters, shiny mode, lock &amp; reroll, and a Scarlet/Violet
           damage calculator.
         </p>
+        <button
+          type="button"
+          onClick={() => setShowCalc(true)}
+          className="mt-4 inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-blue-600 ring-1 ring-blue-200 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+        >
+          Damage Calculator
+        </button>
       </header>
 
       <div className="mb-6 flex justify-center">
@@ -214,6 +229,10 @@ export default function Home() {
 
       {selected && (
         <PokemonDetail pokemon={selected} onClose={() => setSelected(null)} />
+      )}
+
+      {showCalc && (
+        <DamageCalculator initialAttacker={null} onClose={() => setShowCalc(false)} />
       )}
     </main>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import type { BaseStats, GeneratedPokemon } from "@/lib/types";
 import { getSpecies } from "@/lib/data/species";
@@ -12,6 +12,13 @@ const MoveList = dynamic(() => import("./move-list").then((m) => m.MoveList), {
   ssr: false,
   loading: () => <p className="text-sm text-slate-400">Loading moves…</p>,
 });
+
+// Lazy-load the damage calculator so @smogon/calc only downloads when a
+// calculation is requested (the attacker is seeded from this Pokémon).
+const DamageCalculator = dynamic(
+  () => import("./damage-calculator").then((m) => m.DamageCalculator),
+  { ssr: false },
+);
 
 const GEN_LABELS = [
   "Generation I",
@@ -57,6 +64,7 @@ export function PokemonDetail({
   onClose: () => void;
 }) {
   const { species, isShiny, nature } = pokemon;
+  const [showCalc, setShowCalc] = useState(false);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -91,14 +99,23 @@ export function PokemonDetail({
       >
         <header className="flex items-center justify-between border-b border-slate-100 px-4 py-3">
           <h2 className="text-lg font-bold text-slate-800">{species.name}</h2>
-          <button
-            type="button"
-            onClick={onClose}
-            aria-label="Close"
-            className="rounded-lg px-2.5 py-1 text-slate-500 hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
-          >
-            ✕
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setShowCalc(true)}
+              className="rounded-lg bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-600 hover:bg-blue-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+            >
+              Damage Calculator
+            </button>
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Close"
+              className="rounded-lg px-2.5 py-1 text-slate-500 hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+            >
+              ✕
+            </button>
+          </div>
         </header>
 
         <div className="flex-1 space-y-5 overflow-y-auto p-4">
@@ -233,6 +250,9 @@ export function PokemonDetail({
           </Section>
         </div>
       </aside>
+      {showCalc && (
+        <DamageCalculator initialAttacker={species} onClose={() => setShowCalc(false)} />
+      )}
     </div>
   );
 }

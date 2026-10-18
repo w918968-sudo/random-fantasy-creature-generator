@@ -1,45 +1,46 @@
-# Data Sources & License Audit
+# Data sources, licenses & pending items
 
-> Required by the product spec (§4, §13, §23). A source's open-source **code**
-> license does NOT automatically cover Pokémon characters, names, game data, or
-> images. Each row below must be verified before that data/asset may ship to
-> production. Credits pages and "unofficial fan tool" disclaimers are not a
-> substitute for a license.
+Internal record for the Random Pokémon Generator. Updated as licenses and
+production values are confirmed. **Do not fabricate** sources, licenses, or
+production values — anything unconfirmed is marked `VERIFY` / `TODO`.
 
-Status legend: ✅ verified for production · ⚠️ partially verified · ❌ not verified / blocked · 🔄 pending review
+## Bundled data
 
-## Damage calculation engine
+| Data | Source | License / status |
+| --- | --- | --- |
+| Species base data (`src/data/species.json`) | [PokéAPI](https://pokeapi.co) via `scripts/fetch-pokeapi.mjs` | Pokémon game data — third-party IP (Nintendo / The Pokémon Company). Used for a non-commercial fan tool; license status under review. |
+| Type chart, moves, learnsets (`src/data/*.json`) | [@pkmn/dex](https://www.npmjs.com/package/@pkmn/dex) v0.10.11, data derived from Pokémon Showdown | Library: MIT (verified from `package.json`). The underlying Pokémon data is third-party IP. |
 
-| ID | Type | Source | Version / Commit | License | Browser-build verified | Reviewed |
-|----|------|--------|------------------|---------|------------------------|----------|
-| `calc-engine` | @smogon/calc | https://github.com/smogon/damage-calc | **0.12.0** (npm) | MIT (confirmed in package.json) | ✅ (Next 16 static export build passes) | 2026-10-17 |
+## Runtime dependencies
 
-## Runtime data (species, forms, moves, types, abilities)
+| Package | Version | License |
+| --- | --- | --- |
+| [@smogon/calc](https://www.npmjs.com/package/@smogon/calc) | 0.12.0 | MIT (verified from `package.json`) |
+| next / react / react-dom | 16.4.2 / 19.3.0 | MIT |
+| tailwindcss | ^4 | MIT |
 
-| ID | Type | Source | Version / Commit | License | Commercial / redistribution verified | Reviewed |
-|----|------|--------|------------------|---------|--------------------------------------|----------|
-| `species-metadata` | species, stats, abilities, types, evolution | PokéAPI | 🔄 VERIFY | Repo: BSD-3-Clause — does **not** cover Pokémon IP | ❌ | — |
-| `sv-moves-legality` | Scarlet/Violet learnsets (species → move ids) | [@pkmn/dex](https://github.com/pkmn/ps) (data derived from Pokémon Showdown) | **0.10.11** (npm) | MIT (confirmed in package.json) — covers the **code/data package**, not Pokémon names/trademarks | ⚠️ code license ✅; game data is factual mechanics, names remain ©/™ Nintendo/Game Freak/The Pokémon Company | 2026-10-17 |
-| `sv-moves` | move power/type/category/accuracy | [@pkmn/dex](https://github.com/pkmn/ps) | **0.10.11** (npm) | MIT (confirmed) — same caveat as above | ⚠️ (same as above) | 2026-10-17 |
-| `sv-type-chart` | Gen 9 type effectiveness | [@smogon/calc](https://github.com/smogon/damage-calc) | **0.12.0** (npm) | MIT (confirmed) — factual game mechanics | ⚠️ (same as above) | 2026-10-17 |
+## Images
 
-## Images / sprites
+- **Status: placeholders only.** Official Pokémon promotional art is a launch
+  **blocker**: Pokémon Support (2026-01-30) directs against using its IP without
+  authorization. "It's on the internet" or "it's in the repo" does not equal a
+  license.
+- `hasShinyAsset` is `false` for every species, so **Shiny Only** correctly
+  returns an empty pool rather than silently falling back to the normal image.
 
-| ID | Type | Source | Version / Commit | License | Commercial use verified | Reviewed |
-|----|------|--------|------------------|---------|------------------------|----------|
-| `sprites-normal` | normal artwork/sprites | PokeAPI sprites repo | 🔄 VERIFY | Repo license does **not** cover images; some are official art (© The Pokémon Company), some community-made | ❌ | — |
-| `sprites-shiny` | shiny sprites | PokeAPI sprites repo | 🔄 VERIFY | Same as above; some shiny images are community-made | ❌ | — |
-| `official-artwork` | large official promo art | — | — | **BLOCKED** — Pokémon Support (2026-01-30) directs not to use its IP | ❌ (use placeholders) | — |
+## TODO / VERIFY (user-provided values required)
 
-## Blocked / not-for-production
-
-- **All Pokémon character images** remain ❌ until a real license/authorization is
-  confirmed. Until then the UI uses clearly-marked placeholders, and this is
-  reported to the project owner as a launch blocker (§17.1).
-
-## Schema for `asset-manifest.json`
-
-Each entry: `{ "id", "type", "sourceUrl", "sourceProject", "version", "license",
-"commercialVerified", "redistributionAllowed", "attribution", "reviewedBy",
-"reviewedAt", "usedBy" }`. Missing-verification assets must stay out of the
-production build.
+- [x] `SITE_URL` — `https://randompokemongenerator.games` (purchased
+      2026-10-17, Tencent Cloud registrar). Set in `src/lib/site.ts`.
+- [x] `NEXT_PUBLIC_GA4_ID` — `G-QXM8XHH33P` (GA4 property created 2026-10-17).
+      Set in `.env.local` for local dev; also set in Cloudflare Pages env for
+      production (not committed).
+- [x] Search Console — verified 2026-10-17 via **domain property** (DNS TXT
+      record at Tencent Cloud DNSPod). No meta tag is needed, so
+      `GSC_VERIFICATION` stays intentionally empty/unset.
+- [x] Privacy contact — `w918968@gmail.com` set on the Privacy page
+      (2026-10-17).
+- [ ] Image licensing — obtain or confirm a license before swapping any
+      placeholder for real Pokémon artwork.
+- [ ] `includeForms` — official non-base form data is not yet bundled, so the
+      "include forms" advanced filter is inert.
