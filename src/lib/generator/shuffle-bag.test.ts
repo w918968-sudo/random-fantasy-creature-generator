@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { createShuffleBag, drawNext, shuffle } from "@/lib/generator/shuffle-bag";
+import {
+  createShuffleBag,
+  drawMany,
+  drawNext,
+  shuffle,
+} from "@/lib/generator/shuffle-bag";
 
 /** Deterministic LCG so shuffle order is reproducible in tests. */
 function lcg(seed: number): () => number {
@@ -55,5 +60,46 @@ describe("shuffle bag", () => {
   it("returns null for an empty bag", () => {
     const bag = createShuffleBag([], lcg(1));
     expect(drawNext(bag, lcg(1))).toBeNull();
+  });
+});
+
+describe("drawMany", () => {
+  it("draws exactly count distinct ids when count <= pool", () => {
+    const rng = lcg(3);
+    const bag = createShuffleBag(IDS, rng);
+    const { ids } = drawMany(bag, 3, rng);
+    expect(ids).toHaveLength(3);
+    expect(new Set(ids).size).toBe(3);
+    expect(ids.every((id) => IDS.includes(id))).toBe(true);
+  });
+
+  it("caps the batch at the pool size", () => {
+    const bag = createShuffleBag(IDS, lcg(5));
+    const { ids, bag: next } = drawMany(bag, 99, lcg(5));
+    expect(ids).toHaveLength(IDS.length);
+    expect(new Set(ids).size).toBe(IDS.length);
+    expect(next.remaining).toHaveLength(0);
+  });
+
+  it("never repeats within a batch that spans a round boundary", () => {
+    const rng = lcg(11);
+    let bag = createShuffleBag(IDS, rng);
+    // Drain two ids first so only two remain this round.
+    const first = drawMany(bag, 2, rng);
+    bag = first.bag;
+    expect(bag.remaining).toHaveLength(2);
+
+    // Ask for all four: two come from the tail of this round, two from a
+    // fresh round. The batch must still contain no duplicates.
+    const { ids } = drawMany(bag, 4, rng);
+    expect(ids).toHaveLength(4);
+    expect(new Set(ids).size).toBe(4);
+  });
+
+  it("returns an empty batch for an empty pool", () => {
+    const bag = createShuffleBag([], lcg(1));
+    const { ids, bag: next } = drawMany(bag, 5, lcg(1));
+    expect(ids).toEqual([]);
+    expect(next).toEqual(bag);
   });
 });

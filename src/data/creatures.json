@@ -102,5 +102,2709 @@
     "image": "/creatures/duskveil.png",
     "element": "Dusk",
     "personality": "Serene"
+  },
+  {
+    "id": "warmglow",
+    "name": "Warmglow",
+    "description": "A round, dozy lantern-beast whose soft belly glows like banked coals.",
+    "traits": [
+      "Warms cold hands without burning",
+      "Sleeps curled in old fireplaces",
+      "Its yawn smells of cedar smoke"
+    ],
+    "image": "/creatures/warmglow.png",
+    "element": "Ember",
+    "personality": "Gentle"
+  },
+  {
+    "id": "moonfin",
+    "name": "Moonfin",
+    "description": "A slow silver fish that swims patient circles beneath calm tides.",
+    "traits": [
+      "Turns moonlight into ripples",
+      "Sings to sleepy coral",
+      "Carries tiny wishes in its scales"
+    ],
+    "image": "/creatures/moonfin.png",
+    "element": "Tide",
+    "personality": "Gentle"
+  },
+  {
+    "id": "thornbranch",
+    "name": "Thornbranch",
+    "description": "A bristling guardian of the deep woods whose bark is woven with thorns.",
+    "traits": [
+      "Stands watch at the forest edge",
+      "Brambles part for its friends",
+      "Its growl is falling timber"
+    ],
+    "image": "/creatures/thornbranch.png",
+    "element": "Grove",
+    "personality": "Fierce"
+  },
+  {
+    "id": "cloudsteed",
+    "name": "Cloudsteed",
+    "description": "A steadfast storm-horse that carries riders between the clouds.",
+    "traits": [
+      "Never loses its way in fog",
+      "Hoofbeats answer the thunder",
+      "Its mane crackles with patience"
+    ],
+    "image": "/creatures/cloudsteed.png",
+    "element": "Storm",
+    "personality": "Loyal"
+  },
+  {
+    "id": "gemfang",
+    "name": "Gemfang",
+    "description": "A lean, glinting hunter with teeth of razor crystal.",
+    "traits": [
+      "Its fur refracts a warning",
+      "Stalks only shadows that threaten",
+      "A single bite splits the light"
+    ],
+    "image": "/creatures/gemfang.png",
+    "element": "Crystal",
+    "personality": "Fierce"
+  },
+  {
+    "id": "shadowwhisk",
+    "name": "Shadowwhisk",
+    "description": "A sly, cat-eared trickster that plays tag with the fading light.",
+    "traits": [
+      "Steals the last sunbeam",
+      "Hides inside your shadow",
+      "Giggles when you blink"
+    ],
+    "image": "/creatures/shadowwhisk.png",
+    "element": "Dusk",
+    "personality": "Mischievous"
+  },
+  {
+    "id": "hearthound",
+    "name": "Hearthound",
+    "description": "A warm, stocky hound that guards the hearth through every long winter.",
+    "traits": [
+      "Guards the hearth through every winter",
+      "Knows every family's favorite chair",
+      "Coals never go out on its watch"
+    ],
+    "image": "/creatures/hearthound.png",
+    "element": "Ember",
+    "personality": "Loyal"
+  },
+  {
+    "id": "flintwing",
+    "name": "Flintwing",
+    "description": "A darting dragonfly of ember whose wingbeats strike tiny sparks.",
+    "traits": [
+      "Wingbeats strike tiny sparks",
+      "Lights campfires by happy accident",
+      "Startles sleeping cats for fun"
+    ],
+    "image": "/creatures/flintwing.png",
+    "element": "Ember",
+    "personality": "Mischievous"
+  },
+  {
+    "id": "splashwit",
+    "name": "Splashwit",
+    "description": "A cheeky tide-sprite that sneaks up to splash unsuspecting ankles.",
+    "traits": [
+      "Sneaks up to splash bare ankles",
+      "Giggles in bubbles",
+      "Swaps one boot for a seashell"
+    ],
+    "image": "/creatures/splashwit.png",
+    "element": "Tide",
+    "personality": "Mischievous"
+  },
+  {
+    "id": "mistkoi",
+    "name": "Mistkoi",
+    "description": "A serene koi that drifts through river fog like a living breath.",
+    "traits": [
+      "River mist follows its fins",
+      "Stills the water it swims",
+      "Hums a lullaby to the fish"
+    ],
+    "image": "/creatures/mistkoi.png",
+    "element": "Tide",
+    "personality": "Serene"
+  },
+  {
+    "id": "shoalsong",
+    "name": "Shoalsong",
+    "description": "A loyal sea-spirit that sings lost boats safely home.",
+    "traits": [
+      "Sings lost boats safely home",
+      "Never forgets a harbor's name",
+      "Leads through the thickest fog"
+    ],
+    "image": "/creatures/shoalsong.png",
+    "element": "Tide",
+    "personality": "Loyal"
+  },
+  {
+    "id": "fernveil",
+    "name": "Fernveil",
+    "description": "A serene, fern-cloaked creature that hums to the forest floor.",
+    "traits": [
+      "Ferns hide its sleepy eyes",
+      "Dew beads along its back",
+      "Soothes bickering sparrows"
+    ],
+    "image": "/creatures/fernveil.png",
+    "element": "Grove",
+    "personality": "Serene"
+  },
+  {
+    "id": "sprigpaw",
+    "name": "Sprigpaw",
+    "description": "A tiny sprout-creature that peeks out from under fallen leaves.",
+    "traits": [
+      "Peeks out from under fallen leaves",
+      "Asks the mushrooms questions",
+      "Leaves tiny root prints behind"
+    ],
+    "image": "/creatures/sprigpaw.png",
+    "element": "Grove",
+    "personality": "Curious"
+  },
+  {
+    "id": "ivyjinx",
+    "name": "Ivyjinx",
+    "description": "A playful vine-spirit that ties shoelaces into bowknots.",
+    "traits": [
+      "Ties shoelaces into bowknots",
+      "Swings from the tallest branches",
+      "Tickles with ivy tendrils"
+    ],
+    "image": "/creatures/ivyjinx.png",
+    "element": "Grove",
+    "personality": "Mischievous"
+  },
+  {
+    "id": "drizzlefluff",
+    "name": "Drizzlefluff",
+    "description": "A soft, drifting cloud-puff that drizzles the gentlest rain.",
+    "traits": [
+      "Drizzles the gentlest rain",
+      "Fluffs up before every shower",
+      "Soothes the thirstiest gardens"
+    ],
+    "image": "/creatures/drizzlefluff.png",
+    "element": "Storm",
+    "personality": "Gentle"
+  },
+  {
+    "id": "stormmane",
+    "name": "Stormmane",
+    "description": "A proud storm-lion whose mane snaps with quiet lightning.",
+    "traits": [
+      "Roar rolls like a thunderclap",
+      "Lightning bows around it",
+      "Guards the mountain passes"
+    ],
+    "image": "/creatures/stormmane.png",
+    "element": "Storm",
+    "personality": "Fierce"
+  },
+  {
+    "id": "zapwisp",
+    "name": "Zapwisp",
+    "description": "A bright bolt-sprite that sniffs at everything new.",
+    "traits": [
+      "Sniffs at everything new",
+      "Static pops when it is excited",
+      "Peeks into every cloud"
+    ],
+    "image": "/creatures/zapwisp.png",
+    "element": "Storm",
+    "personality": "Curious"
+  },
+  {
+    "id": "chimeshard",
+    "name": "Chimeshard",
+    "description": "A still crystal bell-creature that rings one clear note at dawn.",
+    "traits": [
+      "Rings one clear note at dawn",
+      "Its chime settles every worry",
+      "Light pools inside it"
+    ],
+    "image": "/creatures/chimeshard.png",
+    "element": "Crystal",
+    "personality": "Serene"
+  },
+  {
+    "id": "crystalbud",
+    "name": "Crystalbud",
+    "description": "A gentle crystal flower that opens only for kind hands.",
+    "traits": [
+      "Opens only for kind hands",
+      "Blossoms at a kind word",
+      "Petal shards fall soft as snow"
+    ],
+    "image": "/creatures/crystalbud.png",
+    "element": "Crystal",
+    "personality": "Gentle"
+  },
+  {
+    "id": "lanternmoth",
+    "name": "Lanternmoth",
+    "description": "A curious moth-spirit drawn to every quiet lantern.",
+    "traits": [
+      "Follows lanterns on errands",
+      "Drawn to every quiet light",
+      "Wings keep the twilight warm"
+    ],
+    "image": "/creatures/lanternmoth.png",
+    "element": "Dusk",
+    "personality": "Curious"
+  },
+  {
+    "id": "nightclaw",
+    "name": "Nightclaw",
+    "description": "A silent twilight stalker whose claws hold the last light.",
+    "traits": [
+      "Moves without a sound",
+      "Claws hold the last light",
+      "Its gaze stills the dark"
+    ],
+    "image": "/creatures/nightclaw.png",
+    "element": "Dusk",
+    "personality": "Fierce"
+  },
+  {
+    "id": "starwatch",
+    "name": "Starwatch",
+    "description": "A loyal night-watcher that walks beside you after sunset.",
+    "traits": [
+      "Walks beside you after sunset",
+      "Keeps the dark at arm's length",
+      "Glows when you feel lost"
+    ],
+    "image": "/creatures/starwatch.png",
+    "element": "Dusk",
+    "personality": "Loyal"
+  },
+  {
+    "id": "blazehowl",
+    "description": "A snarling wolf of living flame whose howl fans dying coals back to life.",
+    "traits": [
+      "Its howl fans dying coals back",
+      "Paws scorch the stone it walks",
+      "Challenges any colder thing"
+    ],
+    "element": "Ember",
+    "personality": "Fierce",
+    "name": "Blazehowl",
+    "image": "/creatures/blazehowl.png"
+  },
+  {
+    "id": "emberclaw",
+    "description": "A bristling fire-cat with claws that carve glowing scars into stone.",
+    "traits": [
+      "Claws carve glowing scars in stone",
+      "Purrs like a crackling bonfire",
+      "Stalks the soot-stained hollows"
+    ],
+    "element": "Ember",
+    "personality": "Fierce",
+    "name": "Emberclaw",
+    "image": "/creatures/emberclaw.png"
+  },
+  {
+    "id": "cinderfang",
+    "description": "A lean ash-hound whose bite leaves a slow-burning ember behind.",
+    "traits": [
+      "Its bite leaves a slow ember",
+      "Smoke curls from its jaw",
+      "Hunts by the glow of coals"
+    ],
+    "element": "Ember",
+    "personality": "Fierce",
+    "name": "Cinderfang",
+    "image": "/creatures/cinderfang.png"
+  },
+  {
+    "id": "scorchmane",
+    "description": "A proud fire-lion whose mane ripples with molten light.",
+    "traits": [
+      "Mane ripples with molten light",
+      "Roar shakes loose the sparks",
+      "Rests on beds of blackened rock"
+    ],
+    "element": "Ember",
+    "personality": "Fierce",
+    "name": "Scorchmane",
+    "image": "/creatures/scorchmane.png"
+  },
+  {
+    "id": "pyreguard",
+    "description": "A stocky forge-warden that stands vigil over the hottest kiln.",
+    "traits": [
+      "Stands vigil over the kiln",
+      "Skin glows with banked heat",
+      "Melts the frost that strays close"
+    ],
+    "element": "Ember",
+    "personality": "Fierce",
+    "name": "Pyreguard",
+    "image": "/creatures/pyreguard.png"
+  },
+  {
+    "id": "warmwhisper",
+    "description": "A calm drift of warm air that settles the restless hearth.",
+    "traits": [
+      "Settles a restless hearth",
+      "Soothes chattering sparks",
+      "Carries the smell of cedar"
+    ],
+    "element": "Ember",
+    "personality": "Serene",
+    "name": "Warmwhisper",
+    "image": "/creatures/warmwhisper.png"
+  },
+  {
+    "id": "hearthmote",
+    "description": "A tiny, still ember that hums a low, contented note.",
+    "traits": [
+      "Hums one low, contented note",
+      "Burns without ever dimming",
+      "Glows steady as a heartbeat"
+    ],
+    "element": "Ember",
+    "personality": "Serene",
+    "name": "Hearthmote",
+    "image": "/creatures/hearthmote.png"
+  },
+  {
+    "id": "emberhush",
+    "description": "A quiet flame-spirit that dampens the crackle so sleep can come.",
+    "traits": [
+      "Dampens the fire's crackle",
+      "Turns flames to soft lamplight",
+      "Watches over the sleepers"
+    ],
+    "element": "Ember",
+    "personality": "Serene",
+    "name": "Emberhush",
+    "image": "/creatures/emberhush.png"
+  },
+  {
+    "id": "softspark",
+    "description": "A gentle spark that drifts down like snow and never stings.",
+    "traits": [
+      "Drifts down without stinging",
+      "Lands soft as thistledown",
+      "Turns to ash that glows"
+    ],
+    "element": "Ember",
+    "personality": "Serene",
+    "name": "Softspark",
+    "image": "/creatures/softspark.png"
+  },
+  {
+    "id": "glowcoil",
+    "description": "A peaceful serpent of warm light coiled around the family hearth.",
+    "traits": [
+      "Coils warm around the hearth",
+      "Breathes a steady, low light",
+      "Sleeps through the coldest night"
+    ],
+    "element": "Ember",
+    "personality": "Serene",
+    "name": "Glowcoil",
+    "image": "/creatures/glowcoil.png"
+  },
+  {
+    "id": "sunpaw",
+    "description": "A tender little fox whose warm paw can thaw a frozen hand.",
+    "traits": [
+      "Thaws a frozen hand with a touch",
+      "Leaves warm prints in the snow",
+      "Curls up in your lap"
+    ],
+    "element": "Ember",
+    "personality": "Gentle",
+    "name": "Sunpaw",
+    "image": "/creatures/sunpaw.png"
+  },
+  {
+    "id": "emberlamb",
+    "description": "A soft lamb of banked coals that dozes beside the fire.",
+    "traits": [
+      "Dozes beside the fire",
+      "Fleece glows a gentle amber",
+      "Bleats a puff of warm air"
+    ],
+    "element": "Ember",
+    "personality": "Gentle",
+    "name": "Emberlamb",
+    "image": "/creatures/emberlamb.png"
+  },
+  {
+    "id": "warmheart",
+    "description": "A round, glowing friend that warms everyone who sits near.",
+    "traits": [
+      "Warms whoever sits near",
+      "Shares its heat without asking",
+      "Never lets the fire go out"
+    ],
+    "element": "Ember",
+    "personality": "Gentle",
+    "name": "Warmheart",
+    "image": "/creatures/warmheart.png"
+  },
+  {
+    "id": "ashdove",
+    "description": "A gentle dove of pale ash that carries warmth on its wings.",
+    "traits": [
+      "Carries warmth on its wings",
+      "Coos like a settling log",
+      "Lights on cold windowsills"
+    ],
+    "element": "Ember",
+    "personality": "Gentle",
+    "name": "Ashdove",
+    "image": "/creatures/ashdove.png"
+  },
+  {
+    "id": "kindlesoft",
+    "description": "A tender fluff that kindles tiny, friendly fires in the cold.",
+    "traits": [
+      "Kindles tiny, friendly fires",
+      "Shares its glow with everyone",
+      "Never scorches a hand"
+    ],
+    "element": "Ember",
+    "personality": "Gentle",
+    "name": "Kindlesoft",
+    "image": "/creatures/kindlesoft.png"
+  },
+  {
+    "id": "emberhound",
+    "description": "A devoted hound of living embers that never leaves your side.",
+    "traits": [
+      "Never leaves your side",
+      "Keeps watch through the night",
+      "Its tail wags little sparks"
+    ],
+    "element": "Ember",
+    "personality": "Loyal",
+    "name": "Emberhound",
+    "image": "/creatures/emberhound.png"
+  },
+  {
+    "id": "hearthguard",
+    "description": "A steadfast guardian that remembers every promise made by the fire.",
+    "traits": [
+      "Remembers every fireside promise",
+      "Stands between you and the cold",
+      "Its glow never wavers"
+    ],
+    "element": "Ember",
+    "personality": "Loyal",
+    "name": "Hearthguard",
+    "image": "/creatures/hearthguard.png"
+  },
+  {
+    "id": "brandstead",
+    "description": "A faithful brand-creature that marks the safe path home.",
+    "traits": [
+      "Marks the safe path home",
+      "Holds its light in the storm",
+      "Waits at the door for you"
+    ],
+    "element": "Ember",
+    "personality": "Loyal",
+    "name": "Brandstead",
+    "image": "/creatures/brandstead.png"
+  },
+  {
+    "id": "coalheart",
+    "description": "A true-hearted beast of coal that burns steady for its friends.",
+    "traits": [
+      "Burns steady for its friends",
+      "Shares its last spark with you",
+      "Never strays from the flock"
+    ],
+    "element": "Ember",
+    "personality": "Loyal",
+    "name": "Coalheart",
+    "image": "/creatures/coalheart.png"
+  },
+  {
+    "id": "watchflame",
+    "description": "A vigilant little flame that stays lit while you sleep.",
+    "traits": [
+      "Stays lit while you sleep",
+      "Guards the doorway till dawn",
+      "Flares at any stranger"
+    ],
+    "element": "Ember",
+    "personality": "Loyal",
+    "name": "Watchflame",
+    "image": "/creatures/watchflame.png"
+  },
+  {
+    "id": "sparkimp",
+    "description": "A cheeky spark-imp that warms your socks at odd moments.",
+    "traits": [
+      "Warms your socks at odd moments",
+      "Hides in the kindling pile",
+      "Pops when you least expect"
+    ],
+    "element": "Ember",
+    "personality": "Mischievous",
+    "name": "Sparkimp",
+    "image": "/creatures/sparkimp.png"
+  },
+  {
+    "id": "sootling",
+    "description": "A playful soot-sprite that leaves little black handprints everywhere.",
+    "traits": [
+      "Leaves black handprints everywhere",
+      "Giggles from the chimney",
+      "Hides the fire poker"
+    ],
+    "element": "Ember",
+    "personality": "Mischievous",
+    "name": "Sootling",
+    "image": "/creatures/sootling.png"
+  },
+  {
+    "id": "embersneak",
+    "description": "A sneaky coal-cat that steals the last warm seat.",
+    "traits": [
+      "Steals the last warm seat",
+      "Knocks sparks onto clean floors",
+      "Purrs too loudly to hide"
+    ],
+    "element": "Ember",
+    "personality": "Mischievous",
+    "name": "Embersneak",
+    "image": "/creatures/embersneak.png"
+  },
+  {
+    "id": "fizzsprite",
+    "description": "A fizzing little spark that sets off tiny harmless firecrackers.",
+    "traits": [
+      "Sets off tiny firecrackers",
+      "Laughs like popping pine",
+      "Bounces off the hearthstones"
+    ],
+    "element": "Ember",
+    "personality": "Mischievous",
+    "name": "Fizzsprite",
+    "image": "/creatures/fizzsprite.png"
+  },
+  {
+    "id": "smolderpix",
+    "description": "A roguish ember-pixie that paints soot mustaches on sleepers.",
+    "traits": [
+      "Paints soot mustaches on sleepers",
+      "Flicks warm ash at cats",
+      "Snickers from the flue"
+    ],
+    "element": "Ember",
+    "personality": "Mischievous",
+    "name": "Smolderpix",
+    "image": "/creatures/smolderpix.png"
+  },
+  {
+    "id": "sparknose",
+    "description": "A wide-eyed fire-mouse that sniffs at every new ember it finds.",
+    "traits": [
+      "Sniffs at every new ember",
+      "Follows sparks into the dark",
+      "Its nose twitches little flames"
+    ],
+    "element": "Ember",
+    "personality": "Curious",
+    "name": "Sparknose",
+    "image": "/creatures/sparknose.png"
+  },
+  {
+    "id": "coalpeek",
+    "description": "A shy coal-creature that peeks out from the fireplace at strangers.",
+    "traits": [
+      "Peeks out at every stranger",
+      "Cocks its head at new smells",
+      "Investigates every crack"
+    ],
+    "element": "Ember",
+    "personality": "Curious",
+    "name": "Coalpeek",
+    "image": "/creatures/coalpeek.png"
+  },
+  {
+    "id": "flintpaw",
+    "description": "An inquisitive flint-kit that taps strange things to see what sparks.",
+    "traits": [
+      "Taps things to see what sparks",
+      "Chases the sparks it makes",
+      "Asks the fire questions"
+    ],
+    "element": "Ember",
+    "personality": "Curious",
+    "name": "Flintpaw",
+    "image": "/creatures/flintpaw.png"
+  },
+  {
+    "id": "candlepup",
+    "description": "A curious pup that follows every wandering candle flame.",
+    "traits": [
+      "Follows wandering candles",
+      "Sniffs out hidden coals",
+      "Barks at shooting sparks"
+    ],
+    "element": "Ember",
+    "personality": "Curious",
+    "name": "Candlepup",
+    "image": "/creatures/candlepup.png"
+  },
+  {
+    "id": "glowgaze",
+    "description": "A staring flame-cat that studies each flicker with round eyes.",
+    "traits": [
+      "Studies every flicker closely",
+      "Bats at candle shadows",
+      "Learns the shape of fire"
+    ],
+    "element": "Ember",
+    "personality": "Curious",
+    "name": "Glowgaze",
+    "image": "/creatures/glowgaze.png"
+  },
+  {
+    "id": "warmquest",
+    "description": "A wandering ember that roams to ask every hearth its story.",
+    "traits": [
+      "Asks every hearth its story",
+      "Wanders far from the flames",
+      "Brings back curious sparks"
+    ],
+    "element": "Ember",
+    "personality": "Curious",
+    "name": "Warmquest",
+    "image": "/creatures/warmquest.png"
+  },
+  {
+    "id": "ripplepup",
+    "description": "A wide-eyed tide-pup that sniffs every new tidepool it finds.",
+    "traits": [
+      "Sniffs every new tidepool",
+      "Chases drifting bubbles",
+      "Wags a tail of seafoam"
+    ],
+    "element": "Tide",
+    "personality": "Curious",
+    "name": "Ripplepup",
+    "image": "/creatures/ripplepup.png"
+  },
+  {
+    "id": "shellnose",
+    "description": "An inquisitive crab-ling that pokes its shell into every crack.",
+    "traits": [
+      "Pokes into every reef crack",
+      "Collects shiny oddities",
+      "Asks the coral questions"
+    ],
+    "element": "Tide",
+    "personality": "Curious",
+    "name": "Shellnose",
+    "image": "/creatures/shellnose.png"
+  },
+  {
+    "id": "foamwhisk",
+    "description": "A curious otter-sprite that chases each new current to its source.",
+    "traits": [
+      "Chases currents to their source",
+      "Dives after sinking light",
+      "Bobs up with treasures"
+    ],
+    "element": "Tide",
+    "personality": "Curious",
+    "name": "Foamwhisk",
+    "image": "/creatures/foamwhisk.png"
+  },
+  {
+    "id": "driftmote",
+    "description": "A drifting blue spark that investigates every passing ship's hull.",
+    "traits": [
+      "Investigates passing hulls",
+      "Glows brightest near new things",
+      "Hitches rides on kelp"
+    ],
+    "element": "Tide",
+    "personality": "Curious",
+    "name": "Driftmote",
+    "image": "/creatures/driftmote.png"
+  },
+  {
+    "id": "pearlpeek",
+    "description": "A shy little pearl-creature that peeks from its shell at the bright world.",
+    "traits": [
+      "Peeks from behind its shell",
+      "Watches swimmers with wonder",
+      "Follows the moon's path"
+    ],
+    "element": "Tide",
+    "personality": "Curious",
+    "name": "Pearlpeek",
+    "image": "/creatures/pearlpeek.png"
+  },
+  {
+    "id": "softtide",
+    "description": "A tender wave-spirit that eases the shore with every slow swell.",
+    "traits": [
+      "Eases the shore gently",
+      "Carries pebbles home soft",
+      "Sings to the sand"
+    ],
+    "element": "Tide",
+    "personality": "Gentle",
+    "name": "Softtide",
+    "image": "/creatures/softtide.png"
+  },
+  {
+    "id": "moonpool",
+    "description": "A still, gentle pool-creature that reflects a calm, silver light.",
+    "traits": [
+      "Reflects a calm silver light",
+      "Stills the ripples around it",
+      "Holds moonlight for the lost"
+    ],
+    "element": "Tide",
+    "personality": "Gentle",
+    "name": "Moonpool",
+    "image": "/creatures/moonpool.png"
+  },
+  {
+    "id": "driftveil",
+    "description": "A soft veil of sea-fog that wraps cold swimmers in warmth.",
+    "traits": [
+      "Wraps cold swimmers warm",
+      "Thins to let boats pass",
+      "Dries to a kind mist"
+    ],
+    "element": "Tide",
+    "personality": "Gentle",
+    "name": "Driftveil",
+    "image": "/creatures/driftveil.png"
+  },
+  {
+    "id": "shellhare",
+    "description": "A tender hare of pale shell that leaves quiet footprints in wet sand.",
+    "traits": [
+      "Leaves soft prints in wet sand",
+      "Nuzzles tidepool dwellers",
+      "Naps in sun-warmed shallows"
+    ],
+    "element": "Tide",
+    "personality": "Gentle",
+    "name": "Shellhare",
+    "image": "/creatures/shellhare.png"
+  },
+  {
+    "id": "lagoonlull",
+    "description": "A gentle lagoon-spirit that hums the waves to a peaceful rest.",
+    "traits": [
+      "Hums the waves to rest",
+      "Calms the gulls above",
+      "Holds the tide back a breath"
+    ],
+    "element": "Tide",
+    "personality": "Gentle",
+    "name": "Lagoonlull",
+    "image": "/creatures/lagoonlull.png"
+  },
+  {
+    "id": "tidesnicker",
+    "description": "A sly wave-imp that slaps the deck just to hear you yelp.",
+    "traits": [
+      "Slaps decks to hear you yelp",
+      "Steals a sailor's hat",
+      "Giggles in the surf"
+    ],
+    "element": "Tide",
+    "personality": "Mischievous",
+    "name": "Tidesnicker",
+    "image": "/creatures/tidesnicker.png"
+  },
+  {
+    "id": "brineprank",
+    "description": "A salty trickster that swaps the tide's direction for a laugh.",
+    "traits": [
+      "Swaps the tide for a laugh",
+      "Hides shells in your shoes",
+      "Pops bubbles in your face"
+    ],
+    "element": "Tide",
+    "personality": "Mischievous",
+    "name": "Brineprank",
+    "image": "/creatures/brineprank.png"
+  },
+  {
+    "id": "poolkicker",
+    "description": "A cheeky pool-sprite that kicks up a splash right when you kneel.",
+    "traits": [
+      "Splashes right when you kneel",
+      "Laughs in little ripples",
+      "Flicks water at gulls"
+    ],
+    "element": "Tide",
+    "personality": "Mischievous",
+    "name": "Poolkicker",
+    "image": "/creatures/poolkicker.png"
+  },
+  {
+    "id": "shellsteal",
+    "description": "A roguish crab-ling that borrows shiny things and never returns them.",
+    "traits": [
+      "Borrows shiny things forever",
+      "Skitters off with your ring",
+      "Hides its hoard under rocks"
+    ],
+    "element": "Tide",
+    "personality": "Mischievous",
+    "name": "Shellsteal",
+    "image": "/creatures/shellsteal.png"
+  },
+  {
+    "id": "foamfool",
+    "description": "A giggling foam-creature that writes silly words in the wet sand.",
+    "traits": [
+      "Writes silly words in sand",
+      "Blows foam at passing dogs",
+      "Vanishes when you look"
+    ],
+    "element": "Tide",
+    "personality": "Mischievous",
+    "name": "Foamfool",
+    "image": "/creatures/foamfool.png"
+  },
+  {
+    "id": "stillwave",
+    "description": "A calm, glassy wave that never breaks but only breathes.",
+    "traits": [
+      "Never breaks, only breathes",
+      "Glass-smooth even in storms",
+      "Holds the sea's quiet"
+    ],
+    "element": "Tide",
+    "personality": "Serene",
+    "name": "Stillwave",
+    "image": "/creatures/stillwave.png"
+  },
+  {
+    "id": "deeplull",
+    "description": "A serene deep-sea light that drifts without a single ripple.",
+    "traits": [
+      "Drifts without a ripple",
+      "Glows a patient blue",
+      "Soothes the ocean floor"
+    ],
+    "element": "Tide",
+    "personality": "Serene",
+    "name": "Deeplull",
+    "image": "/creatures/deeplull.png"
+  },
+  {
+    "id": "koiwhisper",
+    "description": "A quiet koi that glides through the shallows like a slow thought.",
+    "traits": [
+      "Glides like a slow thought",
+      "Trails silver in the water",
+      "Whispers to the reeds"
+    ],
+    "element": "Tide",
+    "personality": "Serene",
+    "name": "Koiwhisper",
+    "image": "/creatures/koiwhisper.png"
+  },
+  {
+    "id": "coralhush",
+    "description": "A still coral-being that absorbs the ocean's restless murmur.",
+    "traits": [
+      "Absorbs the restless murmur",
+      "Grows one slow, calm branch",
+      "Hushes the passing fish"
+    ],
+    "element": "Tide",
+    "personality": "Serene",
+    "name": "Coralhush",
+    "image": "/creatures/coralhush.png"
+  },
+  {
+    "id": "tidebreathe",
+    "description": "A breathing tide-spirit that rises and falls with perfect peace.",
+    "traits": [
+      "Rises and falls in peace",
+      "Matches its breath to yours",
+      "Turns storms to soft rain"
+    ],
+    "element": "Tide",
+    "personality": "Serene",
+    "name": "Tidebreathe",
+    "image": "/creatures/tidebreathe.png"
+  },
+  {
+    "id": "reefwarden",
+    "description": "A steadfast reef-guardian that never leaves its coral home.",
+    "traits": [
+      "Never leaves its coral home",
+      "Stands watch over the reef",
+      "Knows every fish by name"
+    ],
+    "element": "Tide",
+    "personality": "Loyal",
+    "name": "Reefwarden",
+    "image": "/creatures/reefwarden.png"
+  },
+  {
+    "id": "tidehound",
+    "description": "A devoted water-hound that swims beside every boat to port.",
+    "traits": [
+      "Swims beside every boat",
+      "Guides ships through fog",
+      "Never loses the way"
+    ],
+    "element": "Tide",
+    "personality": "Loyal",
+    "name": "Tidehound",
+    "image": "/creatures/tidehound.png"
+  },
+  {
+    "id": "anchormate",
+    "description": "A faithful sea-spirit that holds the anchor steady in the storm.",
+    "traits": [
+      "Holds the anchor steady",
+      "Keeps its promise to the dock",
+      "Waits for the fleet's return"
+    ],
+    "element": "Tide",
+    "personality": "Loyal",
+    "name": "Anchormate",
+    "image": "/creatures/anchormate.png"
+  },
+  {
+    "id": "pearlkeeper",
+    "description": "A loyal keeper of pearls that guards the shore's oldest treasures.",
+    "traits": [
+      "Guards the oldest treasures",
+      "Remembers every tide's tale",
+      "Never abandons its charge"
+    ],
+    "element": "Tide",
+    "personality": "Loyal",
+    "name": "Pearlkeeper",
+    "image": "/creatures/pearlkeeper.png"
+  },
+  {
+    "id": "wavefaith",
+    "description": "A true-hearted wave that always returns to the same quiet shore.",
+    "traits": [
+      "Always returns to this shore",
+      "Cradles driftwood home",
+      "Keeps watch by the lighthouse"
+    ],
+    "element": "Tide",
+    "personality": "Loyal",
+    "name": "Wavefaith",
+    "image": "/creatures/wavefaith.png"
+  },
+  {
+    "id": "maelstromfang",
+    "description": "A fierce whirlpool-hound whose bark churns the tide into foam.",
+    "traits": [
+      "Bark churns the tide to foam",
+      "Circles with a warning whirl",
+      "Dares the storm to come"
+    ],
+    "element": "Tide",
+    "personality": "Fierce",
+    "name": "Maelstromfang",
+    "image": "/creatures/maelstromfang.png"
+  },
+  {
+    "id": "tideclaw",
+    "description": "A snapping sea-cat whose claws rake lightning-bright through the waves.",
+    "traits": [
+      "Claws rake bright through waves",
+      "Hisses a spray of salt",
+      "Guards the stormy channel"
+    ],
+    "element": "Tide",
+    "personality": "Fierce",
+    "name": "Tideclaw",
+    "image": "/creatures/tideclaw.png"
+  },
+  {
+    "id": "reefbreak",
+    "description": "A bristling reef-golem that shoulders the breakers aside.",
+    "traits": [
+      "Shoulders the breakers aside",
+      "Stands where the waves break",
+      "Growls like grinding coral"
+    ],
+    "element": "Tide",
+    "personality": "Fierce",
+    "name": "Reefbreak",
+    "image": "/creatures/reefbreak.png"
+  },
+  {
+    "id": "brinefang",
+    "description": "A lean salt-hound whose bite stings like a freezing wave.",
+    "traits": [
+      "Bite stings like a cold wave",
+      "Snarls up the spindrift",
+      "Patrols the dark water"
+    ],
+    "element": "Tide",
+    "personality": "Fierce",
+    "name": "Brinefang",
+    "image": "/creatures/brinefang.png"
+  },
+  {
+    "id": "wavebreaker",
+    "description": "A proud sea-lion that meets every crashing wave head-on.",
+    "traits": [
+      "Meets every wave head-on",
+      "Roar splits the surf",
+      "Shakes the foam from its mane"
+    ],
+    "element": "Tide",
+    "personality": "Fierce",
+    "name": "Wavebreaker",
+    "image": "/creatures/wavebreaker.png"
+  },
+  {
+    "id": "undertow",
+    "description": "A silent, strong current-creature that pulls the restless tide in line.",
+    "traits": [
+      "Pulls the restless tide in line",
+      "Moves without a splash",
+      "Leads the current home"
+    ],
+    "element": "Tide",
+    "personality": "Fierce",
+    "name": "Undertow",
+    "image": "/creatures/undertow.png"
+  },
+  {
+    "id": "softmoss",
+    "description": "A tender moss-cushion that softens every step in the wood.",
+    "traits": [
+      "Softens every forest step",
+      "Grows where people rest",
+      "Keeps the cold stone warm"
+    ],
+    "element": "Grove",
+    "personality": "Gentle",
+    "name": "Softmoss",
+    "image": "/creatures/softmoss.png"
+  },
+  {
+    "id": "leafbed",
+    "description": "A gentle leaf-creature that catches the falling and lays them soft.",
+    "traits": [
+      "Catches whatever falls",
+      "Cushions every stumble",
+      "Holds the dawn's dew"
+    ],
+    "element": "Grove",
+    "personality": "Gentle",
+    "name": "Leafbed",
+    "image": "/creatures/leafbed.png"
+  },
+  {
+    "id": "willowmist",
+    "description": "A kind willow-spirit that drapes its branches to shelter the tired.",
+    "traits": [
+      "Shelters the tired",
+      "Sways to soothe the wind",
+      "Whispers soft green songs"
+    ],
+    "element": "Grove",
+    "personality": "Gentle",
+    "name": "Willowmist",
+    "image": "/creatures/willowmist.png"
+  },
+  {
+    "id": "acornkin",
+    "description": "A small, gentle seed-friend that shares its warmth with the cold earth.",
+    "traits": [
+      "Shares warmth with the soil",
+      "Cradles new sprouts",
+      "Buds at a kind word"
+    ],
+    "element": "Grove",
+    "personality": "Gentle",
+    "name": "Acornkin",
+    "image": "/creatures/acornkin.png"
+  },
+  {
+    "id": "petalsoft",
+    "description": "A tender petal-creature that brushes worries away with each bloom.",
+    "traits": [
+      "Brushes worries away",
+      "Blooms to calm a frown",
+      "Falls soft as sleep"
+    ],
+    "element": "Grove",
+    "personality": "Gentle",
+    "name": "Petalsoft",
+    "image": "/creatures/petalsoft.png"
+  },
+  {
+    "id": "thornfang",
+    "description": "A snarling briar-wolf whose thorns keep the forest path safe.",
+    "traits": [
+      "Keeps the forest path safe",
+      "Growl shakes the brambles",
+      "Thorns stand at the ready"
+    ],
+    "element": "Grove",
+    "personality": "Fierce",
+    "name": "Thornfang",
+    "image": "/creatures/thornfang.png"
+  },
+  {
+    "id": "brambleclaw",
+    "description": "A bristling bramble-cat that swipes with a tangle of thorns.",
+    "traits": [
+      "Swipes a tangle of thorns",
+      "Guards the oldest grove",
+      "Hisses like the wind"
+    ],
+    "element": "Grove",
+    "personality": "Fierce",
+    "name": "Brambleclaw",
+    "image": "/creatures/brambleclaw.png"
+  },
+  {
+    "id": "oakhide",
+    "description": "A stout oak-guardian whose bark turns aside any harm.",
+    "traits": [
+      "Bark turns aside all harm",
+      "Stands rooted in the storm",
+      "Rumbles a deep warning"
+    ],
+    "element": "Grove",
+    "personality": "Fierce",
+    "name": "Oakhide",
+    "image": "/creatures/oakhide.png"
+  },
+  {
+    "id": "rootrage",
+    "description": "A fierce root-beast that snaps up from the earth to defend the woods.",
+    "traits": [
+      "Snaps up to defend the woods",
+      "Trips any intruder",
+      "Grumbles beneath the moss"
+    ],
+    "element": "Grove",
+    "personality": "Fierce",
+    "name": "Rootrage",
+    "image": "/creatures/rootrage.png"
+  },
+  {
+    "id": "vinerend",
+    "description": "A savage vine-spirit that lashes out to shield the saplings.",
+    "traits": [
+      "Lashes out for the saplings",
+      "Whips the undergrowth",
+      "Binds whatever threatens"
+    ],
+    "element": "Grove",
+    "personality": "Fierce",
+    "name": "Vinerend",
+    "image": "/creatures/vinerend.png"
+  },
+  {
+    "id": "willowbreathe",
+    "description": "A still willow-spirit that breathes one long, green sigh.",
+    "traits": [
+      "Breathes one long green sigh",
+      "Stills the chattering leaves",
+      "Holds the grove in peace"
+    ],
+    "element": "Grove",
+    "personality": "Serene",
+    "name": "Willowbreathe",
+    "image": "/creatures/willowbreathe.png"
+  },
+  {
+    "id": "meadowmoss",
+    "description": "A calm meadow-moss that spreads slow peace over the clearing.",
+    "traits": [
+      "Spreads slow peace",
+      "Softens the noon sun",
+      "Settles the buzzing bees"
+    ],
+    "element": "Grove",
+    "personality": "Serene",
+    "name": "Meadowmoss",
+    "image": "/creatures/meadowmoss.png"
+  },
+  {
+    "id": "fernhush",
+    "description": "A quiet fern-being that silences the forest's noise.",
+    "traits": [
+      "Silences the forest noise",
+      "Unfurls with great patience",
+      "Keeps the grove still"
+    ],
+    "element": "Grove",
+    "personality": "Serene",
+    "name": "Fernhush",
+    "image": "/creatures/fernhush.png"
+  },
+  {
+    "id": "dewdrop",
+    "description": "A serene droplet-spirit that rests on one leaf all day.",
+    "traits": [
+      "Rests on one leaf all day",
+      "Mirrors the sky in calm",
+      "Rolls off without a sound"
+    ],
+    "element": "Grove",
+    "personality": "Serene",
+    "name": "Dewdrop",
+    "image": "/creatures/dewdrop.png"
+  },
+  {
+    "id": "grovestill",
+    "description": "A peaceful grove-warden that stands so still the birds forget it.",
+    "traits": [
+      "Stands perfectly still",
+      "Lets birds nest in its hair",
+      "Holds one quiet note"
+    ],
+    "element": "Grove",
+    "personality": "Serene",
+    "name": "Grovestill",
+    "image": "/creatures/grovestill.png"
+  },
+  {
+    "id": "seedpeek",
+    "description": "A curious little seed that pops up to watch the world go by.",
+    "traits": [
+      "Pops up to watch the world",
+      "Asks the ants their business",
+      "Turns to follow the sun"
+    ],
+    "element": "Grove",
+    "personality": "Curious",
+    "name": "Seedpeek",
+    "image": "/creatures/seedpeek.png"
+  },
+  {
+    "id": "sporeling",
+    "description": "An inquisitive mushroom-sprite that sniffs out every new smell.",
+    "traits": [
+      "Sniffs out every new smell",
+      "Follows strange footprints",
+      "Glows with questions"
+    ],
+    "element": "Grove",
+    "personality": "Curious",
+    "name": "Sporeling",
+    "image": "/creatures/sporeling.png"
+  },
+  {
+    "id": "rootnose",
+    "description": "A curious root-creature that pokes its nose into every hollow.",
+    "traits": [
+      "Pokes into every hollow",
+      "Digs up odd trinkets",
+      "Listens to the soil"
+    ],
+    "element": "Grove",
+    "personality": "Curious",
+    "name": "Rootnose",
+    "image": "/creatures/rootnose.png"
+  },
+  {
+    "id": "leafhop",
+    "description": "A bright-eyed leaf-sprite that hops after every passing bug.",
+    "traits": [
+      "Hops after every bug",
+      "Rides the autumn wind",
+      "Asks the birds for stories"
+    ],
+    "element": "Grove",
+    "personality": "Curious",
+    "name": "Leafhop",
+    "image": "/creatures/leafhop.png"
+  },
+  {
+    "id": "tendrilprobe",
+    "description": "A probing vine that reaches out to gently touch each new thing.",
+    "traits": [
+      "Reaches to touch new things",
+      "Curls around mysteries",
+      "Retreats when surprised"
+    ],
+    "element": "Grove",
+    "personality": "Curious",
+    "name": "Tendrilprobe",
+    "image": "/creatures/tendrilprobe.png"
+  },
+  {
+    "id": "acorntrick",
+    "description": "A cheeky acorn-sprite that drops itself on passing heads.",
+    "traits": [
+      "Drops onto passing heads",
+      "Rolls underfoot on purpose",
+      "Hides in the leaf pile"
+    ],
+    "element": "Grove",
+    "personality": "Mischievous",
+    "name": "Acorntrick",
+    "image": "/creatures/acorntrick.png"
+  },
+  {
+    "id": "vinesneak",
+    "description": "A sneaky vine that ties your shoelaces when you look away.",
+    "traits": [
+      "Ties laces when you blink",
+      "Swings from the branches",
+      "Tickles behind your ear"
+    ],
+    "element": "Grove",
+    "personality": "Mischievous",
+    "name": "Vinesneak",
+    "image": "/creatures/vinesneak.png"
+  },
+  {
+    "id": "mushroomprank",
+    "description": "A giggling mushroom that pops up in the most surprising places.",
+    "traits": [
+      "Pops up in odd places",
+      "Sprouts a silly hat",
+      "Fills the glade with giggles"
+    ],
+    "element": "Grove",
+    "personality": "Mischievous",
+    "name": "Mushroomprank",
+    "image": "/creatures/mushroomprank.png"
+  },
+  {
+    "id": "leafsnatcher",
+    "description": "A roguish leaf-imp that steals your hat and returns it full of twigs.",
+    "traits": [
+      "Steals hats, returns twigs",
+      "Rustles to mislead you",
+      "Hides behind the oak"
+    ],
+    "element": "Grove",
+    "personality": "Mischievous",
+    "name": "Leafsnatcher",
+    "image": "/creatures/leafsnatcher.png"
+  },
+  {
+    "id": "saplingtrick",
+    "description": "A playful sapling that moves just enough to make you double-take.",
+    "traits": [
+      "Moves when you look away",
+      "Makes you double-take",
+      "Bows with a rustle"
+    ],
+    "element": "Grove",
+    "personality": "Mischievous",
+    "name": "Saplingtrick",
+    "image": "/creatures/saplingtrick.png"
+  },
+  {
+    "id": "grovewarden",
+    "description": "A steadfast warden that watches over one glade for all its days.",
+    "traits": [
+      "Watches its glade always",
+      "Knows every branch by name",
+      "Stands guard through winter"
+    ],
+    "element": "Grove",
+    "personality": "Loyal",
+    "name": "Grovewarden",
+    "image": "/creatures/grovewarden.png"
+  },
+  {
+    "id": "rootkeeper",
+    "description": "A faithful root-keeper that holds the forest's oldest promises.",
+    "traits": [
+      "Holds the oldest promises",
+      "Never forgets a path",
+      "Feeds every root that asks"
+    ],
+    "element": "Grove",
+    "personality": "Loyal",
+    "name": "Rootkeeper",
+    "image": "/creatures/rootkeeper.png"
+  },
+  {
+    "id": "oakcompanion",
+    "description": "A true-hearted oak that offers its shade to the same friend each year.",
+    "traits": [
+      "Offers its shade each year",
+      "Waits through every season",
+      "Remembers your footsteps"
+    ],
+    "element": "Grove",
+    "personality": "Loyal",
+    "name": "Oakcompanion",
+    "image": "/creatures/oakcompanion.png"
+  },
+  {
+    "id": "saplingguard",
+    "description": "A loyal sapling that grows tall to shelter those who tended it.",
+    "traits": [
+      "Shelters those who tended it",
+      "Bends, but never breaks",
+      "Keeps its post in storms"
+    ],
+    "element": "Grove",
+    "personality": "Loyal",
+    "name": "Saplingguard",
+    "image": "/creatures/saplingguard.png"
+  },
+  {
+    "id": "seedvow",
+    "description": "A devoted seed-spirit that returns each spring to the hand that planted it.",
+    "traits": [
+      "Returns to its planter",
+      "Blooms on the promised day",
+      "Keeps its word to the soil"
+    ],
+    "element": "Grove",
+    "personality": "Loyal",
+    "name": "Seedvow",
+    "image": "/creatures/seedvow.png"
+  },
+  {
+    "id": "thornprotector",
+    "description": "A loyal briar that surrounds its friends and opens only for them.",
+    "traits": [
+      "Opens only for its friends",
+      "Wraps them in thorns of care",
+      "Parts at their approach"
+    ],
+    "element": "Grove",
+    "personality": "Loyal",
+    "name": "Thornprotector",
+    "image": "/creatures/thornprotector.png"
+  },
+  {
+    "id": "gustprank",
+    "description": "A cheeky gust that flips umbrellas inside-out for fun.",
+    "traits": [
+      "Flips umbrellas inside-out",
+      "Whistles in your ear",
+      "Ruffles fresh laundry"
+    ],
+    "element": "Storm",
+    "personality": "Mischievous",
+    "name": "Gustprank",
+    "image": "/creatures/gustprank.png"
+  },
+  {
+    "id": "rainbother",
+    "description": "A playful rain-spirit that drips down your collar just so.",
+    "traits": [
+      "Drips down your collar",
+      "Splashes in every puddle",
+      "Hides when you look up"
+    ],
+    "element": "Storm",
+    "personality": "Mischievous",
+    "name": "Rainbother",
+    "image": "/creatures/rainbother.png"
+  },
+  {
+    "id": "thunderchuckle",
+    "description": "A giggling thundercloud that rumbles only to startle the birds.",
+    "traits": [
+      "Rumbles to startle birds",
+      "Chuckles after each flash",
+      "Rolls away laughing"
+    ],
+    "element": "Storm",
+    "personality": "Mischievous",
+    "name": "Thunderchuckle",
+    "image": "/creatures/thunderchuckle.png"
+  },
+  {
+    "id": "zapimp",
+    "description": "A tiny bolt-imp that gives doorknobs a harmless little shock.",
+    "traits": [
+      "Shocks doorknobs lightly",
+      "Makes your hair stand up",
+      "Fizzles when caught"
+    ],
+    "element": "Storm",
+    "personality": "Mischievous",
+    "name": "Zapimp",
+    "image": "/creatures/zapimp.png"
+  },
+  {
+    "id": "misttease",
+    "description": "A sly mist that parts and reappears to lead you in circles.",
+    "traits": [
+      "Leads you in circles",
+      "Vanishes and returns",
+      "Dampens your maps"
+    ],
+    "element": "Storm",
+    "personality": "Mischievous",
+    "name": "Misttease",
+    "image": "/creatures/misttease.png"
+  },
+  {
+    "id": "thunderhoof",
+    "description": "A steadfast thunder-horse that carries riders through the worst storm.",
+    "traits": [
+      "Carries you through the storm",
+      "Answers only to your call",
+      "Never flinches at lightning"
+    ],
+    "element": "Storm",
+    "personality": "Loyal",
+    "name": "Thunderhoof",
+    "image": "/creatures/thunderhoof.png"
+  },
+  {
+    "id": "galehound",
+    "description": "A devoted wind-hound that runs ahead to clear the path.",
+    "traits": [
+      "Runs ahead to clear the way",
+      "Barks a warning before squalls",
+      "Stays by your side in gales"
+    ],
+    "element": "Storm",
+    "personality": "Loyal",
+    "name": "Galehound",
+    "image": "/creatures/galehound.png"
+  },
+  {
+    "id": "stormrider",
+    "description": "A loyal storm-spirit that rides beside you and holds the lightning back.",
+    "traits": [
+      "Holds the lightning back",
+      "Shields you from the wind",
+      "Keeps pace through the rain"
+    ],
+    "element": "Storm",
+    "personality": "Loyal",
+    "name": "Stormrider",
+    "image": "/creatures/stormrider.png"
+  },
+  {
+    "id": "cloudknight",
+    "description": "A faithful cloud-knight that guards the sky-road above your home.",
+    "traits": [
+      "Guards the sky-road above",
+      "Escorts you through the fog",
+      "Stands watch in the clouds"
+    ],
+    "element": "Storm",
+    "personality": "Loyal",
+    "name": "Cloudknight",
+    "image": "/creatures/cloudknight.png"
+  },
+  {
+    "id": "rainwatcher",
+    "description": "A patient rain-watcher that waits out every storm with you.",
+    "traits": [
+      "Waits out storms with you",
+      "Counts the thunder for you",
+      "Keeps your coat dry"
+    ],
+    "element": "Storm",
+    "personality": "Loyal",
+    "name": "Rainwatcher",
+    "image": "/creatures/rainwatcher.png"
+  },
+  {
+    "id": "softrain",
+    "description": "A gentle rain-spirit that falls so softly the flowers lean in.",
+    "traits": [
+      "Falls soft as a whisper",
+      "Waters the thirstiest roots",
+      "Leaves no puddle behind"
+    ],
+    "element": "Storm",
+    "personality": "Gentle",
+    "name": "Softrain",
+    "image": "/creatures/softrain.png"
+  },
+  {
+    "id": "breezelull",
+    "description": "A tender breeze that rocks the leaves to sleep.",
+    "traits": [
+      "Rocks the leaves to sleep",
+      "Cools a fevered brow",
+      "Carries a faint sweet smell"
+    ],
+    "element": "Storm",
+    "personality": "Gentle",
+    "name": "Breezelull",
+    "image": "/creatures/breezelull.png"
+  },
+  {
+    "id": "dewcloud",
+    "description": "A mild little cloud that mists the garden just enough.",
+    "traits": [
+      "Mists the garden gently",
+      "Dampens without soaking",
+      "Fluffs up before dawn"
+    ],
+    "element": "Storm",
+    "personality": "Gentle",
+    "name": "Dewcloud",
+    "image": "/creatures/dewcloud.png"
+  },
+  {
+    "id": "mistcradle",
+    "description": "A soft cradle of mist that wraps the hills in a light blanket.",
+    "traits": [
+      "Wraps the hills lightly",
+      "Lets the morning through",
+      "Thins at a kind sun"
+    ],
+    "element": "Storm",
+    "personality": "Gentle",
+    "name": "Mistcradle",
+    "image": "/creatures/mistcradle.png"
+  },
+  {
+    "id": "zephyrpet",
+    "description": "A calm little zephyr that curls at your feet like a breeze.",
+    "traits": [
+      "Curls at your feet",
+      "Stirs the dust softly",
+      "Naps in the window"
+    ],
+    "element": "Storm",
+    "personality": "Gentle",
+    "name": "Zephyrpet",
+    "image": "/creatures/zephyrpet.png"
+  },
+  {
+    "id": "thundermane",
+    "description": "A proud storm-lion whose roar answers the crashing sky.",
+    "traits": [
+      "Roar answers the sky",
+      "Mane crackles with light",
+      "Challenges the tempest"
+    ],
+    "element": "Storm",
+    "personality": "Fierce",
+    "name": "Thundermane",
+    "image": "/creatures/thundermane.png"
+  },
+  {
+    "id": "galeclaw",
+    "description": "A slashing wind-hawk whose wings tear through the storm.",
+    "traits": [
+      "Wings tear through the storm",
+      "Talons catch the lightning",
+      "Shrieks above the gale"
+    ],
+    "element": "Storm",
+    "personality": "Fierce",
+    "name": "Galeclaw",
+    "image": "/creatures/galeclaw.png"
+  },
+  {
+    "id": "squallfang",
+    "description": "A snarling squall-beast that snaps the rain to a frenzy.",
+    "traits": [
+      "Snaps the rain to frenzy",
+      "Howls down the valley",
+      "Bites at the thunderhead"
+    ],
+    "element": "Storm",
+    "personality": "Fierce",
+    "name": "Squallfang",
+    "image": "/creatures/squallfang.png"
+  },
+  {
+    "id": "tempesthorn",
+    "description": "A mighty storm-ox that charges the darkest clouds headlong.",
+    "traits": [
+      "Charges the dark clouds",
+      "Horns split the sky",
+      "Stamps up the wind"
+    ],
+    "element": "Storm",
+    "personality": "Fierce",
+    "name": "Tempesthorn",
+    "image": "/creatures/tempesthorn.png"
+  },
+  {
+    "id": "boltstrike",
+    "description": "A fierce lightning-serpent that flashes through the black sky.",
+    "traits": [
+      "Flashes through the sky",
+      "Strikes the tallest peak",
+      "Hisses as it passes"
+    ],
+    "element": "Storm",
+    "personality": "Fierce",
+    "name": "Boltstrike",
+    "image": "/creatures/boltstrike.png"
+  },
+  {
+    "id": "windnose",
+    "description": "A curious wind-sprite that sniffs out every new breeze.",
+    "traits": [
+      "Sniffs out every breeze",
+      "Follows drifting smells",
+      "Circles every stranger"
+    ],
+    "element": "Storm",
+    "personality": "Curious",
+    "name": "Windnose",
+    "image": "/creatures/windnose.png"
+  },
+  {
+    "id": "rainsniff",
+    "description": "An inquisitive rain-pup that tastes each new drop as it falls.",
+    "traits": [
+      "Tastes each new drop",
+      "Chases the first rain",
+      "Barks at the rainbow"
+    ],
+    "element": "Storm",
+    "personality": "Curious",
+    "name": "Rainsniff",
+    "image": "/creatures/rainsniff.png"
+  },
+  {
+    "id": "cloudpeek",
+    "description": "A wide-eyed cloud-creature that peeks through every storm to see.",
+    "traits": [
+      "Peeks through the storm",
+      "Watches the world below",
+      "Wanders where the wind blows"
+    ],
+    "element": "Storm",
+    "personality": "Curious",
+    "name": "Cloudpeek",
+    "image": "/creatures/cloudpeek.png"
+  },
+  {
+    "id": "boltnose",
+    "description": "A curious bolt-sprite that follows lightning to learn where it goes.",
+    "traits": [
+      "Follows the lightning",
+      "Sniffs the scorched air",
+      "Jumps at every flash"
+    ],
+    "element": "Storm",
+    "personality": "Curious",
+    "name": "Boltnose",
+    "image": "/creatures/boltnose.png"
+  },
+  {
+    "id": "galequery",
+    "description": "A questioning gust that rustles papers to read them.",
+    "traits": [
+      "Rustles papers to read",
+      "Lifts hats to see under",
+      "Returns them politely"
+    ],
+    "element": "Storm",
+    "personality": "Curious",
+    "name": "Galequery",
+    "image": "/creatures/galequery.png"
+  },
+  {
+    "id": "stillwind",
+    "description": "A serene breeze that moves so gently it seems to stand still.",
+    "traits": [
+      "Moves without stirring",
+      "Calms the tossing trees",
+      "Carries peace on its breath"
+    ],
+    "element": "Storm",
+    "personality": "Serene",
+    "name": "Stillwind",
+    "image": "/creatures/stillwind.png"
+  },
+  {
+    "id": "cloudrest",
+    "description": "A quiet cloud that drifts through the sky with perfect calm.",
+    "traits": [
+      "Drifts with perfect calm",
+      "Shades the weary land",
+      "Settles like a sigh"
+    ],
+    "element": "Storm",
+    "personality": "Serene",
+    "name": "Cloudrest",
+    "image": "/creatures/cloudrest.png"
+  },
+  {
+    "id": "rainsigh",
+    "description": "A soft rain-spirit that falls in one long, peaceful sigh.",
+    "traits": [
+      "Falls in one long sigh",
+      "Steadies the racing wind",
+      "Washes the dust away"
+    ],
+    "element": "Storm",
+    "personality": "Serene",
+    "name": "Rainsigh",
+    "image": "/creatures/rainsigh.png"
+  },
+  {
+    "id": "thunderlull",
+    "description": "A calm thunder-spirit that turns the storm's roar to a low hum.",
+    "traits": [
+      "Turns the roar to a hum",
+      "Softens every flash",
+      "Lulls the gale to rest"
+    ],
+    "element": "Storm",
+    "personality": "Serene",
+    "name": "Thunderlull",
+    "image": "/creatures/thunderlull.png"
+  },
+  {
+    "id": "mistpeace",
+    "description": "A still veil of mist that lays the whole valley to rest.",
+    "traits": [
+      "Lays the valley to rest",
+      "Muffles every sound",
+      "Glows a gentle gray"
+    ],
+    "element": "Storm",
+    "personality": "Serene",
+    "name": "Mistpeace",
+    "image": "/creatures/mistpeace.png"
+  },
+  {
+    "id": "zephyrhush",
+    "description": "A hushing zephyr that quiets the chattering leaves.",
+    "traits": [
+      "Quiets the chattering leaves",
+      "Breathes a slow, calm air",
+      "Stills the restless grass"
+    ],
+    "element": "Storm",
+    "personality": "Serene",
+    "name": "Zephyrhush",
+    "image": "/creatures/zephyrhush.png"
+  },
+  {
+    "id": "facetguard",
+    "description": "A steadfast crystal-warden that keeps watch with a thousand faces.",
+    "traits": [
+      "Keeps watch with a thousand faces",
+      "Reflects any threat away",
+      "Stands sentinel in the light"
+    ],
+    "element": "Crystal",
+    "personality": "Loyal",
+    "name": "Facetguard",
+    "image": "/creatures/facetguard.png"
+  },
+  {
+    "id": "gemvow",
+    "description": "A faithful jewel-spirit that holds every promise it is given.",
+    "traits": [
+      "Holds every promise given",
+      "Shines steady through the dark",
+      "Never dims for a moment"
+    ],
+    "element": "Crystal",
+    "personality": "Loyal",
+    "name": "Gemvow",
+    "image": "/creatures/gemvow.png"
+  },
+  {
+    "id": "prismknight",
+    "description": "A loyal prism-knight that bends light to shield its friends.",
+    "traits": [
+      "Bends light to shield friends",
+      "Splits the shadows apart",
+      "Guards the bright path"
+    ],
+    "element": "Crystal",
+    "personality": "Loyal",
+    "name": "Prismknight",
+    "image": "/creatures/prismknight.png"
+  },
+  {
+    "id": "shardkeeper",
+    "description": "A devoted keeper of shards that guards the crystal cave.",
+    "traits": [
+      "Guards the crystal cave",
+      "Knows every facet by heart",
+      "Lights the way home"
+    ],
+    "element": "Crystal",
+    "personality": "Loyal",
+    "name": "Shardkeeper",
+    "image": "/creatures/shardkeeper.png"
+  },
+  {
+    "id": "crystalcompanion",
+    "description": "A true-hearted crystal that stays by the same friend forever.",
+    "traits": [
+      "Stays by your side forever",
+      "Reflects your best light",
+      "Keeps its glow for you"
+    ],
+    "element": "Crystal",
+    "personality": "Loyal",
+    "name": "Crystalcompanion",
+    "image": "/creatures/crystalcompanion.png"
+  },
+  {
+    "id": "facetgaze",
+    "description": "A staring gem-creature that studies every face that passes.",
+    "traits": [
+      "Studies every passing face",
+      "Catches every glint",
+      "Tilts to see new angles"
+    ],
+    "element": "Crystal",
+    "personality": "Curious",
+    "name": "Facetgaze",
+    "image": "/creatures/facetgaze.png"
+  },
+  {
+    "id": "shardpeek",
+    "description": "A shy crystal-fragment that peeks around corners at the world.",
+    "traits": [
+      "Peeks around every corner",
+      "Sparkles when noticed",
+      "Hides in the light"
+    ],
+    "element": "Crystal",
+    "personality": "Curious",
+    "name": "Shardpeek",
+    "image": "/creatures/shardpeek.png"
+  },
+  {
+    "id": "glintnose",
+    "description": "An inquisitive glint-sprite that sniffs out shiny new things.",
+    "traits": [
+      "Sniffs out shiny things",
+      "Follows every sparkle",
+      "Collects bright oddities"
+    ],
+    "element": "Crystal",
+    "personality": "Curious",
+    "name": "Glintnose",
+    "image": "/creatures/glintnose.png"
+  },
+  {
+    "id": "prismpup",
+    "description": "A curious prism-pup that chases the rainbows it bends.",
+    "traits": [
+      "Chases the rainbows it makes",
+      "Tilts its head at colors",
+      "Bounces light everywhere"
+    ],
+    "element": "Crystal",
+    "personality": "Curious",
+    "name": "Prismpup",
+    "image": "/creatures/prismpup.png"
+  },
+  {
+    "id": "quartzkin",
+    "description": "A wondering quartz-being that taps stones to hear them ring.",
+    "traits": [
+      "Taps stones to hear them ring",
+      "Learns every crystal's song",
+      "Rings with delight"
+    ],
+    "element": "Crystal",
+    "personality": "Curious",
+    "name": "Quartzkin",
+    "image": "/creatures/quartzkin.png"
+  },
+  {
+    "id": "shardclaw",
+    "description": "A slicing crystal-cat whose claws are edges of pure light.",
+    "traits": [
+      "Claws are edges of light",
+      "Cuts the dark cleanly",
+      "Glitters with a warning"
+    ],
+    "element": "Crystal",
+    "personality": "Fierce",
+    "name": "Shardclaw",
+    "image": "/creatures/shardclaw.png"
+  },
+  {
+    "id": "gemhowl",
+    "description": "A ringing crystal-wolf whose howl shatters the silence.",
+    "traits": [
+      "Howl shatters the silence",
+      "Voice rings like a bell",
+      "Guards the crystal pass"
+    ],
+    "element": "Crystal",
+    "personality": "Fierce",
+    "name": "Gemhowl",
+    "image": "/creatures/gemhowl.png"
+  },
+  {
+    "id": "prismfang",
+    "description": "A snapping prism-beast whose bite splits light into blades.",
+    "traits": [
+      "Bite splits light to blades",
+      "Stalks in shattered colors",
+      "Dares the shadow close"
+    ],
+    "element": "Crystal",
+    "personality": "Fierce",
+    "name": "Prismfang",
+    "image": "/creatures/prismfang.png"
+  },
+  {
+    "id": "crystalrend",
+    "description": "A fierce crystal-golem that shatters any stone in its way.",
+    "traits": [
+      "Shatters stone in its way",
+      "Fists flash with facets",
+      "Stands against the dark"
+    ],
+    "element": "Crystal",
+    "personality": "Fierce",
+    "name": "Crystalrend",
+    "image": "/creatures/crystalrend.png"
+  },
+  {
+    "id": "opalstrike",
+    "description": "A striking opal-creature that flares with every color at once.",
+    "traits": [
+      "Flares every color at once",
+      "Strikes like a prism",
+      "Glows hot when angered"
+    ],
+    "element": "Crystal",
+    "personality": "Fierce",
+    "name": "Opalstrike",
+    "image": "/creatures/opalstrike.png"
+  },
+  {
+    "id": "glassstill",
+    "description": "A serene glass-being that holds one perfect reflection all day.",
+    "traits": [
+      "Holds one perfect reflection",
+      "Never ripples or shakes",
+      "Mirrors the calm sky"
+    ],
+    "element": "Crystal",
+    "personality": "Serene",
+    "name": "Glassstill",
+    "image": "/creatures/glassstill.png"
+  },
+  {
+    "id": "quartzrest",
+    "description": "A peaceful quartz that hums a low, steady note.",
+    "traits": [
+      "Hums a low steady note",
+      "Glows without effort",
+      "Settles every echo"
+    ],
+    "element": "Crystal",
+    "personality": "Serene",
+    "name": "Quartzrest",
+    "image": "/creatures/quartzrest.png"
+  },
+  {
+    "id": "facetcalm",
+    "description": "A still facet-spirit that turns harsh light to soft color.",
+    "traits": [
+      "Turns harsh light soft",
+      "Scatters the glare gently",
+      "Holds a quiet rainbow"
+    ],
+    "element": "Crystal",
+    "personality": "Serene",
+    "name": "Facetcalm",
+    "image": "/creatures/facetcalm.png"
+  },
+  {
+    "id": "crystalbreathe",
+    "description": "A breathing crystal that rises and falls with the light.",
+    "traits": [
+      "Rises and falls with light",
+      "Keeps time with the sun",
+      "Settles like warm glass"
+    ],
+    "element": "Crystal",
+    "personality": "Serene",
+    "name": "Crystalbreathe",
+    "image": "/creatures/crystalbreathe.png"
+  },
+  {
+    "id": "shardpeace",
+    "description": "A tranquil shard that lays the loudest hall to silence.",
+    "traits": [
+      "Lays the hall to silence",
+      "Softens every footstep",
+      "Glows a patient white"
+    ],
+    "element": "Crystal",
+    "personality": "Serene",
+    "name": "Shardpeace",
+    "image": "/creatures/shardpeace.png"
+  },
+  {
+    "id": "softgem",
+    "description": "A tender little gem that warms the hand that holds it.",
+    "traits": [
+      "Warms the holding hand",
+      "Glows softly when held",
+      "Never scratches or cuts"
+    ],
+    "element": "Crystal",
+    "personality": "Gentle",
+    "name": "Softgem",
+    "image": "/creatures/softgem.png"
+  },
+  {
+    "id": "opalglow",
+    "description": "A gentle opal-light that soothes sore eyes with its shine.",
+    "traits": [
+      "Soothes sore eyes",
+      "Glows like a kind lamp",
+      "Drifts where it is needed"
+    ],
+    "element": "Crystal",
+    "personality": "Gentle",
+    "name": "Opalglow",
+    "image": "/creatures/opalglow.png"
+  },
+  {
+    "id": "crystalnurture",
+    "description": "A nurturing crystal that shares its light with the weary.",
+    "traits": [
+      "Shares its light freely",
+      "Revives a tired heart",
+      "Glows for the lowly"
+    ],
+    "element": "Crystal",
+    "personality": "Gentle",
+    "name": "Crystalnurture",
+    "image": "/creatures/crystalnurture.png"
+  },
+  {
+    "id": "gentlefacet",
+    "description": "A soft-faceted gem that only shows its bright side to friends.",
+    "traits": [
+      "Shows its bright side to friends",
+      "Cuts no one, ever",
+      "Warms like sun through glass"
+    ],
+    "element": "Crystal",
+    "personality": "Gentle",
+    "name": "Gentlefacet",
+    "image": "/creatures/gentlefacet.png"
+  },
+  {
+    "id": "glintkind",
+    "description": "A kind little glint that leaves a trail of light to follow home.",
+    "traits": [
+      "Leaves a light-trail home",
+      "Glows for the lost",
+      "Blinks a gentle welcome"
+    ],
+    "element": "Crystal",
+    "personality": "Gentle",
+    "name": "Glintkind",
+    "image": "/creatures/glintkind.png"
+  },
+  {
+    "id": "prismtrick",
+    "description": "A cheeky prism-sprite that turns your reflection upside down.",
+    "traits": [
+      "Flips your reflection",
+      "Splits your shadow to colors",
+      "Giggles in rainbows"
+    ],
+    "element": "Crystal",
+    "personality": "Mischievous",
+    "name": "Prismtrick",
+    "image": "/creatures/prismtrick.png"
+  },
+  {
+    "id": "gemthief",
+    "description": "A roguish gem-creature that borrows shiny buttons and hides them.",
+    "traits": [
+      "Borrows shiny buttons",
+      "Hides them in light",
+      "Sparkles when caught"
+    ],
+    "element": "Crystal",
+    "personality": "Mischievous",
+    "name": "Gemthief",
+    "image": "/creatures/gemthief.png"
+  },
+  {
+    "id": "shardprank",
+    "description": "A playful shard that makes the whole room glitter when you blink.",
+    "traits": [
+      "Glitters when you blink",
+      "Scatters sparkles on purpose",
+      "Clinks to tease you"
+    ],
+    "element": "Crystal",
+    "personality": "Mischievous",
+    "name": "Shardprank",
+    "image": "/creatures/shardprank.png"
+  },
+  {
+    "id": "facetjoke",
+    "description": "A sly facet-imp that shows a different face to everyone.",
+    "traits": [
+      "Shows a different face to all",
+      "Mirrors your silliest look",
+      "Winks from a thousand angles"
+    ],
+    "element": "Crystal",
+    "personality": "Mischievous",
+    "name": "Facetjoke",
+    "image": "/creatures/facetjoke.png"
+  },
+  {
+    "id": "glinttrick",
+    "description": "A mischievous glint that leads you on with a flash of light.",
+    "traits": [
+      "Leads you with flashes",
+      "Vanishes at the last step",
+      "Relights ahead of you"
+    ],
+    "element": "Crystal",
+    "personality": "Mischievous",
+    "name": "Glinttrick",
+    "image": "/creatures/glinttrick.png"
+  },
+  {
+    "id": "crystalimp",
+    "description": "A tiny crystal-imp that makes chandeliers swing without wind.",
+    "traits": [
+      "Swings chandeliers without wind",
+      "Sets the gems chiming",
+      "Darts between the beams"
+    ],
+    "element": "Crystal",
+    "personality": "Mischievous",
+    "name": "Crystalimp",
+    "image": "/creatures/crystalimp.png"
+  },
+  {
+    "id": "twilightrest",
+    "description": "A serene twilight-spirit that lays the day down gently to sleep.",
+    "traits": [
+      "Lays the day to sleep",
+      "Softens the last light",
+      "Holds the evening still"
+    ],
+    "element": "Dusk",
+    "personality": "Serene",
+    "name": "Twilightrest",
+    "image": "/creatures/twilightrest.png"
+  },
+  {
+    "id": "shadowhush",
+    "description": "A quiet shadow that settles over the world with calm.",
+    "traits": [
+      "Settles with calm",
+      "Muffles the fading noise",
+      "Grows soft as the night"
+    ],
+    "element": "Dusk",
+    "personality": "Serene",
+    "name": "Shadowhush",
+    "image": "/creatures/shadowhush.png"
+  },
+  {
+    "id": "eveglow",
+    "description": "A peaceful evening-glow that lingers after the sun has gone.",
+    "traits": [
+      "Lingers after sunset",
+      "Warms the coming night",
+      "Fades without a sound"
+    ],
+    "element": "Dusk",
+    "personality": "Serene",
+    "name": "Eveglow",
+    "image": "/creatures/eveglow.png"
+  },
+  {
+    "id": "duskstill",
+    "description": "A still dusk-being that stands between day and night in peace.",
+    "traits": [
+      "Stands between day and night",
+      "Balances the two lights",
+      "Breathes one calm dusk"
+    ],
+    "element": "Dusk",
+    "personality": "Serene",
+    "name": "Duskstill",
+    "image": "/creatures/duskstill.png"
+  },
+  {
+    "id": "mooncalm",
+    "description": "A serene moon-creature that watches the world below in silence.",
+    "traits": [
+      "Watches in silence",
+      "Rests on the quiet hills",
+      "Lights the path softly"
+    ],
+    "element": "Dusk",
+    "personality": "Serene",
+    "name": "Mooncalm",
+    "image": "/creatures/mooncalm.png"
+  },
+  {
+    "id": "shadowtrick",
+    "description": "A sly shadow that lengthens and shortens to confuse you.",
+    "traits": [
+      "Lengthens to confuse you",
+      "Hides your other shoe",
+      "Giggles from the corner"
+    ],
+    "element": "Dusk",
+    "personality": "Mischievous",
+    "name": "Shadowtrick",
+    "image": "/creatures/shadowtrick.png"
+  },
+  {
+    "id": "duskprank",
+    "description": "A playful dusk-imp that paints the sky in silly colors.",
+    "traits": [
+      "Paints the sky silly colors",
+      "Turns clouds into shapes",
+      "Sneaks night in early"
+    ],
+    "element": "Dusk",
+    "personality": "Mischievous",
+    "name": "Duskprank",
+    "image": "/creatures/duskprank.png"
+  },
+  {
+    "id": "gloomtrick",
+    "description": "A cheeky gloom that jumps out just to see you startle.",
+    "traits": [
+      "Jumps out to startle you",
+      "Melts when you look",
+      "Reforms behind you"
+    ],
+    "element": "Dusk",
+    "personality": "Mischievous",
+    "name": "Gloomtrick",
+    "image": "/creatures/gloomtrick.png"
+  },
+  {
+    "id": "nightpix",
+    "description": "A roguish night-pixie that swaps the stars around for a laugh.",
+    "traits": [
+      "Swaps the stars around",
+      "Winks from the dark",
+      "Tangles the moonbeams"
+    ],
+    "element": "Dusk",
+    "personality": "Mischievous",
+    "name": "Nightpix",
+    "image": "/creatures/nightpix.png"
+  },
+  {
+    "id": "veilsneak",
+    "description": "A sneaky veil-spirit that drapes itself over lamps to dim them.",
+    "traits": [
+      "Dims the lamps for fun",
+      "Snuffs candles playfully",
+      "Hides in the doorway"
+    ],
+    "element": "Dusk",
+    "personality": "Mischievous",
+    "name": "Veilsneak",
+    "image": "/creatures/veilsneak.png"
+  },
+  {
+    "id": "moonpeek",
+    "description": "A curious moon-creature that peeks over the horizon to watch.",
+    "traits": [
+      "Peeks over the horizon",
+      "Studies the sleeping town",
+      "Follows each shooting star"
+    ],
+    "element": "Dusk",
+    "personality": "Curious",
+    "name": "Moonpeek",
+    "image": "/creatures/moonpeek.png"
+  },
+  {
+    "id": "starnose",
+    "description": "An inquisitive star-sprite that sniffs out every new night-sound.",
+    "traits": [
+      "Sniffs out night-sounds",
+      "Trails the comet's tail",
+      "Listens to the dark"
+    ],
+    "element": "Dusk",
+    "personality": "Curious",
+    "name": "Starnose",
+    "image": "/creatures/starnose.png"
+  },
+  {
+    "id": "duskprobe",
+    "description": "A wondering dusk-being that wanders into the night to learn it.",
+    "traits": [
+      "Wanders into the night",
+      "Touches each new shadow",
+      "Asks the moon questions"
+    ],
+    "element": "Dusk",
+    "personality": "Curious",
+    "name": "Duskprobe",
+    "image": "/creatures/duskprobe.png"
+  },
+  {
+    "id": "shadowgaze",
+    "description": "A staring shadow-creature that watches lanterns with wide eyes.",
+    "traits": [
+      "Watches lanterns closely",
+      "Tilts at every flicker",
+      "Hides in the lamplight"
+    ],
+    "element": "Dusk",
+    "personality": "Curious",
+    "name": "Shadowgaze",
+    "image": "/creatures/shadowgaze.png"
+  },
+  {
+    "id": "nightwonder",
+    "description": "A curious night-creature that stays up to see the first star.",
+    "traits": [
+      "Stays up for the first star",
+      "Counts the fireflies",
+      "Gasps at the moonrise"
+    ],
+    "element": "Dusk",
+    "personality": "Curious",
+    "name": "Nightwonder",
+    "image": "/creatures/nightwonder.png"
+  },
+  {
+    "id": "shadowfang",
+    "description": "A silent shadow-wolf whose bite swallows the last light.",
+    "traits": [
+      "Bite swallows the last light",
+      "Pads without a sound",
+      "Stalks the deepest dark"
+    ],
+    "element": "Dusk",
+    "personality": "Fierce",
+    "name": "Shadowfang",
+    "image": "/creatures/shadowfang.png"
+  },
+  {
+    "id": "gloomclaw",
+    "description": "A slashing gloom-creature whose claws rake the fading dusk.",
+    "traits": [
+      "Claws rake the dusk",
+      "Strikes from the shade",
+      "Guards the dark's edge"
+    ],
+    "element": "Dusk",
+    "personality": "Fierce",
+    "name": "Gloomclaw",
+    "image": "/creatures/gloomclaw.png"
+  },
+  {
+    "id": "duskfang",
+    "description": "A snapping dusk-beast that hunts at the border of the dark.",
+    "traits": [
+      "Hunts at the dark's border",
+      "Snarls down the sunset",
+      "Dares nothing past"
+    ],
+    "element": "Dusk",
+    "personality": "Fierce",
+    "name": "Duskfang",
+    "image": "/creatures/duskfang.png"
+  },
+  {
+    "id": "veilslash",
+    "description": "A fierce veil-spirit that cuts the light from the evening sky.",
+    "traits": [
+      "Cuts the evening light",
+      "Whisks the day away",
+      "Hisses in the twilight"
+    ],
+    "element": "Dusk",
+    "personality": "Fierce",
+    "name": "Veilslash",
+    "image": "/creatures/veilslash.png"
+  },
+  {
+    "id": "moonhowl",
+    "description": "A howling moon-wolf that challenges the long, deep night.",
+    "traits": [
+      "Howls at the deep night",
+      "Calls the stars to watch",
+      "Stands bold in the dark"
+    ],
+    "element": "Dusk",
+    "personality": "Fierce",
+    "name": "Moonhowl",
+    "image": "/creatures/moonhowl.png"
+  },
+  {
+    "id": "nightguard",
+    "description": "A steadfast night-guardian that walks the dark beside you.",
+    "traits": [
+      "Walks the dark beside you",
+      "Keeps the shadows back",
+      "Sees what you cannot"
+    ],
+    "element": "Dusk",
+    "personality": "Loyal",
+    "name": "Nightguard",
+    "image": "/creatures/nightguard.png"
+  },
+  {
+    "id": "duskwatch",
+    "description": "A loyal dusk-watcher that stays until the first light returns.",
+    "traits": [
+      "Stays till first light",
+      "Guards the sleeping home",
+      "Never nods in the dark"
+    ],
+    "element": "Dusk",
+    "personality": "Loyal",
+    "name": "Duskwatch",
+    "image": "/creatures/duskwatch.png"
+  },
+  {
+    "id": "mooncompanion",
+    "description": "A faithful moon-companion that follows you through every night.",
+    "traits": [
+      "Follows every night",
+      "Lights your one true path",
+      "Waits when you must rest"
+    ],
+    "element": "Dusk",
+    "personality": "Loyal",
+    "name": "Mooncompanion",
+    "image": "/creatures/mooncompanion.png"
+  },
+  {
+    "id": "starstead",
+    "description": "A devoted star-spirit that holds its place in the sky for you.",
+    "traits": [
+      "Holds its place for you",
+      "Burns steady all night",
+      "Guides the lost home"
+    ],
+    "element": "Dusk",
+    "personality": "Loyal",
+    "name": "Starstead",
+    "image": "/creatures/starstead.png"
+  },
+  {
+    "id": "nightwarden",
+    "description": "A loyal warden of the night that keeps the dark from your door.",
+    "traits": [
+      "Keeps the dark from your door",
+      "Patrols the quiet hours",
+      "Answers only to you"
+    ],
+    "element": "Dusk",
+    "personality": "Loyal",
+    "name": "Nightwarden",
+    "image": "/creatures/nightwarden.png"
+  },
+  {
+    "id": "softnight",
+    "description": "A tender night-spirit that tucks the world in with soft darkness.",
+    "traits": [
+      "Tucks the world in",
+      "Dims the light gently",
+      "Watches over sleepers"
+    ],
+    "element": "Dusk",
+    "personality": "Gentle",
+    "name": "Softnight",
+    "image": "/creatures/softnight.png"
+  },
+  {
+    "id": "duskcradle",
+    "description": "A gentle dusk-being that cradles the evening like a child.",
+    "traits": [
+      "Cradles the evening",
+      "Softens the sunset",
+      "Rocks the stars to sleep"
+    ],
+    "element": "Dusk",
+    "personality": "Gentle",
+    "name": "Duskcradle",
+    "image": "/creatures/duskcradle.png"
+  },
+  {
+    "id": "moonlight",
+    "description": "A kind moon-creature that leaves a gentle glow wherever it goes.",
+    "traits": [
+      "Leaves a gentle glow",
+      "Lights the way softly",
+      "Rests on your windowsill"
+    ],
+    "element": "Dusk",
+    "personality": "Gentle",
+    "name": "Moonlight",
+    "image": "/creatures/moonlight.png"
+  },
+  {
+    "id": "starwhisper",
+    "description": "A soft star-sprite that whispers kind wishes into the dark.",
+    "traits": [
+      "Whispers kind wishes",
+      "Glows for the frightened",
+      "Fades with a smile"
+    ],
+    "element": "Dusk",
+    "personality": "Gentle",
+    "name": "Starwhisper",
+    "image": "/creatures/starwhisper.png"
+  },
+  {
+    "id": "duskwarmth",
+    "description": "A warm dusk-creature that keeps the cold night at bay.",
+    "traits": [
+      "Keeps the cold night at bay",
+      "Glows a soft amber",
+      "Wraps the dark in warmth"
+    ],
+    "element": "Dusk",
+    "personality": "Gentle",
+    "name": "Duskwarmth",
+    "image": "/creatures/duskwarmth.png"
+  },
+  {
+    "id": "nightcomfort",
+    "description": "A comforting night-creature that sits with you until you sleep.",
+    "traits": [
+      "Sits with you till sleep",
+      "Soothes every worry",
+      "Hums a low lullaby"
+    ],
+    "element": "Dusk",
+    "personality": "Gentle",
+    "name": "Nightcomfort",
+    "image": "/creatures/nightcomfort.png"
   }
 ]

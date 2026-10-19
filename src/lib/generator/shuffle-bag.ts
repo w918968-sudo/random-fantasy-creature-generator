@@ -45,3 +45,33 @@ export function drawNext(
   const id = remaining[0];
   return { id, bag: { all: bag.all, remaining: remaining.slice(1) } };
 }
+
+/**
+ * Draw up to `count` distinct ids in one batch. Never repeats within the
+ * batch: when a batch spans a round boundary (count > what's left in the
+ * current round), the fresh round is filtered to skip ids already drawn this
+ * batch. The result is capped at `bag.all.length`.
+ */
+export function drawMany(
+  bag: ShuffleBag,
+  count: number,
+  rng: () => number = Math.random,
+): { ids: string[]; bag: ShuffleBag } {
+  const n = Math.max(0, Math.min(count, bag.all.length));
+  const ids: string[] = [];
+  const seen = new Set<string>();
+  let remaining = bag.remaining;
+
+  while (ids.length < n) {
+    if (remaining.length === 0) {
+      remaining = shuffle(bag.all, rng).filter((id) => !seen.has(id));
+      if (remaining.length === 0) break;
+    }
+    const id = remaining[0];
+    remaining = remaining.slice(1);
+    seen.add(id);
+    ids.push(id);
+  }
+
+  return { ids, bag: { all: bag.all, remaining } };
+}

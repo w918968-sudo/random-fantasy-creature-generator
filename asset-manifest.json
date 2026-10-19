@@ -1,3 +1,10 @@
 {
-  "assets": []
+  "assets": [
+    {
+      "path": "public/creatures/*.png",
+      "kind": "creature artwork",
+      "source": "generated — Volcano Ark Seedream 5.0 Pro (doubao-seedream-5-0-pro-260628)",
+      "license": "original (AI-generated from original prompts; see data-sources.md)"
+    }
+  ]
 }

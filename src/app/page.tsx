@@ -4,13 +4,16 @@ import { useEffect, useMemo, useState } from "react";
 import { CREATURES, getCreature } from "@/lib/data/creatures";
 import {
   createShuffleBag,
-  drawNext,
+  drawMany,
   type ShuffleBag,
 } from "@/lib/generator/shuffle-bag";
 import type { Creature, Element, Personality } from "@/lib/types";
 import { CreatureCard } from "@/components/creature-card";
 import { FilterPanel } from "@/components/filter-panel";
 import { ELEMENT_COLORS } from "@/lib/elements";
+
+const MIN_QUANTITY = 1;
+const MAX_QUANTITY = 6;
 
 /** One-shot light flash + expanding ring when a creature is summoned. */
 function SummonBurst({ creature }: { creature: Creature }) {
@@ -41,10 +44,11 @@ export default function Home() {
   const [elementFilter, setElementFilter] = useState<Element | null>(null);
   const [personalityFilter, setPersonalityFilter] =
     useState<Personality | null>(null);
+  const [quantity, setQuantity] = useState<number>(5);
   const [bag, setBag] = useState<ShuffleBag>(() =>
     createShuffleBag(CREATURES.map((c) => c.id)),
   );
-  const [current, setCurrent] = useState<Creature | null>(null);
+  const [current, setCurrent] = useState<Creature[]>([]);
   const [isGenerating, setIsGenerating] = useState(false);
 
   const filteredIds = useMemo(
@@ -60,28 +64,35 @@ export default function Home() {
   // Changing a filter starts a fresh no-repeat round over the new pool.
   useEffect(() => {
     setBag(createShuffleBag(filteredIds));
-    setCurrent(null);
+    setCurrent([]);
   }, [filteredIds]);
 
   const total = filteredIds.length;
   const seen = total - bag.remaining.length;
 
+  function clampQuantity(value: number): number {
+    if (Number.isNaN(value)) return MIN_QUANTITY;
+    return Math.min(MAX_QUANTITY, Math.max(MIN_QUANTITY, Math.round(value)));
+  }
+
   function handleGenerate() {
     if (isGenerating) return;
     setIsGenerating(true);
-    const next = drawNext(bag);
-    if (next) {
-      setBag(next.bag);
-      setCurrent(getCreature(next.id) ?? null);
-    }
+    const { ids, bag: nextBag } = drawMany(bag, quantity);
+    setBag(nextBag);
+    setCurrent(
+      ids
+        .map((id) => getCreature(id))
+        .filter((c): c is Creature => c !== null),
+    );
     setIsGenerating(false);
   }
 
   return (
-    <main className="mx-auto w-full max-w-2xl px-4 pb-16 pt-12 sm:px-6">
-      <header className="text-center">
+    <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-12 sm:px-6">
+      <header className="mx-auto max-w-2xl text-center">
         <p className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
-          <span aria-hidden>✦</span> Original creatures, one roll at a time{" "}
+          <span aria-hidden>✦</span> Original creatures, freshly rolled{" "}
           <span aria-hidden>✦</span>
         </p>
         <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.05] sm:text-6xl">
@@ -90,46 +101,100 @@ export default function Home() {
           </span>
         </h1>
         <p className="mx-auto mt-3 max-w-xl text-stone-600">
-          Roll an original fantasy creature — each with its own name, story, and
-          traits. No repeats until you have seen them all.
+          Roll original fantasy creatures — each with its own name, story, and
+          traits. No repeats within a batch.
         </p>
       </header>
 
-      <FilterPanel
-        element={elementFilter}
-        personality={personalityFilter}
-        onElementChange={setElementFilter}
-        onPersonalityChange={setPersonalityFilter}
-      />
+      <div className="mx-auto max-w-2xl">
+        <FilterPanel
+          element={elementFilter}
+          personality={personalityFilter}
+          onElementChange={setElementFilter}
+          onPersonalityChange={setPersonalityFilter}
+        />
 
-      <div className="mt-6 text-center">
-        <button
-          type="button"
-          onClick={handleGenerate}
-          disabled={isGenerating || total === 0}
-          className="btn-game"
-        >
-          <span aria-hidden className="text-lg">✨</span>
-          {isGenerating
-            ? "Summoning…"
-            : current
-              ? "Generate another"
-              : "Generate a creature"}
-        </button>
+        <div className="mt-6 flex items-center justify-center gap-3">
+          <label
+            htmlFor="quantity"
+            className="text-sm font-semibold text-stone-500"
+          >
+            How many?
+          </label>
+          <div className="inline-flex items-center rounded-full bg-white/70 ring-1 ring-stone-900/10 backdrop-blur-sm">
+            <button
+              type="button"
+              onClick={() => setQuantity((q) => clampQuantity(q - 1))}
+              aria-label="Decrease quantity"
+              className="grid h-10 w-10 place-items-center rounded-l-full text-lg font-bold text-stone-600 transition hover:bg-white"
+            >
+              −
+            </button>
+            <input
+              id="quantity"
+              type="number"
+              min={MIN_QUANTITY}
+              max={MAX_QUANTITY}
+              value={quantity}
+              onChange={(e) =>
+                setQuantity(clampQuantity(Number(e.target.value)))
+              }
+              className="h-10 w-12 bg-transparent text-center text-sm font-bold text-stone-900 outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+            />
+            <button
+              type="button"
+              onClick={() => setQuantity((q) => clampQuantity(q + 1))}
+              aria-label="Increase quantity"
+              className="grid h-10 w-10 place-items-center rounded-r-full text-lg font-bold text-stone-600 transition hover:bg-white"
+            >
+              +
+            </button>
+          </div>
+          <span className="text-xs text-stone-400">1–6</span>
+        </div>
+
+        <div className="mt-6 text-center">
+          <button
+            type="button"
+            onClick={handleGenerate}
+            disabled={isGenerating || total === 0}
+            className="btn-game"
+          >
+            <span aria-hidden className="text-lg">✨</span>
+            {isGenerating
+              ? "Summoning…"
+              : current.length > 0
+                ? quantity === 1
+                  ? "Generate another"
+                  : `Generate ${quantity} more`
+                : "Generate creatures"}
+          </button>
+        </div>
       </div>
 
       {total === 0 ? (
-        <div className="mt-10 flex min-h-[240px] flex-col items-center justify-center gap-3 rounded-[1.75rem] border-2 border-dashed border-stone-300 bg-white/60 p-8 text-center backdrop-blur-sm">
+        <div className="mx-auto mt-10 flex min-h-[240px] max-w-2xl flex-col items-center justify-center gap-3 rounded-[1.75rem] border-2 border-dashed border-stone-300 bg-white/60 p-8 text-center backdrop-blur-sm">
           <span aria-hidden className="text-4xl">🔍</span>
           <p className="max-w-xs text-stone-600">
             No creatures match these filters — try clearing one.
           </p>
         </div>
-      ) : current ? (
-        <div className="mt-8">
-          <div className="animate-pop-in relative" key={current.id}>
-            <SummonBurst creature={current} />
-            <CreatureCard creature={current} />
+      ) : current.length === 0 ? (
+        <div className="mx-auto mt-10 flex min-h-[320px] max-w-2xl flex-col items-center justify-center gap-4 rounded-[1.75rem] border-2 border-dashed border-stone-300 bg-white/60 p-8 text-center backdrop-blur-sm">
+          <span aria-hidden className="text-5xl">✨</span>
+          <p className="max-w-xs text-stone-600">
+            Press{" "}
+            <span className="font-semibold text-stone-900">
+              Generate creatures
+            </span>{" "}
+            to summon your first batch.
+          </p>
+        </div>
+      ) : current.length === 1 ? (
+        <div className="mx-auto mt-8 max-w-md">
+          <div className="animate-pop-in relative" key={current[0].id}>
+            <SummonBurst creature={current[0]} />
+            <CreatureCard creature={current[0]} />
           </div>
           <p className="mt-4 text-center">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-sm font-semibold text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
@@ -138,14 +203,18 @@ export default function Home() {
           </p>
         </div>
       ) : (
-        <div className="mt-10 flex min-h-[320px] flex-col items-center justify-center gap-4 rounded-[1.75rem] border-2 border-dashed border-stone-300 bg-white/60 p-8 text-center backdrop-blur-sm">
-          <span aria-hidden className="text-5xl">✨</span>
-          <p className="max-w-xs text-stone-600">
-            Press{" "}
-            <span className="font-semibold text-stone-900">
-              Generate a creature
-            </span>{" "}
-            to summon your first one.
+        <div className="mt-8">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {current.map((creature) => (
+              <div className="animate-pop-in" key={creature.id}>
+                <CreatureCard creature={creature} />
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 text-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-sm font-semibold text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
+              <span aria-hidden>🎴</span> Seen {seen} of {total} this round
+            </span>
           </p>
         </div>
       )}

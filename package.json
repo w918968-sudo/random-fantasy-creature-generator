@@ -11,7 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:data": "node scripts/validate-data.mjs",
-    "fetch:data": "node scripts/fetch-pokeapi.mjs && node scripts/fetch-smogon-data.mjs"
+    "generate:images": "node scripts/generate-all.mjs"
   },
   "dependencies": {
     "next": "16.4.2",

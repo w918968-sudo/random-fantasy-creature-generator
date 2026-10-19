@@ -4,5 +4,9 @@
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page"
-  }
+  },
+  "routes": [
+    { "pattern": "randompokemongenerator.games", "custom_domain": true },
+    { "pattern": "www.randompokemongenerator.games", "custom_domain": true }
+  ]
 }
