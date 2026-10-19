@@ -2,31 +2,47 @@ import type { Metadata } from "next";
 import { StaticPage } from "@/components/static-page";
 
 export const metadata: Metadata = {
-  title: "Credits & Data Sources",
+  title: "Credits",
   description:
-    "Data sources, licenses, and image-licensing status for Random Pokémon Generator.",
+    "Content, image-generation, and library credits for Random Fantasy Creature Generator.",
   alternates: { canonical: "/credits" },
 };
 
 export default function CreditsPage() {
   return (
-    <StaticPage title="Credits &amp; Data Sources">
+    <StaticPage title="Credits">
       <p>
-        This tool is built from open datasets and libraries. Pokémon names,
-        designs, and game data are third-party intellectual property.
+        This site ships only original content — no third-party character data,
+        artwork, or game mechanics.
       </p>
 
       <section>
-        <h2 className="text-lg font-semibold text-slate-900">Libraries</h2>
+        <h2 className="text-lg font-semibold text-stone-900">Content</h2>
+        <p>
+          All creature names, descriptions, and traits are written for this
+          site.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-lg font-semibold text-stone-900">Artwork</h2>
+        <p>
+          Creature artwork is generated with{" "}
+          <span className="font-medium">Volcano Ark</span> (Seedream, model{" "}
+          <span className="font-medium">doubao-seedream-5-0-pro</span>).
+        </p>
+        <p className="rounded-xl bg-amber-100/70 p-4 text-sm text-amber-800 ring-1 ring-amber-300">
+          <span className="font-semibold">Status: VERIFY.</span> Commercial-use
+          rights and any attribution requirement are being confirmed against the
+          provider&apos;s current terms of service; the date and link will be
+          recorded here once verified. Until then this is not claimed as
+          licensed for commercial use.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-lg font-semibold text-stone-900">Libraries</h2>
         <ul className="mt-2 space-y-2">
-          <li>
-            <span className="font-medium">@smogon/calc</span> (v0.12.0, MIT) — the
-            damage-calculation engine behind the Scarlet/Violet damage calculator.
-          </li>
-          <li>
-            <span className="font-medium">@pkmn/dex</span> (v0.10.11, MIT) — source
-            of the move and learnset data, derived from Pokémon Showdown.
-          </li>
           <li>
             <span className="font-medium">Next.js</span> and{" "}
             <span className="font-medium">Tailwind CSS</span> — the site framework
@@ -38,40 +54,6 @@ export default function CreditsPage() {
           </li>
         </ul>
       </section>
-
-      <section>
-        <h2 className="text-lg font-semibold text-slate-900">Data sources</h2>
-        <ul className="mt-2 space-y-2">
-          <li>
-            <span className="font-medium">PokéAPI</span> — species base data
-            (Pokédex numbers, types, base stats, abilities, evolution, dimensions).
-            This data originates from the Pokémon games and belongs to Nintendo /
-            The Pokémon Company; it is used here for a non-commercial fan tool.
-          </li>
-          <li>
-            <span className="font-medium">Pokémon Showdown</span> (via @pkmn/dex) —
-            competitive move and learnset data.
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 className="text-lg font-semibold text-slate-900">Images</h2>
-        <p>
-          <span className="font-medium">Status: placeholder.</span> Official
-          Pokémon promotional art is not yet licensed (Pokémon Support,
-          2026-01-30), so the UI currently renders clearly-marked placeholders
-          instead of Pokémon artwork. Shiny images are likewise not available
-          until licensed. This is a known launch blocker — disclaimers do not
-          substitute for a license.
-        </p>
-      </section>
-
-      <p className="rounded-xl bg-slate-50 p-4 text-sm text-slate-600 ring-1 ring-slate-200">
-        Pokémon and Pokémon character names are trademarks of Nintendo. This fan
-        tool is not affiliated with or endorsed by Nintendo, Game Freak, or The
-        Pokémon Company.
-      </p>
     </StaticPage>
   );
 }

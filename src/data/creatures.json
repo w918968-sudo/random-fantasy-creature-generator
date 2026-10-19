@@ -1,0 +1,106 @@
+[
+  {
+    "id": "emberwhisk",
+    "name": "Emberwhisk",
+    "description": "A restless little fox whose coat trails soft embers wherever it trots.",
+    "traits": [
+      "Kindles warmth in cold rooms",
+      "Leaves faint ash-paw prints",
+      "Purrs like crackling fire"
+    ],
+    "image": "/creatures/emberwhisk.png",
+    "element": "Ember",
+    "personality": "Fierce"
+  },
+  {
+    "id": "cinderpaw",
+    "name": "Cinderpaw",
+    "description": "A tiny salamander with glowing feet that leave warm trails on stone.",
+    "traits": [
+      "Feet glow brightest at dusk",
+      "Basks on sun-warmed rocks",
+      "Sneezes little sparks"
+    ],
+    "image": "/creatures/cinderpaw.png",
+    "element": "Ember",
+    "personality": "Serene"
+  },
+  {
+    "id": "glimmerfin",
+    "name": "Glimmerfin",
+    "description": "A darting pond sprite whose translucent fins shimmer like captured starlight.",
+    "traits": [
+      "Glows brightest under moonlight",
+      "Calms rippling water",
+      "Hums a tune only dawn hears"
+    ],
+    "image": "/creatures/glimmerfin.png",
+    "element": "Tide",
+    "personality": "Curious"
+  },
+  {
+    "id": "mossback",
+    "name": "Mossback",
+    "description": "A gentle, slow wanderer whose shell is a living garden of moss and mushrooms.",
+    "traits": [
+      "Sprouts tiny flowers as it naps",
+      "Moss remembers the way home",
+      "Friend to every seedling"
+    ],
+    "image": "/creatures/mossback.png",
+    "element": "Grove",
+    "personality": "Gentle"
+  },
+  {
+    "id": "stormling",
+    "name": "Stormling",
+    "description": "A mischievous puff of stormcloud with bright arcs of static for a tail.",
+    "traits": [
+      "Foretells rain with a sneeze",
+      "Giggles like distant thunder",
+      "Static makes its fur fluff up"
+    ],
+    "image": "/creatures/stormling.png",
+    "element": "Storm",
+    "personality": "Mischievous"
+  },
+  {
+    "id": "aurathorn",
+    "name": "Aurathorn",
+    "description": "A serene forest guardian with antlers of pale crystal that catch the aurora.",
+    "traits": [
+      "Antlers glow when it is content",
+      "Bends light into tiny rainbows",
+      "Watches over sleeping woods"
+    ],
+    "image": "/creatures/aurathorn.png",
+    "element": "Crystal",
+    "personality": "Loyal"
+  },
+  {
+    "id": "prismkit",
+    "name": "Prismkit",
+    "description": "A playful kitten whose body shatters light into drifting facets.",
+    "traits": [
+      "Chases rainbows it makes",
+      "Pelt shows every color at noon",
+      "Leaves glinting paw prints"
+    ],
+    "image": "/creatures/prismkit.png",
+    "element": "Crystal",
+    "personality": "Curious"
+  },
+  {
+    "id": "duskveil",
+    "name": "Duskveil",
+    "description": "A quiet moth-like creature wrapped in the first shade of evening.",
+    "traits": [
+      "Melts into twilight shadows",
+      "Lulls day to sleep",
+      "Wings hold the last light"
+    ],
+    "image": "/creatures/duskveil.png",
+    "element": "Dusk",
+    "personality": "Serene"
+  }
+]

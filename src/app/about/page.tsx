@@ -4,7 +4,7 @@ import { StaticPage } from "@/components/static-page";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "What Random Pokémon Generator does and how it works — a free, browser-based Pokémon team and damage calculator tool.",
+    "What Random Fantasy Creature Generator does — a free, browser-based tool that rolls original fantasy creatures.",
   alternates: { canonical: "/about" },
 };
 
@@ -12,39 +12,34 @@ export default function AboutPage() {
   return (
     <StaticPage title="About">
       <p>
-        Random Pokémon Generator is a free, browser-based tool for rolling Pokémon
-        with filters, building teams, and checking battle matchups. Everything
-        runs locally in your browser — no account, no server-side storage.
+        Random Fantasy Creature Generator is a free, browser-based tool for
+        rolling original fantasy creatures. Every creature has its own name,
+        one-line story, and a set of traits — all written for this site, not
+        taken from any existing game or franchise.
       </p>
 
       <section>
-        <h2 className="text-lg font-semibold text-slate-900">What you can do</h2>
+        <h2 className="text-lg font-semibold text-stone-900">What you can do</h2>
         <ul className="mt-2 list-disc space-y-1 pl-5">
-          <li>Generate a single Pokémon, a group, or a full team of six.</li>
-          <li>Filter by generation and type, with advanced filters for evolution stage, forms, hidden abilities, and legendary/mythical exclusion.</li>
-          <li>Roll shiny Pokémon, lock results, and reroll individual slots.</li>
-          <li>Review defensive and offensive team coverage, plus a full Scarlet/Violet single-battle damage calculator.</li>
+          <li>Generate one creature at a time — no repeats until you have seen them all.</li>
+          <li>Save favorites, kept locally in your browser.</li>
+          <li>Share a creature by link, download a 4:5 share image, or use your device&apos;s share sheet.</li>
+          <li>Browse every published creature on its own page.</li>
         </ul>
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold text-slate-900">Data and images</h2>
+        <h2 className="text-lg font-semibold text-stone-900">How it works</h2>
         <p>
-          Pokémon names and game data are sourced from PokéAPI and Pokémon
-          Showdown–derived datasets, and damage math is powered by the{" "}
-          <span className="font-medium">@smogon/calc</span> engine. See the{" "}
-          <a href="/credits" className="text-blue-600 underline hover:text-blue-700">
-            Credits &amp; Data Sources
-          </a>{" "}
-          page for the full list. Pokémon artwork is shown as a placeholder until
-          its license status is confirmed.
+          Everything runs locally in your browser — no account and no
+          server-side storage. Your favorites are saved to your own device&apos;s
+          localStorage.
         </p>
       </section>
 
-      <p className="rounded-xl bg-slate-50 p-4 text-sm text-slate-600 ring-1 ring-slate-200">
-        This is a fan-made tool and is not affiliated with, endorsed by, or
-        sponsored by Nintendo, Game Freak, or The Pokémon Company. Pokémon and
-        Pokémon character names are trademarks of Nintendo.
+      <p className="rounded-xl bg-white/70 p-4 text-sm text-stone-600 ring-1 ring-stone-200 backdrop-blur-sm">
+        All creatures on this site are original content. Any resemblance to
+        existing characters is coincidental.
       </p>
     </StaticPage>
   );

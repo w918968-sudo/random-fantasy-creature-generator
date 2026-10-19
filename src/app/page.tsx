@@ -1,238 +1,153 @@
 "use client";
 
-import { useState } from "react";
-import dynamic from "next/dynamic";
-import type { GeneratedPokemon } from "@/lib/types";
-import { useGenerator } from "@/lib/use-generator";
-import { buildCopyText } from "@/lib/copy-results";
-import { ModeTabs } from "@/components/mode-tabs";
+import { useEffect, useMemo, useState } from "react";
+import { CREATURES, getCreature } from "@/lib/data/creatures";
+import {
+  createShuffleBag,
+  drawNext,
+  type ShuffleBag,
+} from "@/lib/generator/shuffle-bag";
+import type { Creature, Element, Personality } from "@/lib/types";
+import { CreatureCard } from "@/components/creature-card";
 import { FilterPanel } from "@/components/filter-panel";
-import { SettingsPanel } from "@/components/settings-panel";
-import { PokemonCard } from "@/components/pokemon-card";
-import { PokemonDetail } from "@/components/pokemon-detail";
+import { ELEMENT_COLORS } from "@/lib/elements";
 
-// Team analysis pulls in the battle data (~1 MB), so it is loaded only when the
-// user asks for it in team mode.
-const TeamAnalysisView = dynamic(
-  () => import("@/components/team-analysis-view").then((m) => m.TeamAnalysisView),
-  { ssr: false, loading: () => <p className="text-sm text-slate-500">Analyzing…</p> },
-);
-
-// The damage calculator pulls in @smogon/calc plus the moves/learnsets data, so
-// it is loaded only when the user opens it.
-const DamageCalculator = dynamic(
-  () => import("@/components/damage-calculator").then((m) => m.DamageCalculator),
-  { ssr: false },
-);
-
-function prefersReducedMotion(): boolean {
+/** One-shot light flash + expanding ring when a creature is summoned. */
+function SummonBurst({ creature }: { creature: Creature }) {
+  const colors = ELEMENT_COLORS[creature.element];
   return (
-    typeof window !== "undefined" &&
-    typeof window.matchMedia === "function" &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    <>
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0 z-10 animate-flash rounded-[1.75rem]"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 40%, rgba(255,255,255,0.95), rgba(255,255,255,0) 70%)",
+        }}
+      />
+      <span
+        aria-hidden
+        className="pointer-events-none absolute left-1/2 top-1/2 z-10 h-40 w-40 animate-burst-ring rounded-full"
+        style={{
+          border: `3px solid ${colors.from}`,
+          boxShadow: `0 0 32px ${colors.from}aa, inset 0 0 32px ${colors.from}66`,
+        }}
+      />
+    </>
   );
 }
 
 export default function Home() {
-  const g = useGenerator();
-  const { state } = g;
-  const [selected, setSelected] = useState<GeneratedPokemon | null>(null);
+  const [elementFilter, setElementFilter] = useState<Element | null>(null);
+  const [personalityFilter, setPersonalityFilter] =
+    useState<Personality | null>(null);
+  const [bag, setBag] = useState<ShuffleBag>(() =>
+    createShuffleBag(CREATURES.map((c) => c.id)),
+  );
+  const [current, setCurrent] = useState<Creature | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [copyFeedback, setCopyFeedback] = useState<string | null>(null);
-  const [epoch, setEpoch] = useState(0);
-  const [showAnalysis, setShowAnalysis] = useState(false);
-  const [showCalc, setShowCalc] = useState(false);
 
-  const generatedCount = state.results.filter(Boolean).length;
-  const team = state.results.filter((r): r is GeneratedPokemon => r !== null);
+  const filteredIds = useMemo(
+    () =>
+      CREATURES.filter(
+        (c) =>
+          (elementFilter === null || c.element === elementFilter) &&
+          (personalityFilter === null || c.personality === personalityFilter),
+      ).map((c) => c.id),
+    [elementFilter, personalityFilter],
+  );
 
-  async function handleGenerate() {
+  // Changing a filter starts a fresh no-repeat round over the new pool.
+  useEffect(() => {
+    setBag(createShuffleBag(filteredIds));
+    setCurrent(null);
+  }, [filteredIds]);
+
+  const total = filteredIds.length;
+  const seen = total - bag.remaining.length;
+
+  function handleGenerate() {
     if (isGenerating) return;
     setIsGenerating(true);
-    const delay = prefersReducedMotion() ? 0 : 550;
-    if (delay > 0) await new Promise((r) => setTimeout(r, delay));
-    g.generate();
-    setEpoch((e) => e + 1);
+    const next = drawNext(bag);
+    if (next) {
+      setBag(next.bag);
+      setCurrent(getCreature(next.id) ?? null);
+    }
     setIsGenerating(false);
   }
 
-  function handleReroll(index: number) {
-    g.reroll(index);
-    setEpoch((e) => e + 1);
-  }
-
-  async function handleCopy() {
-    const text = buildCopyText(state.results);
-    try {
-      await navigator.clipboard.writeText(text);
-      setCopyFeedback("Copied!");
-    } catch {
-      setCopyFeedback("Copy failed — select the text and copy manually.");
-    }
-    setTimeout(() => setCopyFeedback(null), 2500);
-  }
-
   return (
-    <main className="mx-auto w-full max-w-6xl px-4 pb-16 pt-8 sm:px-6">
-      <header className="mb-6 text-center">
-        <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-          Random Pokémon Generator
-        </h1>
-        <p className="mx-auto mt-2 max-w-2xl text-slate-600">
-          Generate a single Pokémon, a group, or a full team — with generation
-          and type filters, shiny mode, lock &amp; reroll, and a Scarlet/Violet
-          damage calculator.
+    <main className="mx-auto w-full max-w-2xl px-4 pb-16 pt-12 sm:px-6">
+      <header className="text-center">
+        <p className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
+          <span aria-hidden>✦</span> Original creatures, one roll at a time{" "}
+          <span aria-hidden>✦</span>
         </p>
-        <button
-          type="button"
-          onClick={() => setShowCalc(true)}
-          className="mt-4 inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-blue-600 ring-1 ring-blue-200 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
-        >
-          Damage Calculator
-        </button>
+        <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.05] sm:text-6xl">
+          <span className="bg-gradient-to-r from-rose-500 via-amber-500 to-violet-500 bg-clip-text text-transparent drop-shadow-[0_1px_2px_rgba(0,0,0,0.10)]">
+            Random Fantasy Creature Generator
+          </span>
+        </h1>
+        <p className="mx-auto mt-3 max-w-xl text-stone-600">
+          Roll an original fantasy creature — each with its own name, story, and
+          traits. No repeats until you have seen them all.
+        </p>
       </header>
 
-      <div className="mb-6 flex justify-center">
-        <ModeTabs
-          mode={g.mode}
-          onChange={(mode) => {
-            g.setMode(mode);
-            setShowAnalysis(false);
-          }}
-        />
+      <FilterPanel
+        element={elementFilter}
+        personality={personalityFilter}
+        onElementChange={setElementFilter}
+        onPersonalityChange={setPersonalityFilter}
+      />
+
+      <div className="mt-6 text-center">
+        <button
+          type="button"
+          onClick={handleGenerate}
+          disabled={isGenerating || total === 0}
+          className="btn-game"
+        >
+          <span aria-hidden className="text-lg">✨</span>
+          {isGenerating
+            ? "Summoning…"
+            : current
+              ? "Generate another"
+              : "Generate a creature"}
+        </button>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-[340px_1fr]">
-        <div className="space-y-4">
-          <div className="rounded-2xl bg-white/70 p-4 shadow-sm ring-1 ring-slate-200 backdrop-blur">
-            <FilterPanel
-              filters={state.filters}
-              onChange={g.updateFilters}
-              onClear={g.clearFilters}
-            />
-          </div>
-          <div className="rounded-2xl bg-white/70 p-4 shadow-sm ring-1 ring-slate-200 backdrop-blur">
-            <SettingsPanel
-              mode={g.mode}
-              settings={state.settings}
-              onChange={g.updateSettings}
-            />
-          </div>
-          <button
-            type="button"
-            onClick={handleGenerate}
-            disabled={isGenerating}
-            className="w-full rounded-2xl bg-blue-600 px-6 py-3.5 text-base font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-          >
-            {isGenerating ? "Generating…" : "Generate"}
-          </button>
+      {total === 0 ? (
+        <div className="mt-10 flex min-h-[240px] flex-col items-center justify-center gap-3 rounded-[1.75rem] border-2 border-dashed border-stone-300 bg-white/60 p-8 text-center backdrop-blur-sm">
+          <span aria-hidden className="text-4xl">🔍</span>
+          <p className="max-w-xs text-stone-600">
+            No creatures match these filters — try clearing one.
+          </p>
         </div>
-
-        <div className="space-y-4">
-          {g.message && (
-            <div
-              role={g.message.type === "error" ? "alert" : "status"}
-              className={`rounded-xl px-4 py-3 text-sm font-medium ${
-                g.message.type === "error"
-                  ? "bg-red-50 text-red-700 ring-1 ring-red-200"
-                  : "bg-blue-50 text-blue-700 ring-1 ring-blue-200"
-              }`}
-            >
-              {g.message.text}
-            </div>
-          )}
-
-          {generatedCount === 0 && !g.message && (
-            <div className="flex min-h-[320px] items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 bg-white/50 p-8 text-center">
-              <div>
-                <p className="text-lg font-semibold text-slate-700">
-                  Ready when you are
-                </p>
-                <p className="mx-auto mt-2 max-w-sm text-sm text-slate-500">
-                  Pick a mode, adjust any filters, then hit{" "}
-                  <span className="font-semibold">Generate</span> to roll your
-                  first Pokémon.
-                </p>
-              </div>
-            </div>
-          )}
-
-          {generatedCount > 0 && (
-            <>
-              <div className="flex items-center justify-between gap-3">
-                <p className="text-sm font-semibold text-slate-600">
-                  Results ({generatedCount})
-                </p>
-                <div className="flex items-center gap-2">
-                  {copyFeedback && (
-                    <span className="text-sm text-slate-500">{copyFeedback}</span>
-                  )}
-                  {g.mode === "team" && team.length > 0 && (
-                    <button
-                      type="button"
-                      onClick={() => setShowAnalysis((s) => !s)}
-                      aria-pressed={showAnalysis}
-                      className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold text-blue-600 ring-1 ring-blue-200 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
-                    >
-                      {showAnalysis ? "Hide Analysis" : "Analyze Team"}
-                    </button>
-                  )}
-                  <button
-                    type="button"
-                    onClick={handleCopy}
-                    className="rounded-lg bg-white px-3 py-1.5 text-sm font-semibold text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
-                  >
-                    Copy Results
-                  </button>
-                </div>
-              </div>
-
-              <div
-                key={epoch}
-                className="grid grid-cols-2 gap-4 animate-fade-in-up sm:grid-cols-3 lg:grid-cols-4"
-              >
-                {Array.from({ length: state.settings.count }).map((_, i) => {
-                  const pokemon = state.results[i];
-                  if (!pokemon) {
-                    return (
-                      <div
-                        key={i}
-                        className="flex aspect-[3/4] items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 bg-white/40"
-                      >
-                        <span className="text-sm text-slate-400">Empty</span>
-                      </div>
-                    );
-                  }
-                  return (
-                    <PokemonCard
-                      key={i}
-                      pokemon={pokemon}
-                      locked={state.locked[i] === true}
-                      showControls={g.mode !== "single"}
-                      onToggleLock={() => g.toggleLock(i)}
-                      onReroll={() => handleReroll(i)}
-                      onSelect={() => setSelected(pokemon)}
-                    />
-                  );
-                })}
-              </div>
-
-              {g.mode === "team" && showAnalysis && team.length > 0 && (
-                <div className="rounded-2xl bg-white/70 p-4 shadow-sm ring-1 ring-slate-200 backdrop-blur">
-                  <TeamAnalysisView team={team} />
-                </div>
-              )}
-            </>
-          )}
+      ) : current ? (
+        <div className="mt-8">
+          <div className="animate-pop-in relative" key={current.id}>
+            <SummonBurst creature={current} />
+            <CreatureCard creature={current} />
+          </div>
+          <p className="mt-4 text-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-sm font-semibold text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
+              <span aria-hidden>🎴</span> Seen {seen} of {total} this round
+            </span>
+          </p>
         </div>
-      </div>
-
-      {selected && (
-        <PokemonDetail pokemon={selected} onClose={() => setSelected(null)} />
-      )}
-
-      {showCalc && (
-        <DamageCalculator initialAttacker={null} onClose={() => setShowCalc(false)} />
+      ) : (
+        <div className="mt-10 flex min-h-[320px] flex-col items-center justify-center gap-4 rounded-[1.75rem] border-2 border-dashed border-stone-300 bg-white/60 p-8 text-center backdrop-blur-sm">
+          <span aria-hidden className="text-5xl">✨</span>
+          <p className="max-w-xs text-stone-600">
+            Press{" "}
+            <span className="font-semibold text-stone-900">
+              Generate a creature
+            </span>{" "}
+            to summon your first one.
+          </p>
+        </div>
       )}
     </main>
   );

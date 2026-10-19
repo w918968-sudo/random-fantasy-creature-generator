@@ -8,8 +8,8 @@ import type { ReactNode } from "react";
 export function StaticPage({ title, children }: { title: string; children: ReactNode }) {
   return (
     <main className="mx-auto w-full max-w-3xl px-4 py-12 sm:px-6">
-      <h1 className="text-3xl font-extrabold tracking-tight text-slate-900">{title}</h1>
-      <div className="mt-6 space-y-5 text-slate-700">{children}</div>
+      <h1 className="font-display text-4xl font-bold text-stone-900">{title}</h1>
+      <div className="mt-6 space-y-5 text-stone-600">{children}</div>
     </main>
   );
 }
