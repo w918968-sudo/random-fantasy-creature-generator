@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useFavorites } from "@/lib/use-favorites";
 import { getCreature } from "@/lib/data/creatures";
 import type { Creature } from "@/lib/types";
@@ -27,12 +28,12 @@ export function FavoritesList() {
           <span aria-hidden className="text-5xl">♡</span>
           <p className="max-w-sm text-stone-600">
             You haven&apos;t saved any creatures yet.{" "}
-            <a
+            <Link
               href="/"
               className="font-semibold text-stone-900 underline decoration-2 underline-offset-2 hover:text-stone-600"
             >
               Generate one
-            </a>{" "}
+            </Link>{" "}
             and tap the heart.
           </p>
         </div>

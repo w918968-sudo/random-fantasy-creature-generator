@@ -13,9 +13,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // /favorites is intentionally excluded — it is a per-browser, personalized
+  // page, not public SEO content (see requirements §3.4 / §8.3).
   return [
     { url: SITE_URL, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
-    { url: `${SITE_URL}/favorites`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/privacy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/credits`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },

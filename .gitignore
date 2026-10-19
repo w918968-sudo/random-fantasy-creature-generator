@@ -41,6 +41,9 @@ yarn-error.log*
 # downloaded raw data cache (dev-time only)
 .cache/
 
+# high-resolution PNG source images (437 MB, dev-time only — WebP in public/ is committed)
+/assets/creatures-source/
+
 # vercel
 .vercel
 

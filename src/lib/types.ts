@@ -16,6 +16,8 @@ export type Personality =
   | "Curious"
   | "Loyal";
 
+export type CreatureStatus = "draft" | "published";
+
 export interface Creature {
   /** Stable kebab-case id; also used as the URL slug. */
   id: string;
@@ -31,6 +33,10 @@ export interface Creature {
   element: Element;
   /** Personality used for filtering and (later) prompt shaping. */
   personality: Personality;
+  /** Accurate alt text describing the artwork. */
+  alt: string;
+  /** Whether the creature is publicly visible. Drafts are excluded from the pool, pages, and sitemap. */
+  status: CreatureStatus;
 }
 
 export const ALL_ELEMENTS: readonly Element[] = [

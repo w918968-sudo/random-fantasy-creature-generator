@@ -29,6 +29,12 @@ production values — anything unconfirmed is marked `VERIFY` / `TODO`.
   `watermark: false`.
 - The returned image URL expires in 24h, so we always request `b64_json` and
   write the PNG to disk immediately.
+- **Optimization:** the high-quality PNG (source) is kept in
+  `assets/creatures-source/` (not served); the site serves a WebP of the same
+  dimensions from `public/creatures/` (converted via
+  `scripts/optimize-images.mjs`, `npm run optimize:images`). Per-creature asset
+  records live in `asset-manifest.json` (regenerated with
+  `npm run assets:manifest`).
 
 ## Image-generation terms (VERIFY before commercial launch)
 

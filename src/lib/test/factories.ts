@@ -10,6 +10,8 @@ export function makeCreature(overrides: Partial<Creature> = {}): Creature {
     image: null,
     element: "Ember",
     personality: "Gentle",
+    alt: "Original fantasy creature artwork of Test Creature.",
+    status: "published",
     ...overrides,
   };
 }

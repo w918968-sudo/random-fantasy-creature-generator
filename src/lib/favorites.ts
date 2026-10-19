@@ -3,6 +3,8 @@
  * a renamed/redescribed creature still resolves against the current catalog.
  */
 
+import { trackEvent } from "./analytics";
+
 const STORAGE_KEY = "random-fantasy-creature:favorites";
 const SCHEMA_VERSION = 1;
 
@@ -57,6 +59,9 @@ export function subscribeFavorites(listener: Listener): () => void {
 }
 
 export function toggleFavorite(id: string): void {
+  const wasFavorite = readFavorites().includes(id);
   writeFavorites(toggleInList(readFavorites(), id));
   emit();
+  // Analytics is a no-op outside the browser / when GA is disabled.
+  trackEvent("favorite", { action: wasFavorite ? "remove" : "add", id });
 }

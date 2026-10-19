@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Creature } from "@/lib/types";
 import { creatureShareUrl } from "@/lib/share-text";
 import { renderShareImage } from "@/lib/share-image";
+import { trackEvent } from "@/lib/analytics";
 
 function downloadCanvas(canvas: HTMLCanvasElement, filename: string): void {
   canvas.toBlob((blob) => {
@@ -32,6 +33,7 @@ export function ShareButton({ creature }: { creature: Creature }) {
   async function copyLink() {
     try {
       await navigator.clipboard.writeText(url);
+      trackEvent("share_link", { id: creature.id });
       flash("Link copied!");
     } catch {
       flash("Copy failed — long-press the link and copy.");
@@ -44,6 +46,7 @@ export function ShareButton({ creature }: { creature: Creature }) {
     try {
       const canvas = await renderShareImage(creature);
       downloadCanvas(canvas, `${creature.id}.png`);
+      trackEvent("share_image_download", { id: creature.id });
       flash("Image saved.");
     } catch {
       flash("Couldn't render the image in this browser.");
@@ -66,9 +69,11 @@ export function ShareButton({ creature }: { creature: Creature }) {
           url,
           files: [file],
         });
+        trackEvent("share_native", { id: creature.id, with_image: true });
         return;
       }
       await navigator.share({ title: creature.name, text: creature.description, url });
+      trackEvent("share_native", { id: creature.id, with_image: false });
     } catch {
       // User cancelled, or sharing is unavailable — silently fall back to copy.
       try {

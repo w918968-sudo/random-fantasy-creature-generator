@@ -16,7 +16,7 @@ export function CreatureImage({
     return (
       <img
         src={creature.image}
-        alt={creature.name}
+        alt={creature.alt}
         className={`object-cover ${className ?? ""}`}
       />
     );

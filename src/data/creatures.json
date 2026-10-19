@@ -8,9 +8,11 @@
       "Leaves faint ash-paw prints",
       "Purrs like crackling fire"
     ],
-    "image": "/creatures/emberwhisk.png",
+    "image": "/creatures/emberwhisk.webp",
     "element": "Ember",
-    "personality": "Fierce"
+    "personality": "Fierce",
+    "alt": "Original fantasy creature artwork of Emberwhisk, a Fierce Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "cinderpaw",
@@ -21,9 +23,11 @@
       "Basks on sun-warmed rocks",
       "Sneezes little sparks"
     ],
-    "image": "/creatures/cinderpaw.png",
+    "image": "/creatures/cinderpaw.webp",
     "element": "Ember",
-    "personality": "Serene"
+    "personality": "Serene",
+    "alt": "Original fantasy creature artwork of Cinderpaw, a Serene Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "glimmerfin",
@@ -34,9 +38,11 @@
       "Calms rippling water",
       "Hums a tune only dawn hears"
     ],
-    "image": "/creatures/glimmerfin.png",
+    "image": "/creatures/glimmerfin.webp",
     "element": "Tide",
-    "personality": "Curious"
+    "personality": "Curious",
+    "alt": "Original fantasy creature artwork of Glimmerfin, a Curious Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "mossback",
@@ -47,9 +53,11 @@
       "Moss remembers the way home",
       "Friend to every seedling"
     ],
-    "image": "/creatures/mossback.png",
+    "image": "/creatures/mossback.webp",
     "element": "Grove",
-    "personality": "Gentle"
+    "personality": "Gentle",
+    "alt": "Original fantasy creature artwork of Mossback, a Gentle Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "stormling",
@@ -60,9 +68,11 @@
       "Giggles like distant thunder",
       "Static makes its fur fluff up"
     ],
-    "image": "/creatures/stormling.png",
+    "image": "/creatures/stormling.webp",
     "element": "Storm",
-    "personality": "Mischievous"
+    "personality": "Mischievous",
+    "alt": "Original fantasy creature artwork of Stormling, a Mischievous Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "aurathorn",
@@ -73,9 +83,11 @@
       "Bends light into tiny rainbows",
       "Watches over sleeping woods"
     ],
-    "image": "/creatures/aurathorn.png",
+    "image": "/creatures/aurathorn.webp",
     "element": "Crystal",
-    "personality": "Loyal"
+    "personality": "Loyal",
+    "alt": "Original fantasy creature artwork of Aurathorn, a Loyal Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "prismkit",
@@ -86,9 +98,11 @@
       "Pelt shows every color at noon",
       "Leaves glinting paw prints"
     ],
-    "image": "/creatures/prismkit.png",
+    "image": "/creatures/prismkit.webp",
     "element": "Crystal",
-    "personality": "Curious"
+    "personality": "Curious",
+    "alt": "Original fantasy creature artwork of Prismkit, a Curious Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "duskveil",
@@ -99,9 +113,11 @@
       "Lulls day to sleep",
       "Wings hold the last light"
     ],
-    "image": "/creatures/duskveil.png",
+    "image": "/creatures/duskveil.webp",
     "element": "Dusk",
-    "personality": "Serene"
+    "personality": "Serene",
+    "alt": "Original fantasy creature artwork of Duskveil, a Serene Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "warmglow",
@@ -112,9 +128,11 @@
       "Sleeps curled in old fireplaces",
       "Its yawn smells of cedar smoke"
     ],
-    "image": "/creatures/warmglow.png",
+    "image": "/creatures/warmglow.webp",
     "element": "Ember",
-    "personality": "Gentle"
+    "personality": "Gentle",
+    "alt": "Original fantasy creature artwork of Warmglow, a Gentle Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "moonfin",
@@ -125,9 +143,11 @@
       "Sings to sleepy coral",
       "Carries tiny wishes in its scales"
     ],
-    "image": "/creatures/moonfin.png",
+    "image": "/creatures/moonfin.webp",
     "element": "Tide",
-    "personality": "Gentle"
+    "personality": "Gentle",
+    "alt": "Original fantasy creature artwork of Moonfin, a Gentle Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "thornbranch",
@@ -138,9 +158,11 @@
       "Brambles part for its friends",
       "Its growl is falling timber"
     ],
-    "image": "/creatures/thornbranch.png",
+    "image": "/creatures/thornbranch.webp",
     "element": "Grove",
-    "personality": "Fierce"
+    "personality": "Fierce",
+    "alt": "Original fantasy creature artwork of Thornbranch, a Fierce Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "cloudsteed",
@@ -151,9 +173,11 @@
       "Hoofbeats answer the thunder",
       "Its mane crackles with patience"
     ],
-    "image": "/creatures/cloudsteed.png",
+    "image": "/creatures/cloudsteed.webp",
     "element": "Storm",
-    "personality": "Loyal"
+    "personality": "Loyal",
+    "alt": "Original fantasy creature artwork of Cloudsteed, a Loyal Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "gemfang",
@@ -164,9 +188,11 @@
       "Stalks only shadows that threaten",
       "A single bite splits the light"
     ],
-    "image": "/creatures/gemfang.png",
+    "image": "/creatures/gemfang.webp",
     "element": "Crystal",
-    "personality": "Fierce"
+    "personality": "Fierce",
+    "alt": "Original fantasy creature artwork of Gemfang, a Fierce Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "shadowwhisk",
@@ -177,9 +203,11 @@
       "Hides inside your shadow",
       "Giggles when you blink"
     ],
-    "image": "/creatures/shadowwhisk.png",
+    "image": "/creatures/shadowwhisk.webp",
     "element": "Dusk",
-    "personality": "Mischievous"
+    "personality": "Mischievous",
+    "alt": "Original fantasy creature artwork of Shadowwhisk, a Mischievous Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "hearthound",
@@ -190,9 +218,11 @@
       "Knows every family's favorite chair",
       "Coals never go out on its watch"
     ],
-    "image": "/creatures/hearthound.png",
+    "image": "/creatures/hearthound.webp",
     "element": "Ember",
-    "personality": "Loyal"
+    "personality": "Loyal",
+    "alt": "Original fantasy creature artwork of Hearthound, a Loyal Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "flintwing",
@@ -203,9 +233,11 @@
       "Lights campfires by happy accident",
       "Startles sleeping cats for fun"
     ],
-    "image": "/creatures/flintwing.png",
+    "image": "/creatures/flintwing.webp",
     "element": "Ember",
-    "personality": "Mischievous"
+    "personality": "Mischievous",
+    "alt": "Original fantasy creature artwork of Flintwing, a Mischievous Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "splashwit",
@@ -216,9 +248,11 @@
       "Giggles in bubbles",
       "Swaps one boot for a seashell"
     ],
-    "image": "/creatures/splashwit.png",
+    "image": "/creatures/splashwit.webp",
     "element": "Tide",
-    "personality": "Mischievous"
+    "personality": "Mischievous",
+    "alt": "Original fantasy creature artwork of Splashwit, a Mischievous Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "mistkoi",
@@ -229,9 +263,11 @@
       "Stills the water it swims",
       "Hums a lullaby to the fish"
     ],
-    "image": "/creatures/mistkoi.png",
+    "image": "/creatures/mistkoi.webp",
     "element": "Tide",
-    "personality": "Serene"
+    "personality": "Serene",
+    "alt": "Original fantasy creature artwork of Mistkoi, a Serene Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "shoalsong",
@@ -242,9 +278,11 @@
       "Never forgets a harbor's name",
       "Leads through the thickest fog"
     ],
-    "image": "/creatures/shoalsong.png",
+    "image": "/creatures/shoalsong.webp",
     "element": "Tide",
-    "personality": "Loyal"
+    "personality": "Loyal",
+    "alt": "Original fantasy creature artwork of Shoalsong, a Loyal Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "fernveil",
@@ -255,9 +293,11 @@
       "Dew beads along its back",
       "Soothes bickering sparrows"
     ],
-    "image": "/creatures/fernveil.png",
+    "image": "/creatures/fernveil.webp",
     "element": "Grove",
-    "personality": "Serene"
+    "personality": "Serene",
+    "alt": "Original fantasy creature artwork of Fernveil, a Serene Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "sprigpaw",
@@ -268,9 +308,11 @@
       "Asks the mushrooms questions",
       "Leaves tiny root prints behind"
     ],
-    "image": "/creatures/sprigpaw.png",
+    "image": "/creatures/sprigpaw.webp",
     "element": "Grove",
-    "personality": "Curious"
+    "personality": "Curious",
+    "alt": "Original fantasy creature artwork of Sprigpaw, a Curious Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "ivyjinx",
@@ -281,9 +323,11 @@
       "Swings from the tallest branches",
       "Tickles with ivy tendrils"
     ],
-    "image": "/creatures/ivyjinx.png",
+    "image": "/creatures/ivyjinx.webp",
     "element": "Grove",
-    "personality": "Mischievous"
+    "personality": "Mischievous",
+    "alt": "Original fantasy creature artwork of Ivyjinx, a Mischievous Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "drizzlefluff",
@@ -294,9 +338,11 @@
       "Fluffs up before every shower",
       "Soothes the thirstiest gardens"
     ],
-    "image": "/creatures/drizzlefluff.png",
+    "image": "/creatures/drizzlefluff.webp",
     "element": "Storm",
-    "personality": "Gentle"
+    "personality": "Gentle",
+    "alt": "Original fantasy creature artwork of Drizzlefluff, a Gentle Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "stormmane",
@@ -307,9 +353,11 @@
       "Lightning bows around it",
       "Guards the mountain passes"
     ],
-    "image": "/creatures/stormmane.png",
+    "image": "/creatures/stormmane.webp",
     "element": "Storm",
-    "personality": "Fierce"
+    "personality": "Fierce",
+    "alt": "Original fantasy creature artwork of Stormmane, a Fierce Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "zapwisp",
@@ -320,9 +368,11 @@
       "Static pops when it is excited",
       "Peeks into every cloud"
     ],
-    "image": "/creatures/zapwisp.png",
+    "image": "/creatures/zapwisp.webp",
     "element": "Storm",
-    "personality": "Curious"
+    "personality": "Curious",
+    "alt": "Original fantasy creature artwork of Zapwisp, a Curious Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "chimeshard",
@@ -333,9 +383,11 @@
       "Its chime settles every worry",
       "Light pools inside it"
     ],
-    "image": "/creatures/chimeshard.png",
+    "image": "/creatures/chimeshard.webp",
     "element": "Crystal",
-    "personality": "Serene"
+    "personality": "Serene",
+    "alt": "Original fantasy creature artwork of Chimeshard, a Serene Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "crystalbud",
@@ -346,9 +398,11 @@
       "Blossoms at a kind word",
       "Petal shards fall soft as snow"
     ],
-    "image": "/creatures/crystalbud.png",
+    "image": "/creatures/crystalbud.webp",
     "element": "Crystal",
-    "personality": "Gentle"
+    "personality": "Gentle",
+    "alt": "Original fantasy creature artwork of Crystalbud, a Gentle Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "lanternmoth",
@@ -359,9 +413,11 @@
       "Drawn to every quiet light",
       "Wings keep the twilight warm"
     ],
-    "image": "/creatures/lanternmoth.png",
+    "image": "/creatures/lanternmoth.webp",
     "element": "Dusk",
-    "personality": "Curious"
+    "personality": "Curious",
+    "alt": "Original fantasy creature artwork of Lanternmoth, a Curious Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "nightclaw",
@@ -372,9 +428,11 @@
       "Claws hold the last light",
       "Its gaze stills the dark"
     ],
-    "image": "/creatures/nightclaw.png",
+    "image": "/creatures/nightclaw.webp",
     "element": "Dusk",
-    "personality": "Fierce"
+    "personality": "Fierce",
+    "alt": "Original fantasy creature artwork of Nightclaw, a Fierce Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "starwatch",
@@ -385,9 +443,11 @@
       "Keeps the dark at arm's length",
       "Glows when you feel lost"
     ],
-    "image": "/creatures/starwatch.png",
+    "image": "/creatures/starwatch.webp",
     "element": "Dusk",
-    "personality": "Loyal"
+    "personality": "Loyal",
+    "alt": "Original fantasy creature artwork of Starwatch, a Loyal Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "blazehowl",
@@ -400,7 +460,9 @@
     "element": "Ember",
     "personality": "Fierce",
     "name": "Blazehowl",
-    "image": "/creatures/blazehowl.png"
+    "image": "/creatures/blazehowl.webp",
+    "alt": "Original fantasy creature artwork of Blazehowl, a Fierce Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "emberclaw",
@@ -413,7 +475,9 @@
     "element": "Ember",
     "personality": "Fierce",
     "name": "Emberclaw",
-    "image": "/creatures/emberclaw.png"
+    "image": "/creatures/emberclaw.webp",
+    "alt": "Original fantasy creature artwork of Emberclaw, a Fierce Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "cinderfang",
@@ -426,7 +490,9 @@
     "element": "Ember",
     "personality": "Fierce",
     "name": "Cinderfang",
-    "image": "/creatures/cinderfang.png"
+    "image": "/creatures/cinderfang.webp",
+    "alt": "Original fantasy creature artwork of Cinderfang, a Fierce Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "scorchmane",
@@ -439,7 +505,9 @@
     "element": "Ember",
     "personality": "Fierce",
     "name": "Scorchmane",
-    "image": "/creatures/scorchmane.png"
+    "image": "/creatures/scorchmane.webp",
+    "alt": "Original fantasy creature artwork of Scorchmane, a Fierce Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "pyreguard",
@@ -452,7 +520,9 @@
     "element": "Ember",
     "personality": "Fierce",
     "name": "Pyreguard",
-    "image": "/creatures/pyreguard.png"
+    "image": "/creatures/pyreguard.webp",
+    "alt": "Original fantasy creature artwork of Pyreguard, a Fierce Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "warmwhisper",
@@ -465,7 +535,9 @@
     "element": "Ember",
     "personality": "Serene",
     "name": "Warmwhisper",
-    "image": "/creatures/warmwhisper.png"
+    "image": "/creatures/warmwhisper.webp",
+    "alt": "Original fantasy creature artwork of Warmwhisper, a Serene Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "hearthmote",
@@ -478,7 +550,9 @@
     "element": "Ember",
     "personality": "Serene",
     "name": "Hearthmote",
-    "image": "/creatures/hearthmote.png"
+    "image": "/creatures/hearthmote.webp",
+    "alt": "Original fantasy creature artwork of Hearthmote, a Serene Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "emberhush",
@@ -491,7 +565,9 @@
     "element": "Ember",
     "personality": "Serene",
     "name": "Emberhush",
-    "image": "/creatures/emberhush.png"
+    "image": "/creatures/emberhush.webp",
+    "alt": "Original fantasy creature artwork of Emberhush, a Serene Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "softspark",
@@ -504,7 +580,9 @@
     "element": "Ember",
     "personality": "Serene",
     "name": "Softspark",
-    "image": "/creatures/softspark.png"
+    "image": "/creatures/softspark.webp",
+    "alt": "Original fantasy creature artwork of Softspark, a Serene Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "glowcoil",
@@ -517,7 +595,9 @@
     "element": "Ember",
     "personality": "Serene",
     "name": "Glowcoil",
-    "image": "/creatures/glowcoil.png"
+    "image": "/creatures/glowcoil.webp",
+    "alt": "Original fantasy creature artwork of Glowcoil, a Serene Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "sunpaw",
@@ -530,7 +610,9 @@
     "element": "Ember",
     "personality": "Gentle",
     "name": "Sunpaw",
-    "image": "/creatures/sunpaw.png"
+    "image": "/creatures/sunpaw.webp",
+    "alt": "Original fantasy creature artwork of Sunpaw, a Gentle Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "emberlamb",
@@ -543,7 +625,9 @@
     "element": "Ember",
     "personality": "Gentle",
     "name": "Emberlamb",
-    "image": "/creatures/emberlamb.png"
+    "image": "/creatures/emberlamb.webp",
+    "alt": "Original fantasy creature artwork of Emberlamb, a Gentle Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "warmheart",
@@ -556,7 +640,9 @@
     "element": "Ember",
     "personality": "Gentle",
     "name": "Warmheart",
-    "image": "/creatures/warmheart.png"
+    "image": "/creatures/warmheart.webp",
+    "alt": "Original fantasy creature artwork of Warmheart, a Gentle Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "ashdove",
@@ -569,7 +655,9 @@
     "element": "Ember",
     "personality": "Gentle",
     "name": "Ashdove",
-    "image": "/creatures/ashdove.png"
+    "image": "/creatures/ashdove.webp",
+    "alt": "Original fantasy creature artwork of Ashdove, a Gentle Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "kindlesoft",
@@ -582,7 +670,9 @@
     "element": "Ember",
     "personality": "Gentle",
     "name": "Kindlesoft",
-    "image": "/creatures/kindlesoft.png"
+    "image": "/creatures/kindlesoft.webp",
+    "alt": "Original fantasy creature artwork of Kindlesoft, a Gentle Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "emberhound",
@@ -595,7 +685,9 @@
     "element": "Ember",
     "personality": "Loyal",
     "name": "Emberhound",
-    "image": "/creatures/emberhound.png"
+    "image": "/creatures/emberhound.webp",
+    "alt": "Original fantasy creature artwork of Emberhound, a Loyal Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "hearthguard",
@@ -608,7 +700,9 @@
     "element": "Ember",
     "personality": "Loyal",
     "name": "Hearthguard",
-    "image": "/creatures/hearthguard.png"
+    "image": "/creatures/hearthguard.webp",
+    "alt": "Original fantasy creature artwork of Hearthguard, a Loyal Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "brandstead",
@@ -621,7 +715,9 @@
     "element": "Ember",
     "personality": "Loyal",
     "name": "Brandstead",
-    "image": "/creatures/brandstead.png"
+    "image": "/creatures/brandstead.webp",
+    "alt": "Original fantasy creature artwork of Brandstead, a Loyal Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "coalheart",
@@ -634,7 +730,9 @@
     "element": "Ember",
     "personality": "Loyal",
     "name": "Coalheart",
-    "image": "/creatures/coalheart.png"
+    "image": "/creatures/coalheart.webp",
+    "alt": "Original fantasy creature artwork of Coalheart, a Loyal Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "watchflame",
@@ -647,7 +745,9 @@
     "element": "Ember",
     "personality": "Loyal",
     "name": "Watchflame",
-    "image": "/creatures/watchflame.png"
+    "image": "/creatures/watchflame.webp",
+    "alt": "Original fantasy creature artwork of Watchflame, a Loyal Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "sparkimp",
@@ -660,7 +760,9 @@
     "element": "Ember",
     "personality": "Mischievous",
     "name": "Sparkimp",
-    "image": "/creatures/sparkimp.png"
+    "image": "/creatures/sparkimp.webp",
+    "alt": "Original fantasy creature artwork of Sparkimp, a Mischievous Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "sootling",
@@ -673,7 +775,9 @@
     "element": "Ember",
     "personality": "Mischievous",
     "name": "Sootling",
-    "image": "/creatures/sootling.png"
+    "image": "/creatures/sootling.webp",
+    "alt": "Original fantasy creature artwork of Sootling, a Mischievous Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "embersneak",
@@ -686,7 +790,9 @@
     "element": "Ember",
     "personality": "Mischievous",
     "name": "Embersneak",
-    "image": "/creatures/embersneak.png"
+    "image": "/creatures/embersneak.webp",
+    "alt": "Original fantasy creature artwork of Embersneak, a Mischievous Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "fizzsprite",
@@ -699,7 +805,9 @@
     "element": "Ember",
     "personality": "Mischievous",
     "name": "Fizzsprite",
-    "image": "/creatures/fizzsprite.png"
+    "image": "/creatures/fizzsprite.webp",
+    "alt": "Original fantasy creature artwork of Fizzsprite, a Mischievous Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "smolderpix",
@@ -712,7 +820,9 @@
     "element": "Ember",
     "personality": "Mischievous",
     "name": "Smolderpix",
-    "image": "/creatures/smolderpix.png"
+    "image": "/creatures/smolderpix.webp",
+    "alt": "Original fantasy creature artwork of Smolderpix, a Mischievous Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "sparknose",
@@ -725,7 +835,9 @@
     "element": "Ember",
     "personality": "Curious",
     "name": "Sparknose",
-    "image": "/creatures/sparknose.png"
+    "image": "/creatures/sparknose.webp",
+    "alt": "Original fantasy creature artwork of Sparknose, a Curious Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "coalpeek",
@@ -738,7 +850,9 @@
     "element": "Ember",
     "personality": "Curious",
     "name": "Coalpeek",
-    "image": "/creatures/coalpeek.png"
+    "image": "/creatures/coalpeek.webp",
+    "alt": "Original fantasy creature artwork of Coalpeek, a Curious Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "flintpaw",
@@ -751,7 +865,9 @@
     "element": "Ember",
     "personality": "Curious",
     "name": "Flintpaw",
-    "image": "/creatures/flintpaw.png"
+    "image": "/creatures/flintpaw.webp",
+    "alt": "Original fantasy creature artwork of Flintpaw, a Curious Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "candlepup",
@@ -764,7 +880,9 @@
     "element": "Ember",
     "personality": "Curious",
     "name": "Candlepup",
-    "image": "/creatures/candlepup.png"
+    "image": "/creatures/candlepup.webp",
+    "alt": "Original fantasy creature artwork of Candlepup, a Curious Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "glowgaze",
@@ -777,7 +895,9 @@
     "element": "Ember",
     "personality": "Curious",
     "name": "Glowgaze",
-    "image": "/creatures/glowgaze.png"
+    "image": "/creatures/glowgaze.webp",
+    "alt": "Original fantasy creature artwork of Glowgaze, a Curious Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "warmquest",
@@ -790,7 +910,9 @@
     "element": "Ember",
     "personality": "Curious",
     "name": "Warmquest",
-    "image": "/creatures/warmquest.png"
+    "image": "/creatures/warmquest.webp",
+    "alt": "Original fantasy creature artwork of Warmquest, a Curious Ember-element creature.",
+    "status": "published"
   },
   {
     "id": "ripplepup",
@@ -803,7 +925,9 @@
     "element": "Tide",
     "personality": "Curious",
     "name": "Ripplepup",
-    "image": "/creatures/ripplepup.png"
+    "image": "/creatures/ripplepup.webp",
+    "alt": "Original fantasy creature artwork of Ripplepup, a Curious Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "shellnose",
@@ -816,7 +940,9 @@
     "element": "Tide",
     "personality": "Curious",
     "name": "Shellnose",
-    "image": "/creatures/shellnose.png"
+    "image": "/creatures/shellnose.webp",
+    "alt": "Original fantasy creature artwork of Shellnose, a Curious Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "foamwhisk",
@@ -829,7 +955,9 @@
     "element": "Tide",
     "personality": "Curious",
     "name": "Foamwhisk",
-    "image": "/creatures/foamwhisk.png"
+    "image": "/creatures/foamwhisk.webp",
+    "alt": "Original fantasy creature artwork of Foamwhisk, a Curious Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "driftmote",
@@ -842,7 +970,9 @@
     "element": "Tide",
     "personality": "Curious",
     "name": "Driftmote",
-    "image": "/creatures/driftmote.png"
+    "image": "/creatures/driftmote.webp",
+    "alt": "Original fantasy creature artwork of Driftmote, a Curious Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "pearlpeek",
@@ -855,7 +985,9 @@
     "element": "Tide",
     "personality": "Curious",
     "name": "Pearlpeek",
-    "image": "/creatures/pearlpeek.png"
+    "image": "/creatures/pearlpeek.webp",
+    "alt": "Original fantasy creature artwork of Pearlpeek, a Curious Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "softtide",
@@ -868,7 +1000,9 @@
     "element": "Tide",
     "personality": "Gentle",
     "name": "Softtide",
-    "image": "/creatures/softtide.png"
+    "image": "/creatures/softtide.webp",
+    "alt": "Original fantasy creature artwork of Softtide, a Gentle Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "moonpool",
@@ -881,7 +1015,9 @@
     "element": "Tide",
     "personality": "Gentle",
     "name": "Moonpool",
-    "image": "/creatures/moonpool.png"
+    "image": "/creatures/moonpool.webp",
+    "alt": "Original fantasy creature artwork of Moonpool, a Gentle Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "driftveil",
@@ -894,7 +1030,9 @@
     "element": "Tide",
     "personality": "Gentle",
     "name": "Driftveil",
-    "image": "/creatures/driftveil.png"
+    "image": "/creatures/driftveil.webp",
+    "alt": "Original fantasy creature artwork of Driftveil, a Gentle Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "shellhare",
@@ -907,7 +1045,9 @@
     "element": "Tide",
     "personality": "Gentle",
     "name": "Shellhare",
-    "image": "/creatures/shellhare.png"
+    "image": "/creatures/shellhare.webp",
+    "alt": "Original fantasy creature artwork of Shellhare, a Gentle Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "lagoonlull",
@@ -920,7 +1060,9 @@
     "element": "Tide",
     "personality": "Gentle",
     "name": "Lagoonlull",
-    "image": "/creatures/lagoonlull.png"
+    "image": "/creatures/lagoonlull.webp",
+    "alt": "Original fantasy creature artwork of Lagoonlull, a Gentle Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "tidesnicker",
@@ -933,7 +1075,9 @@
     "element": "Tide",
     "personality": "Mischievous",
     "name": "Tidesnicker",
-    "image": "/creatures/tidesnicker.png"
+    "image": "/creatures/tidesnicker.webp",
+    "alt": "Original fantasy creature artwork of Tidesnicker, a Mischievous Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "brineprank",
@@ -946,7 +1090,9 @@
     "element": "Tide",
     "personality": "Mischievous",
     "name": "Brineprank",
-    "image": "/creatures/brineprank.png"
+    "image": "/creatures/brineprank.webp",
+    "alt": "Original fantasy creature artwork of Brineprank, a Mischievous Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "poolkicker",
@@ -959,7 +1105,9 @@
     "element": "Tide",
     "personality": "Mischievous",
     "name": "Poolkicker",
-    "image": "/creatures/poolkicker.png"
+    "image": "/creatures/poolkicker.webp",
+    "alt": "Original fantasy creature artwork of Poolkicker, a Mischievous Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "shellsteal",
@@ -972,7 +1120,9 @@
     "element": "Tide",
     "personality": "Mischievous",
     "name": "Shellsteal",
-    "image": "/creatures/shellsteal.png"
+    "image": "/creatures/shellsteal.webp",
+    "alt": "Original fantasy creature artwork of Shellsteal, a Mischievous Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "foamfool",
@@ -985,7 +1135,9 @@
     "element": "Tide",
     "personality": "Mischievous",
     "name": "Foamfool",
-    "image": "/creatures/foamfool.png"
+    "image": "/creatures/foamfool.webp",
+    "alt": "Original fantasy creature artwork of Foamfool, a Mischievous Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "stillwave",
@@ -998,7 +1150,9 @@
     "element": "Tide",
     "personality": "Serene",
     "name": "Stillwave",
-    "image": "/creatures/stillwave.png"
+    "image": "/creatures/stillwave.webp",
+    "alt": "Original fantasy creature artwork of Stillwave, a Serene Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "deeplull",
@@ -1011,7 +1165,9 @@
     "element": "Tide",
     "personality": "Serene",
     "name": "Deeplull",
-    "image": "/creatures/deeplull.png"
+    "image": "/creatures/deeplull.webp",
+    "alt": "Original fantasy creature artwork of Deeplull, a Serene Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "koiwhisper",
@@ -1024,7 +1180,9 @@
     "element": "Tide",
     "personality": "Serene",
     "name": "Koiwhisper",
-    "image": "/creatures/koiwhisper.png"
+    "image": "/creatures/koiwhisper.webp",
+    "alt": "Original fantasy creature artwork of Koiwhisper, a Serene Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "coralhush",
@@ -1037,7 +1195,9 @@
     "element": "Tide",
     "personality": "Serene",
     "name": "Coralhush",
-    "image": "/creatures/coralhush.png"
+    "image": "/creatures/coralhush.webp",
+    "alt": "Original fantasy creature artwork of Coralhush, a Serene Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "tidebreathe",
@@ -1050,7 +1210,9 @@
     "element": "Tide",
     "personality": "Serene",
     "name": "Tidebreathe",
-    "image": "/creatures/tidebreathe.png"
+    "image": "/creatures/tidebreathe.webp",
+    "alt": "Original fantasy creature artwork of Tidebreathe, a Serene Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "reefwarden",
@@ -1063,7 +1225,9 @@
     "element": "Tide",
     "personality": "Loyal",
     "name": "Reefwarden",
-    "image": "/creatures/reefwarden.png"
+    "image": "/creatures/reefwarden.webp",
+    "alt": "Original fantasy creature artwork of Reefwarden, a Loyal Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "tidehound",
@@ -1076,7 +1240,9 @@
     "element": "Tide",
     "personality": "Loyal",
     "name": "Tidehound",
-    "image": "/creatures/tidehound.png"
+    "image": "/creatures/tidehound.webp",
+    "alt": "Original fantasy creature artwork of Tidehound, a Loyal Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "anchormate",
@@ -1089,7 +1255,9 @@
     "element": "Tide",
     "personality": "Loyal",
     "name": "Anchormate",
-    "image": "/creatures/anchormate.png"
+    "image": "/creatures/anchormate.webp",
+    "alt": "Original fantasy creature artwork of Anchormate, a Loyal Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "pearlkeeper",
@@ -1102,7 +1270,9 @@
     "element": "Tide",
     "personality": "Loyal",
     "name": "Pearlkeeper",
-    "image": "/creatures/pearlkeeper.png"
+    "image": "/creatures/pearlkeeper.webp",
+    "alt": "Original fantasy creature artwork of Pearlkeeper, a Loyal Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "wavefaith",
@@ -1115,7 +1285,9 @@
     "element": "Tide",
     "personality": "Loyal",
     "name": "Wavefaith",
-    "image": "/creatures/wavefaith.png"
+    "image": "/creatures/wavefaith.webp",
+    "alt": "Original fantasy creature artwork of Wavefaith, a Loyal Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "maelstromfang",
@@ -1128,7 +1300,9 @@
     "element": "Tide",
     "personality": "Fierce",
     "name": "Maelstromfang",
-    "image": "/creatures/maelstromfang.png"
+    "image": "/creatures/maelstromfang.webp",
+    "alt": "Original fantasy creature artwork of Maelstromfang, a Fierce Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "tideclaw",
@@ -1141,7 +1315,9 @@
     "element": "Tide",
     "personality": "Fierce",
     "name": "Tideclaw",
-    "image": "/creatures/tideclaw.png"
+    "image": "/creatures/tideclaw.webp",
+    "alt": "Original fantasy creature artwork of Tideclaw, a Fierce Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "reefbreak",
@@ -1154,7 +1330,9 @@
     "element": "Tide",
     "personality": "Fierce",
     "name": "Reefbreak",
-    "image": "/creatures/reefbreak.png"
+    "image": "/creatures/reefbreak.webp",
+    "alt": "Original fantasy creature artwork of Reefbreak, a Fierce Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "brinefang",
@@ -1167,7 +1345,9 @@
     "element": "Tide",
     "personality": "Fierce",
     "name": "Brinefang",
-    "image": "/creatures/brinefang.png"
+    "image": "/creatures/brinefang.webp",
+    "alt": "Original fantasy creature artwork of Brinefang, a Fierce Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "wavebreaker",
@@ -1180,7 +1360,9 @@
     "element": "Tide",
     "personality": "Fierce",
     "name": "Wavebreaker",
-    "image": "/creatures/wavebreaker.png"
+    "image": "/creatures/wavebreaker.webp",
+    "alt": "Original fantasy creature artwork of Wavebreaker, a Fierce Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "undertow",
@@ -1193,7 +1375,9 @@
     "element": "Tide",
     "personality": "Fierce",
     "name": "Undertow",
-    "image": "/creatures/undertow.png"
+    "image": "/creatures/undertow.webp",
+    "alt": "Original fantasy creature artwork of Undertow, a Fierce Tide-element creature.",
+    "status": "published"
   },
   {
     "id": "softmoss",
@@ -1206,7 +1390,9 @@
     "element": "Grove",
     "personality": "Gentle",
     "name": "Softmoss",
-    "image": "/creatures/softmoss.png"
+    "image": "/creatures/softmoss.webp",
+    "alt": "Original fantasy creature artwork of Softmoss, a Gentle Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "leafbed",
@@ -1219,7 +1405,9 @@
     "element": "Grove",
     "personality": "Gentle",
     "name": "Leafbed",
-    "image": "/creatures/leafbed.png"
+    "image": "/creatures/leafbed.webp",
+    "alt": "Original fantasy creature artwork of Leafbed, a Gentle Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "willowmist",
@@ -1232,7 +1420,9 @@
     "element": "Grove",
     "personality": "Gentle",
     "name": "Willowmist",
-    "image": "/creatures/willowmist.png"
+    "image": "/creatures/willowmist.webp",
+    "alt": "Original fantasy creature artwork of Willowmist, a Gentle Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "acornkin",
@@ -1245,7 +1435,9 @@
     "element": "Grove",
     "personality": "Gentle",
     "name": "Acornkin",
-    "image": "/creatures/acornkin.png"
+    "image": "/creatures/acornkin.webp",
+    "alt": "Original fantasy creature artwork of Acornkin, a Gentle Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "petalsoft",
@@ -1258,7 +1450,9 @@
     "element": "Grove",
     "personality": "Gentle",
     "name": "Petalsoft",
-    "image": "/creatures/petalsoft.png"
+    "image": "/creatures/petalsoft.webp",
+    "alt": "Original fantasy creature artwork of Petalsoft, a Gentle Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "thornfang",
@@ -1271,7 +1465,9 @@
     "element": "Grove",
     "personality": "Fierce",
     "name": "Thornfang",
-    "image": "/creatures/thornfang.png"
+    "image": "/creatures/thornfang.webp",
+    "alt": "Original fantasy creature artwork of Thornfang, a Fierce Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "brambleclaw",
@@ -1284,7 +1480,9 @@
     "element": "Grove",
     "personality": "Fierce",
     "name": "Brambleclaw",
-    "image": "/creatures/brambleclaw.png"
+    "image": "/creatures/brambleclaw.webp",
+    "alt": "Original fantasy creature artwork of Brambleclaw, a Fierce Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "oakhide",
@@ -1297,7 +1495,9 @@
     "element": "Grove",
     "personality": "Fierce",
     "name": "Oakhide",
-    "image": "/creatures/oakhide.png"
+    "image": "/creatures/oakhide.webp",
+    "alt": "Original fantasy creature artwork of Oakhide, a Fierce Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "rootrage",
@@ -1310,7 +1510,9 @@
     "element": "Grove",
     "personality": "Fierce",
     "name": "Rootrage",
-    "image": "/creatures/rootrage.png"
+    "image": "/creatures/rootrage.webp",
+    "alt": "Original fantasy creature artwork of Rootrage, a Fierce Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "vinerend",
@@ -1323,7 +1525,9 @@
     "element": "Grove",
     "personality": "Fierce",
     "name": "Vinerend",
-    "image": "/creatures/vinerend.png"
+    "image": "/creatures/vinerend.webp",
+    "alt": "Original fantasy creature artwork of Vinerend, a Fierce Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "willowbreathe",
@@ -1336,7 +1540,9 @@
     "element": "Grove",
     "personality": "Serene",
     "name": "Willowbreathe",
-    "image": "/creatures/willowbreathe.png"
+    "image": "/creatures/willowbreathe.webp",
+    "alt": "Original fantasy creature artwork of Willowbreathe, a Serene Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "meadowmoss",
@@ -1349,7 +1555,9 @@
     "element": "Grove",
     "personality": "Serene",
     "name": "Meadowmoss",
-    "image": "/creatures/meadowmoss.png"
+    "image": "/creatures/meadowmoss.webp",
+    "alt": "Original fantasy creature artwork of Meadowmoss, a Serene Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "fernhush",
@@ -1362,7 +1570,9 @@
     "element": "Grove",
     "personality": "Serene",
     "name": "Fernhush",
-    "image": "/creatures/fernhush.png"
+    "image": "/creatures/fernhush.webp",
+    "alt": "Original fantasy creature artwork of Fernhush, a Serene Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "dewdrop",
@@ -1375,7 +1585,9 @@
     "element": "Grove",
     "personality": "Serene",
     "name": "Dewdrop",
-    "image": "/creatures/dewdrop.png"
+    "image": "/creatures/dewdrop.webp",
+    "alt": "Original fantasy creature artwork of Dewdrop, a Serene Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "grovestill",
@@ -1388,7 +1600,9 @@
     "element": "Grove",
     "personality": "Serene",
     "name": "Grovestill",
-    "image": "/creatures/grovestill.png"
+    "image": "/creatures/grovestill.webp",
+    "alt": "Original fantasy creature artwork of Grovestill, a Serene Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "seedpeek",
@@ -1401,7 +1615,9 @@
     "element": "Grove",
     "personality": "Curious",
     "name": "Seedpeek",
-    "image": "/creatures/seedpeek.png"
+    "image": "/creatures/seedpeek.webp",
+    "alt": "Original fantasy creature artwork of Seedpeek, a Curious Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "sporeling",
@@ -1414,7 +1630,9 @@
     "element": "Grove",
     "personality": "Curious",
     "name": "Sporeling",
-    "image": "/creatures/sporeling.png"
+    "image": "/creatures/sporeling.webp",
+    "alt": "Original fantasy creature artwork of Sporeling, a Curious Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "rootnose",
@@ -1427,7 +1645,9 @@
     "element": "Grove",
     "personality": "Curious",
     "name": "Rootnose",
-    "image": "/creatures/rootnose.png"
+    "image": "/creatures/rootnose.webp",
+    "alt": "Original fantasy creature artwork of Rootnose, a Curious Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "leafhop",
@@ -1440,7 +1660,9 @@
     "element": "Grove",
     "personality": "Curious",
     "name": "Leafhop",
-    "image": "/creatures/leafhop.png"
+    "image": "/creatures/leafhop.webp",
+    "alt": "Original fantasy creature artwork of Leafhop, a Curious Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "tendrilprobe",
@@ -1453,7 +1675,9 @@
     "element": "Grove",
     "personality": "Curious",
     "name": "Tendrilprobe",
-    "image": "/creatures/tendrilprobe.png"
+    "image": "/creatures/tendrilprobe.webp",
+    "alt": "Original fantasy creature artwork of Tendrilprobe, a Curious Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "acorntrick",
@@ -1466,7 +1690,9 @@
     "element": "Grove",
     "personality": "Mischievous",
     "name": "Acorntrick",
-    "image": "/creatures/acorntrick.png"
+    "image": "/creatures/acorntrick.webp",
+    "alt": "Original fantasy creature artwork of Acorntrick, a Mischievous Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "vinesneak",
@@ -1479,7 +1705,9 @@
     "element": "Grove",
     "personality": "Mischievous",
     "name": "Vinesneak",
-    "image": "/creatures/vinesneak.png"
+    "image": "/creatures/vinesneak.webp",
+    "alt": "Original fantasy creature artwork of Vinesneak, a Mischievous Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "mushroomprank",
@@ -1492,7 +1720,9 @@
     "element": "Grove",
     "personality": "Mischievous",
     "name": "Mushroomprank",
-    "image": "/creatures/mushroomprank.png"
+    "image": "/creatures/mushroomprank.webp",
+    "alt": "Original fantasy creature artwork of Mushroomprank, a Mischievous Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "leafsnatcher",
@@ -1505,7 +1735,9 @@
     "element": "Grove",
     "personality": "Mischievous",
     "name": "Leafsnatcher",
-    "image": "/creatures/leafsnatcher.png"
+    "image": "/creatures/leafsnatcher.webp",
+    "alt": "Original fantasy creature artwork of Leafsnatcher, a Mischievous Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "saplingtrick",
@@ -1518,7 +1750,9 @@
     "element": "Grove",
     "personality": "Mischievous",
     "name": "Saplingtrick",
-    "image": "/creatures/saplingtrick.png"
+    "image": "/creatures/saplingtrick.webp",
+    "alt": "Original fantasy creature artwork of Saplingtrick, a Mischievous Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "grovewarden",
@@ -1531,7 +1765,9 @@
     "element": "Grove",
     "personality": "Loyal",
     "name": "Grovewarden",
-    "image": "/creatures/grovewarden.png"
+    "image": "/creatures/grovewarden.webp",
+    "alt": "Original fantasy creature artwork of Grovewarden, a Loyal Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "rootkeeper",
@@ -1544,7 +1780,9 @@
     "element": "Grove",
     "personality": "Loyal",
     "name": "Rootkeeper",
-    "image": "/creatures/rootkeeper.png"
+    "image": "/creatures/rootkeeper.webp",
+    "alt": "Original fantasy creature artwork of Rootkeeper, a Loyal Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "oakcompanion",
@@ -1557,7 +1795,9 @@
     "element": "Grove",
     "personality": "Loyal",
     "name": "Oakcompanion",
-    "image": "/creatures/oakcompanion.png"
+    "image": "/creatures/oakcompanion.webp",
+    "alt": "Original fantasy creature artwork of Oakcompanion, a Loyal Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "saplingguard",
@@ -1570,7 +1810,9 @@
     "element": "Grove",
     "personality": "Loyal",
     "name": "Saplingguard",
-    "image": "/creatures/saplingguard.png"
+    "image": "/creatures/saplingguard.webp",
+    "alt": "Original fantasy creature artwork of Saplingguard, a Loyal Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "seedvow",
@@ -1583,7 +1825,9 @@
     "element": "Grove",
     "personality": "Loyal",
     "name": "Seedvow",
-    "image": "/creatures/seedvow.png"
+    "image": "/creatures/seedvow.webp",
+    "alt": "Original fantasy creature artwork of Seedvow, a Loyal Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "thornprotector",
@@ -1596,7 +1840,9 @@
     "element": "Grove",
     "personality": "Loyal",
     "name": "Thornprotector",
-    "image": "/creatures/thornprotector.png"
+    "image": "/creatures/thornprotector.webp",
+    "alt": "Original fantasy creature artwork of Thornprotector, a Loyal Grove-element creature.",
+    "status": "published"
   },
   {
     "id": "gustprank",
@@ -1609,7 +1855,9 @@
     "element": "Storm",
     "personality": "Mischievous",
     "name": "Gustprank",
-    "image": "/creatures/gustprank.png"
+    "image": "/creatures/gustprank.webp",
+    "alt": "Original fantasy creature artwork of Gustprank, a Mischievous Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "rainbother",
@@ -1622,7 +1870,9 @@
     "element": "Storm",
     "personality": "Mischievous",
     "name": "Rainbother",
-    "image": "/creatures/rainbother.png"
+    "image": "/creatures/rainbother.webp",
+    "alt": "Original fantasy creature artwork of Rainbother, a Mischievous Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "thunderchuckle",
@@ -1635,7 +1885,9 @@
     "element": "Storm",
     "personality": "Mischievous",
     "name": "Thunderchuckle",
-    "image": "/creatures/thunderchuckle.png"
+    "image": "/creatures/thunderchuckle.webp",
+    "alt": "Original fantasy creature artwork of Thunderchuckle, a Mischievous Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "zapimp",
@@ -1648,7 +1900,9 @@
     "element": "Storm",
     "personality": "Mischievous",
     "name": "Zapimp",
-    "image": "/creatures/zapimp.png"
+    "image": "/creatures/zapimp.webp",
+    "alt": "Original fantasy creature artwork of Zapimp, a Mischievous Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "misttease",
@@ -1661,7 +1915,9 @@
     "element": "Storm",
     "personality": "Mischievous",
     "name": "Misttease",
-    "image": "/creatures/misttease.png"
+    "image": "/creatures/misttease.webp",
+    "alt": "Original fantasy creature artwork of Misttease, a Mischievous Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "thunderhoof",
@@ -1674,7 +1930,9 @@
     "element": "Storm",
     "personality": "Loyal",
     "name": "Thunderhoof",
-    "image": "/creatures/thunderhoof.png"
+    "image": "/creatures/thunderhoof.webp",
+    "alt": "Original fantasy creature artwork of Thunderhoof, a Loyal Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "galehound",
@@ -1687,7 +1945,9 @@
     "element": "Storm",
     "personality": "Loyal",
     "name": "Galehound",
-    "image": "/creatures/galehound.png"
+    "image": "/creatures/galehound.webp",
+    "alt": "Original fantasy creature artwork of Galehound, a Loyal Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "stormrider",
@@ -1700,7 +1960,9 @@
     "element": "Storm",
     "personality": "Loyal",
     "name": "Stormrider",
-    "image": "/creatures/stormrider.png"
+    "image": "/creatures/stormrider.webp",
+    "alt": "Original fantasy creature artwork of Stormrider, a Loyal Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "cloudknight",
@@ -1713,7 +1975,9 @@
     "element": "Storm",
     "personality": "Loyal",
     "name": "Cloudknight",
-    "image": "/creatures/cloudknight.png"
+    "image": "/creatures/cloudknight.webp",
+    "alt": "Original fantasy creature artwork of Cloudknight, a Loyal Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "rainwatcher",
@@ -1726,7 +1990,9 @@
     "element": "Storm",
     "personality": "Loyal",
     "name": "Rainwatcher",
-    "image": "/creatures/rainwatcher.png"
+    "image": "/creatures/rainwatcher.webp",
+    "alt": "Original fantasy creature artwork of Rainwatcher, a Loyal Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "softrain",
@@ -1739,7 +2005,9 @@
     "element": "Storm",
     "personality": "Gentle",
     "name": "Softrain",
-    "image": "/creatures/softrain.png"
+    "image": "/creatures/softrain.webp",
+    "alt": "Original fantasy creature artwork of Softrain, a Gentle Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "breezelull",
@@ -1752,7 +2020,9 @@
     "element": "Storm",
     "personality": "Gentle",
     "name": "Breezelull",
-    "image": "/creatures/breezelull.png"
+    "image": "/creatures/breezelull.webp",
+    "alt": "Original fantasy creature artwork of Breezelull, a Gentle Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "dewcloud",
@@ -1765,7 +2035,9 @@
     "element": "Storm",
     "personality": "Gentle",
     "name": "Dewcloud",
-    "image": "/creatures/dewcloud.png"
+    "image": "/creatures/dewcloud.webp",
+    "alt": "Original fantasy creature artwork of Dewcloud, a Gentle Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "mistcradle",
@@ -1778,7 +2050,9 @@
     "element": "Storm",
     "personality": "Gentle",
     "name": "Mistcradle",
-    "image": "/creatures/mistcradle.png"
+    "image": "/creatures/mistcradle.webp",
+    "alt": "Original fantasy creature artwork of Mistcradle, a Gentle Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "zephyrpet",
@@ -1791,7 +2065,9 @@
     "element": "Storm",
     "personality": "Gentle",
     "name": "Zephyrpet",
-    "image": "/creatures/zephyrpet.png"
+    "image": "/creatures/zephyrpet.webp",
+    "alt": "Original fantasy creature artwork of Zephyrpet, a Gentle Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "thundermane",
@@ -1804,7 +2080,9 @@
     "element": "Storm",
     "personality": "Fierce",
     "name": "Thundermane",
-    "image": "/creatures/thundermane.png"
+    "image": "/creatures/thundermane.webp",
+    "alt": "Original fantasy creature artwork of Thundermane, a Fierce Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "galeclaw",
@@ -1817,7 +2095,9 @@
     "element": "Storm",
     "personality": "Fierce",
     "name": "Galeclaw",
-    "image": "/creatures/galeclaw.png"
+    "image": "/creatures/galeclaw.webp",
+    "alt": "Original fantasy creature artwork of Galeclaw, a Fierce Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "squallfang",
@@ -1830,7 +2110,9 @@
     "element": "Storm",
     "personality": "Fierce",
     "name": "Squallfang",
-    "image": "/creatures/squallfang.png"
+    "image": "/creatures/squallfang.webp",
+    "alt": "Original fantasy creature artwork of Squallfang, a Fierce Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "tempesthorn",
@@ -1843,7 +2125,9 @@
     "element": "Storm",
     "personality": "Fierce",
     "name": "Tempesthorn",
-    "image": "/creatures/tempesthorn.png"
+    "image": "/creatures/tempesthorn.webp",
+    "alt": "Original fantasy creature artwork of Tempesthorn, a Fierce Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "boltstrike",
@@ -1856,7 +2140,9 @@
     "element": "Storm",
     "personality": "Fierce",
     "name": "Boltstrike",
-    "image": "/creatures/boltstrike.png"
+    "image": "/creatures/boltstrike.webp",
+    "alt": "Original fantasy creature artwork of Boltstrike, a Fierce Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "windnose",
@@ -1869,7 +2155,9 @@
     "element": "Storm",
     "personality": "Curious",
     "name": "Windnose",
-    "image": "/creatures/windnose.png"
+    "image": "/creatures/windnose.webp",
+    "alt": "Original fantasy creature artwork of Windnose, a Curious Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "rainsniff",
@@ -1882,7 +2170,9 @@
     "element": "Storm",
     "personality": "Curious",
     "name": "Rainsniff",
-    "image": "/creatures/rainsniff.png"
+    "image": "/creatures/rainsniff.webp",
+    "alt": "Original fantasy creature artwork of Rainsniff, a Curious Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "cloudpeek",
@@ -1895,7 +2185,9 @@
     "element": "Storm",
     "personality": "Curious",
     "name": "Cloudpeek",
-    "image": "/creatures/cloudpeek.png"
+    "image": "/creatures/cloudpeek.webp",
+    "alt": "Original fantasy creature artwork of Cloudpeek, a Curious Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "boltnose",
@@ -1908,7 +2200,9 @@
     "element": "Storm",
     "personality": "Curious",
     "name": "Boltnose",
-    "image": "/creatures/boltnose.png"
+    "image": "/creatures/boltnose.webp",
+    "alt": "Original fantasy creature artwork of Boltnose, a Curious Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "galequery",
@@ -1921,7 +2215,9 @@
     "element": "Storm",
     "personality": "Curious",
     "name": "Galequery",
-    "image": "/creatures/galequery.png"
+    "image": "/creatures/galequery.webp",
+    "alt": "Original fantasy creature artwork of Galequery, a Curious Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "stillwind",
@@ -1934,7 +2230,9 @@
     "element": "Storm",
     "personality": "Serene",
     "name": "Stillwind",
-    "image": "/creatures/stillwind.png"
+    "image": "/creatures/stillwind.webp",
+    "alt": "Original fantasy creature artwork of Stillwind, a Serene Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "cloudrest",
@@ -1947,7 +2245,9 @@
     "element": "Storm",
     "personality": "Serene",
     "name": "Cloudrest",
-    "image": "/creatures/cloudrest.png"
+    "image": "/creatures/cloudrest.webp",
+    "alt": "Original fantasy creature artwork of Cloudrest, a Serene Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "rainsigh",
@@ -1960,7 +2260,9 @@
     "element": "Storm",
     "personality": "Serene",
     "name": "Rainsigh",
-    "image": "/creatures/rainsigh.png"
+    "image": "/creatures/rainsigh.webp",
+    "alt": "Original fantasy creature artwork of Rainsigh, a Serene Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "thunderlull",
@@ -1973,7 +2275,9 @@
     "element": "Storm",
     "personality": "Serene",
     "name": "Thunderlull",
-    "image": "/creatures/thunderlull.png"
+    "image": "/creatures/thunderlull.webp",
+    "alt": "Original fantasy creature artwork of Thunderlull, a Serene Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "mistpeace",
@@ -1986,7 +2290,9 @@
     "element": "Storm",
     "personality": "Serene",
     "name": "Mistpeace",
-    "image": "/creatures/mistpeace.png"
+    "image": "/creatures/mistpeace.webp",
+    "alt": "Original fantasy creature artwork of Mistpeace, a Serene Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "zephyrhush",
@@ -1999,7 +2305,9 @@
     "element": "Storm",
     "personality": "Serene",
     "name": "Zephyrhush",
-    "image": "/creatures/zephyrhush.png"
+    "image": "/creatures/zephyrhush.webp",
+    "alt": "Original fantasy creature artwork of Zephyrhush, a Serene Storm-element creature.",
+    "status": "published"
   },
   {
     "id": "facetguard",
@@ -2012,7 +2320,9 @@
     "element": "Crystal",
     "personality": "Loyal",
     "name": "Facetguard",
-    "image": "/creatures/facetguard.png"
+    "image": "/creatures/facetguard.webp",
+    "alt": "Original fantasy creature artwork of Facetguard, a Loyal Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "gemvow",
@@ -2025,7 +2335,9 @@
     "element": "Crystal",
     "personality": "Loyal",
     "name": "Gemvow",
-    "image": "/creatures/gemvow.png"
+    "image": "/creatures/gemvow.webp",
+    "alt": "Original fantasy creature artwork of Gemvow, a Loyal Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "prismknight",
@@ -2038,7 +2350,9 @@
     "element": "Crystal",
     "personality": "Loyal",
     "name": "Prismknight",
-    "image": "/creatures/prismknight.png"
+    "image": "/creatures/prismknight.webp",
+    "alt": "Original fantasy creature artwork of Prismknight, a Loyal Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "shardkeeper",
@@ -2051,7 +2365,9 @@
     "element": "Crystal",
     "personality": "Loyal",
     "name": "Shardkeeper",
-    "image": "/creatures/shardkeeper.png"
+    "image": "/creatures/shardkeeper.webp",
+    "alt": "Original fantasy creature artwork of Shardkeeper, a Loyal Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "crystalcompanion",
@@ -2064,7 +2380,9 @@
     "element": "Crystal",
     "personality": "Loyal",
     "name": "Crystalcompanion",
-    "image": "/creatures/crystalcompanion.png"
+    "image": "/creatures/crystalcompanion.webp",
+    "alt": "Original fantasy creature artwork of Crystalcompanion, a Loyal Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "facetgaze",
@@ -2077,7 +2395,9 @@
     "element": "Crystal",
     "personality": "Curious",
     "name": "Facetgaze",
-    "image": "/creatures/facetgaze.png"
+    "image": "/creatures/facetgaze.webp",
+    "alt": "Original fantasy creature artwork of Facetgaze, a Curious Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "shardpeek",
@@ -2090,7 +2410,9 @@
     "element": "Crystal",
     "personality": "Curious",
     "name": "Shardpeek",
-    "image": "/creatures/shardpeek.png"
+    "image": "/creatures/shardpeek.webp",
+    "alt": "Original fantasy creature artwork of Shardpeek, a Curious Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "glintnose",
@@ -2103,7 +2425,9 @@
     "element": "Crystal",
     "personality": "Curious",
     "name": "Glintnose",
-    "image": "/creatures/glintnose.png"
+    "image": "/creatures/glintnose.webp",
+    "alt": "Original fantasy creature artwork of Glintnose, a Curious Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "prismpup",
@@ -2116,7 +2440,9 @@
     "element": "Crystal",
     "personality": "Curious",
     "name": "Prismpup",
-    "image": "/creatures/prismpup.png"
+    "image": "/creatures/prismpup.webp",
+    "alt": "Original fantasy creature artwork of Prismpup, a Curious Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "quartzkin",
@@ -2129,7 +2455,9 @@
     "element": "Crystal",
     "personality": "Curious",
     "name": "Quartzkin",
-    "image": "/creatures/quartzkin.png"
+    "image": "/creatures/quartzkin.webp",
+    "alt": "Original fantasy creature artwork of Quartzkin, a Curious Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "shardclaw",
@@ -2142,7 +2470,9 @@
     "element": "Crystal",
     "personality": "Fierce",
     "name": "Shardclaw",
-    "image": "/creatures/shardclaw.png"
+    "image": "/creatures/shardclaw.webp",
+    "alt": "Original fantasy creature artwork of Shardclaw, a Fierce Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "gemhowl",
@@ -2155,7 +2485,9 @@
     "element": "Crystal",
     "personality": "Fierce",
     "name": "Gemhowl",
-    "image": "/creatures/gemhowl.png"
+    "image": "/creatures/gemhowl.webp",
+    "alt": "Original fantasy creature artwork of Gemhowl, a Fierce Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "prismfang",
@@ -2168,7 +2500,9 @@
     "element": "Crystal",
     "personality": "Fierce",
     "name": "Prismfang",
-    "image": "/creatures/prismfang.png"
+    "image": "/creatures/prismfang.webp",
+    "alt": "Original fantasy creature artwork of Prismfang, a Fierce Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "crystalrend",
@@ -2181,7 +2515,9 @@
     "element": "Crystal",
     "personality": "Fierce",
     "name": "Crystalrend",
-    "image": "/creatures/crystalrend.png"
+    "image": "/creatures/crystalrend.webp",
+    "alt": "Original fantasy creature artwork of Crystalrend, a Fierce Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "opalstrike",
@@ -2194,7 +2530,9 @@
     "element": "Crystal",
     "personality": "Fierce",
     "name": "Opalstrike",
-    "image": "/creatures/opalstrike.png"
+    "image": "/creatures/opalstrike.webp",
+    "alt": "Original fantasy creature artwork of Opalstrike, a Fierce Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "glassstill",
@@ -2207,7 +2545,9 @@
     "element": "Crystal",
     "personality": "Serene",
     "name": "Glassstill",
-    "image": "/creatures/glassstill.png"
+    "image": "/creatures/glassstill.webp",
+    "alt": "Original fantasy creature artwork of Glassstill, a Serene Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "quartzrest",
@@ -2220,7 +2560,9 @@
     "element": "Crystal",
     "personality": "Serene",
     "name": "Quartzrest",
-    "image": "/creatures/quartzrest.png"
+    "image": "/creatures/quartzrest.webp",
+    "alt": "Original fantasy creature artwork of Quartzrest, a Serene Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "facetcalm",
@@ -2233,7 +2575,9 @@
     "element": "Crystal",
     "personality": "Serene",
     "name": "Facetcalm",
-    "image": "/creatures/facetcalm.png"
+    "image": "/creatures/facetcalm.webp",
+    "alt": "Original fantasy creature artwork of Facetcalm, a Serene Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "crystalbreathe",
@@ -2246,7 +2590,9 @@
     "element": "Crystal",
     "personality": "Serene",
     "name": "Crystalbreathe",
-    "image": "/creatures/crystalbreathe.png"
+    "image": "/creatures/crystalbreathe.webp",
+    "alt": "Original fantasy creature artwork of Crystalbreathe, a Serene Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "shardpeace",
@@ -2259,7 +2605,9 @@
     "element": "Crystal",
     "personality": "Serene",
     "name": "Shardpeace",
-    "image": "/creatures/shardpeace.png"
+    "image": "/creatures/shardpeace.webp",
+    "alt": "Original fantasy creature artwork of Shardpeace, a Serene Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "softgem",
@@ -2272,7 +2620,9 @@
     "element": "Crystal",
     "personality": "Gentle",
     "name": "Softgem",
-    "image": "/creatures/softgem.png"
+    "image": "/creatures/softgem.webp",
+    "alt": "Original fantasy creature artwork of Softgem, a Gentle Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "opalglow",
@@ -2285,7 +2635,9 @@
     "element": "Crystal",
     "personality": "Gentle",
     "name": "Opalglow",
-    "image": "/creatures/opalglow.png"
+    "image": "/creatures/opalglow.webp",
+    "alt": "Original fantasy creature artwork of Opalglow, a Gentle Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "crystalnurture",
@@ -2298,7 +2650,9 @@
     "element": "Crystal",
     "personality": "Gentle",
     "name": "Crystalnurture",
-    "image": "/creatures/crystalnurture.png"
+    "image": "/creatures/crystalnurture.webp",
+    "alt": "Original fantasy creature artwork of Crystalnurture, a Gentle Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "gentlefacet",
@@ -2311,7 +2665,9 @@
     "element": "Crystal",
     "personality": "Gentle",
     "name": "Gentlefacet",
-    "image": "/creatures/gentlefacet.png"
+    "image": "/creatures/gentlefacet.webp",
+    "alt": "Original fantasy creature artwork of Gentlefacet, a Gentle Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "glintkind",
@@ -2324,7 +2680,9 @@
     "element": "Crystal",
     "personality": "Gentle",
     "name": "Glintkind",
-    "image": "/creatures/glintkind.png"
+    "image": "/creatures/glintkind.webp",
+    "alt": "Original fantasy creature artwork of Glintkind, a Gentle Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "prismtrick",
@@ -2337,7 +2695,9 @@
     "element": "Crystal",
     "personality": "Mischievous",
     "name": "Prismtrick",
-    "image": "/creatures/prismtrick.png"
+    "image": "/creatures/prismtrick.webp",
+    "alt": "Original fantasy creature artwork of Prismtrick, a Mischievous Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "gemthief",
@@ -2350,7 +2710,9 @@
     "element": "Crystal",
     "personality": "Mischievous",
     "name": "Gemthief",
-    "image": "/creatures/gemthief.png"
+    "image": "/creatures/gemthief.webp",
+    "alt": "Original fantasy creature artwork of Gemthief, a Mischievous Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "shardprank",
@@ -2363,7 +2725,9 @@
     "element": "Crystal",
     "personality": "Mischievous",
     "name": "Shardprank",
-    "image": "/creatures/shardprank.png"
+    "image": "/creatures/shardprank.webp",
+    "alt": "Original fantasy creature artwork of Shardprank, a Mischievous Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "facetjoke",
@@ -2376,7 +2740,9 @@
     "element": "Crystal",
     "personality": "Mischievous",
     "name": "Facetjoke",
-    "image": "/creatures/facetjoke.png"
+    "image": "/creatures/facetjoke.webp",
+    "alt": "Original fantasy creature artwork of Facetjoke, a Mischievous Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "glinttrick",
@@ -2389,7 +2755,9 @@
     "element": "Crystal",
     "personality": "Mischievous",
     "name": "Glinttrick",
-    "image": "/creatures/glinttrick.png"
+    "image": "/creatures/glinttrick.webp",
+    "alt": "Original fantasy creature artwork of Glinttrick, a Mischievous Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "crystalimp",
@@ -2402,7 +2770,9 @@
     "element": "Crystal",
     "personality": "Mischievous",
     "name": "Crystalimp",
-    "image": "/creatures/crystalimp.png"
+    "image": "/creatures/crystalimp.webp",
+    "alt": "Original fantasy creature artwork of Crystalimp, a Mischievous Crystal-element creature.",
+    "status": "published"
   },
   {
     "id": "twilightrest",
@@ -2415,7 +2785,9 @@
     "element": "Dusk",
     "personality": "Serene",
     "name": "Twilightrest",
-    "image": "/creatures/twilightrest.png"
+    "image": "/creatures/twilightrest.webp",
+    "alt": "Original fantasy creature artwork of Twilightrest, a Serene Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "shadowhush",
@@ -2428,7 +2800,9 @@
     "element": "Dusk",
     "personality": "Serene",
     "name": "Shadowhush",
-    "image": "/creatures/shadowhush.png"
+    "image": "/creatures/shadowhush.webp",
+    "alt": "Original fantasy creature artwork of Shadowhush, a Serene Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "eveglow",
@@ -2441,7 +2815,9 @@
     "element": "Dusk",
     "personality": "Serene",
     "name": "Eveglow",
-    "image": "/creatures/eveglow.png"
+    "image": "/creatures/eveglow.webp",
+    "alt": "Original fantasy creature artwork of Eveglow, a Serene Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskstill",
@@ -2454,7 +2830,9 @@
     "element": "Dusk",
     "personality": "Serene",
     "name": "Duskstill",
-    "image": "/creatures/duskstill.png"
+    "image": "/creatures/duskstill.webp",
+    "alt": "Original fantasy creature artwork of Duskstill, a Serene Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "mooncalm",
@@ -2467,7 +2845,9 @@
     "element": "Dusk",
     "personality": "Serene",
     "name": "Mooncalm",
-    "image": "/creatures/mooncalm.png"
+    "image": "/creatures/mooncalm.webp",
+    "alt": "Original fantasy creature artwork of Mooncalm, a Serene Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "shadowtrick",
@@ -2480,7 +2860,9 @@
     "element": "Dusk",
     "personality": "Mischievous",
     "name": "Shadowtrick",
-    "image": "/creatures/shadowtrick.png"
+    "image": "/creatures/shadowtrick.webp",
+    "alt": "Original fantasy creature artwork of Shadowtrick, a Mischievous Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskprank",
@@ -2493,7 +2875,9 @@
     "element": "Dusk",
     "personality": "Mischievous",
     "name": "Duskprank",
-    "image": "/creatures/duskprank.png"
+    "image": "/creatures/duskprank.webp",
+    "alt": "Original fantasy creature artwork of Duskprank, a Mischievous Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "gloomtrick",
@@ -2506,7 +2890,9 @@
     "element": "Dusk",
     "personality": "Mischievous",
     "name": "Gloomtrick",
-    "image": "/creatures/gloomtrick.png"
+    "image": "/creatures/gloomtrick.webp",
+    "alt": "Original fantasy creature artwork of Gloomtrick, a Mischievous Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "nightpix",
@@ -2519,7 +2905,9 @@
     "element": "Dusk",
     "personality": "Mischievous",
     "name": "Nightpix",
-    "image": "/creatures/nightpix.png"
+    "image": "/creatures/nightpix.webp",
+    "alt": "Original fantasy creature artwork of Nightpix, a Mischievous Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "veilsneak",
@@ -2532,7 +2920,9 @@
     "element": "Dusk",
     "personality": "Mischievous",
     "name": "Veilsneak",
-    "image": "/creatures/veilsneak.png"
+    "image": "/creatures/veilsneak.webp",
+    "alt": "Original fantasy creature artwork of Veilsneak, a Mischievous Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "moonpeek",
@@ -2545,7 +2935,9 @@
     "element": "Dusk",
     "personality": "Curious",
     "name": "Moonpeek",
-    "image": "/creatures/moonpeek.png"
+    "image": "/creatures/moonpeek.webp",
+    "alt": "Original fantasy creature artwork of Moonpeek, a Curious Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "starnose",
@@ -2558,7 +2950,9 @@
     "element": "Dusk",
     "personality": "Curious",
     "name": "Starnose",
-    "image": "/creatures/starnose.png"
+    "image": "/creatures/starnose.webp",
+    "alt": "Original fantasy creature artwork of Starnose, a Curious Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskprobe",
@@ -2571,7 +2965,9 @@
     "element": "Dusk",
     "personality": "Curious",
     "name": "Duskprobe",
-    "image": "/creatures/duskprobe.png"
+    "image": "/creatures/duskprobe.webp",
+    "alt": "Original fantasy creature artwork of Duskprobe, a Curious Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "shadowgaze",
@@ -2584,7 +2980,9 @@
     "element": "Dusk",
     "personality": "Curious",
     "name": "Shadowgaze",
-    "image": "/creatures/shadowgaze.png"
+    "image": "/creatures/shadowgaze.webp",
+    "alt": "Original fantasy creature artwork of Shadowgaze, a Curious Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "nightwonder",
@@ -2597,7 +2995,9 @@
     "element": "Dusk",
     "personality": "Curious",
     "name": "Nightwonder",
-    "image": "/creatures/nightwonder.png"
+    "image": "/creatures/nightwonder.webp",
+    "alt": "Original fantasy creature artwork of Nightwonder, a Curious Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "shadowfang",
@@ -2610,7 +3010,9 @@
     "element": "Dusk",
     "personality": "Fierce",
     "name": "Shadowfang",
-    "image": "/creatures/shadowfang.png"
+    "image": "/creatures/shadowfang.webp",
+    "alt": "Original fantasy creature artwork of Shadowfang, a Fierce Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "gloomclaw",
@@ -2623,7 +3025,9 @@
     "element": "Dusk",
     "personality": "Fierce",
     "name": "Gloomclaw",
-    "image": "/creatures/gloomclaw.png"
+    "image": "/creatures/gloomclaw.webp",
+    "alt": "Original fantasy creature artwork of Gloomclaw, a Fierce Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskfang",
@@ -2636,7 +3040,9 @@
     "element": "Dusk",
     "personality": "Fierce",
     "name": "Duskfang",
-    "image": "/creatures/duskfang.png"
+    "image": "/creatures/duskfang.webp",
+    "alt": "Original fantasy creature artwork of Duskfang, a Fierce Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "veilslash",
@@ -2649,7 +3055,9 @@
     "element": "Dusk",
     "personality": "Fierce",
     "name": "Veilslash",
-    "image": "/creatures/veilslash.png"
+    "image": "/creatures/veilslash.webp",
+    "alt": "Original fantasy creature artwork of Veilslash, a Fierce Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "moonhowl",
@@ -2662,7 +3070,9 @@
     "element": "Dusk",
     "personality": "Fierce",
     "name": "Moonhowl",
-    "image": "/creatures/moonhowl.png"
+    "image": "/creatures/moonhowl.webp",
+    "alt": "Original fantasy creature artwork of Moonhowl, a Fierce Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "nightguard",
@@ -2675,7 +3085,9 @@
     "element": "Dusk",
     "personality": "Loyal",
     "name": "Nightguard",
-    "image": "/creatures/nightguard.png"
+    "image": "/creatures/nightguard.webp",
+    "alt": "Original fantasy creature artwork of Nightguard, a Loyal Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskwatch",
@@ -2688,7 +3100,9 @@
     "element": "Dusk",
     "personality": "Loyal",
     "name": "Duskwatch",
-    "image": "/creatures/duskwatch.png"
+    "image": "/creatures/duskwatch.webp",
+    "alt": "Original fantasy creature artwork of Duskwatch, a Loyal Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "mooncompanion",
@@ -2701,7 +3115,9 @@
     "element": "Dusk",
     "personality": "Loyal",
     "name": "Mooncompanion",
-    "image": "/creatures/mooncompanion.png"
+    "image": "/creatures/mooncompanion.webp",
+    "alt": "Original fantasy creature artwork of Mooncompanion, a Loyal Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "starstead",
@@ -2714,7 +3130,9 @@
     "element": "Dusk",
     "personality": "Loyal",
     "name": "Starstead",
-    "image": "/creatures/starstead.png"
+    "image": "/creatures/starstead.webp",
+    "alt": "Original fantasy creature artwork of Starstead, a Loyal Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "nightwarden",
@@ -2727,7 +3145,9 @@
     "element": "Dusk",
     "personality": "Loyal",
     "name": "Nightwarden",
-    "image": "/creatures/nightwarden.png"
+    "image": "/creatures/nightwarden.webp",
+    "alt": "Original fantasy creature artwork of Nightwarden, a Loyal Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "softnight",
@@ -2740,7 +3160,9 @@
     "element": "Dusk",
     "personality": "Gentle",
     "name": "Softnight",
-    "image": "/creatures/softnight.png"
+    "image": "/creatures/softnight.webp",
+    "alt": "Original fantasy creature artwork of Softnight, a Gentle Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskcradle",
@@ -2753,7 +3175,9 @@
     "element": "Dusk",
     "personality": "Gentle",
     "name": "Duskcradle",
-    "image": "/creatures/duskcradle.png"
+    "image": "/creatures/duskcradle.webp",
+    "alt": "Original fantasy creature artwork of Duskcradle, a Gentle Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "moonlight",
@@ -2766,7 +3190,9 @@
     "element": "Dusk",
     "personality": "Gentle",
     "name": "Moonlight",
-    "image": "/creatures/moonlight.png"
+    "image": "/creatures/moonlight.webp",
+    "alt": "Original fantasy creature artwork of Moonlight, a Gentle Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "starwhisper",
@@ -2779,7 +3205,9 @@
     "element": "Dusk",
     "personality": "Gentle",
     "name": "Starwhisper",
-    "image": "/creatures/starwhisper.png"
+    "image": "/creatures/starwhisper.webp",
+    "alt": "Original fantasy creature artwork of Starwhisper, a Gentle Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "duskwarmth",
@@ -2792,7 +3220,9 @@
     "element": "Dusk",
     "personality": "Gentle",
     "name": "Duskwarmth",
-    "image": "/creatures/duskwarmth.png"
+    "image": "/creatures/duskwarmth.webp",
+    "alt": "Original fantasy creature artwork of Duskwarmth, a Gentle Dusk-element creature.",
+    "status": "published"
   },
   {
     "id": "nightcomfort",
@@ -2805,6 +3235,8 @@
     "element": "Dusk",
     "personality": "Gentle",
     "name": "Nightcomfort",
-    "image": "/creatures/nightcomfort.png"
+    "image": "/creatures/nightcomfort.webp",
+    "alt": "Original fantasy creature artwork of Nightcomfort, a Gentle Dusk-element creature.",
+    "status": "published"
   }
 ]

@@ -11,6 +11,7 @@ import type { Creature, Element, Personality } from "@/lib/types";
 import { CreatureCard } from "@/components/creature-card";
 import { FilterPanel } from "@/components/filter-panel";
 import { ELEMENT_COLORS } from "@/lib/elements";
+import { trackEvent } from "@/lib/analytics";
 
 const MIN_QUANTITY = 1;
 const MAX_QUANTITY = 6;
@@ -85,6 +86,11 @@ export default function Home() {
         .map((id) => getCreature(id))
         .filter((c): c is Creature => c !== null),
     );
+    trackEvent("generate", {
+      quantity,
+      element: elementFilter ?? "all",
+      personality: personalityFilter ?? "all",
+    });
     setIsGenerating(false);
   }
 

@@ -62,6 +62,12 @@ if (!existsSync(creaturesPath)) {
         if (!VALID_ELEMENTS.has(c?.element)) {
           fail(`creature '${id}' has invalid element '${c?.element}'`);
         }
+        if (typeof c?.alt !== "string" || c.alt.trim() === "") {
+          fail(`creature '${id}' is missing 'alt'`);
+        }
+        if (c?.status !== "draft" && c?.status !== "published") {
+          fail(`creature '${id}' has invalid status '${c?.status}' (must be draft or published)`);
+        }
         if (c?.image != null) {
           if (typeof c.image !== "string" || !c.image.startsWith("/")) {
             fail(`creature '${id}' has invalid image path '${c.image}'`);
