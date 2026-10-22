@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { CREATURES, getCreature } from "@/lib/data/creatures";
 import {
   createShuffleBag,
@@ -108,7 +109,17 @@ export default function Home() {
         </h1>
         <p className="mx-auto mt-3 max-w-xl text-stone-600">
           Roll original fantasy creatures — each with its own name, story, and
-          traits. No repeats within a batch.
+          traits. Browse 216 unique companions across six elements (Ember, Tide,
+          Grove, Storm, Crystal, and Dusk) and six personalities. No repeats
+          within a batch.
+        </p>
+        <p className="mt-4">
+          <Link
+            href="/creatures"
+            className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+          >
+            Browse all 216 creatures →
+          </Link>
         </p>
       </header>
 

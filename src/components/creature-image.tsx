@@ -8,15 +8,22 @@ import { ELEMENT_COLORS, ELEMENT_EMOJI } from "@/lib/elements";
 export function CreatureImage({
   creature,
   className,
+  priority = false,
 }: {
   creature: Creature;
   className?: string;
+  priority?: boolean;
 }) {
   if (creature.image) {
     return (
       <img
         src={creature.image}
         alt={creature.alt}
+        width={1024}
+        height={1280}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={priority ? "high" : "auto"}
         className={`object-cover ${className ?? ""}`}
       />
     );

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CREATURES, getCreature } from "@/lib/data/creatures";
 import { CreatureCard } from "@/components/creature-card";
-import { SITE_URL } from "@/lib/site";
+import { JsonLd } from "@/components/json-ld";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 // Only the slugs we generate are valid; anything else 404s on a static host.
 export const dynamicParams = false;
@@ -66,9 +67,67 @@ export default async function CreaturePage({
     );
   }
 
+  const related = CREATURES.filter(
+    (c) => c.element === creature.element && c.id !== creature.id,
+  ).slice(0, 4);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: creature.name,
+    description: creature.description,
+    url: `${SITE_URL}/creatures/${creature.id}`,
+    ...(creature.image
+      ? { primaryImageOfPage: `${SITE_URL}${creature.image}` }
+      : {}),
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
+  };
+
   return (
     <main className="mx-auto w-full max-w-lg px-4 py-12 sm:px-6">
-      <CreatureCard creature={creature} />
+      <JsonLd data={jsonLd} />
+
+      <nav aria-label="Breadcrumb" className="mb-4 text-sm text-stone-500">
+        <Link href="/" className="transition hover:text-stone-700">
+          Home
+        </Link>
+        <span aria-hidden> / </span>
+        <Link href="/creatures" className="transition hover:text-stone-700">
+          Creatures
+        </Link>
+        <span aria-hidden> / </span>
+        <span className="font-semibold text-stone-800">{creature.name}</span>
+      </nav>
+
+      <CreatureCard creature={creature} headingLevel="h1" imagePriority />
+
+      <p className="mt-6 text-sm leading-relaxed text-stone-600">
+        {creature.name} is an original fantasy creature aligned with{" "}
+        {creature.element}, with a {creature.personality.toLowerCase()} nature —
+        one of 216 handcrafted companions you can roll on the home page.
+      </p>
+
+      {related.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-sm font-bold uppercase tracking-widest text-stone-500">
+            More {creature.element} creatures
+          </h2>
+          <ul className="mt-3 grid grid-cols-2 gap-2">
+            {related.map((c) => (
+              <li key={c.id}>
+                <Link
+                  href={`/creatures/${c.id}`}
+                  className="flex flex-col rounded-xl bg-white/70 px-3 py-2 ring-1 ring-stone-900/10 backdrop-blur-sm transition hover:bg-white"
+                >
+                  <span className="font-semibold text-stone-900">{c.name}</span>
+                  <span className="text-xs text-stone-500">{c.personality}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <p className="mt-6 text-center">
         <Link
           href="/"

@@ -1,0 +1,19 @@
+# Security headers applied to every response.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Keep Next.js RSC payloads (*.txt) out of the search index.
+/*.txt
+  X-Robots-Tag: noindex, nofollow
+
+# Fingerprinted build assets are content-hashed — safe to cache forever.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Creature artwork is stable; long-cache it (not "immutable" so a hard reload
+# can still pick up a replaced image of the same name).
+/creatures/*.webp
+  Cache-Control: public, max-age=31536000

@@ -14,7 +14,16 @@ import { ELEMENT_COLORS } from "@/lib/elements";
  * traits, plus favorite and share actions. Favorite state is self-managed via
  * the shared store.
  */
-export function CreatureCard({ creature }: { creature: Creature }) {
+export function CreatureCard({
+  creature,
+  headingLevel = "h2",
+  imagePriority = false,
+}: {
+  creature: Creature;
+  headingLevel?: "h1" | "h2";
+  imagePriority?: boolean;
+}) {
+  const Heading = headingLevel;
   const { favorites, toggle } = useFavorites();
   const isFavorite = favorites.includes(creature.id);
   const colors = ELEMENT_COLORS[creature.element];
@@ -25,7 +34,11 @@ export function CreatureCard({ creature }: { creature: Creature }) {
       style={{ "--glow": `${colors.from}66` } as CSSProperties}
     >
       <div className="relative">
-        <CreatureImage creature={creature} className="aspect-[4/5] w-full" />
+        <CreatureImage
+          creature={creature}
+          className="aspect-[4/5] w-full"
+          priority={imagePriority}
+        />
         <div className="absolute left-3 top-3 flex flex-col gap-1.5">
           <ElementBadge element={creature.element} />
           <PersonalityBadge personality={creature.personality} />
@@ -34,9 +47,9 @@ export function CreatureCard({ creature }: { creature: Creature }) {
 
       <div className="p-5 sm:p-6">
         <div className="flex items-start justify-between gap-3">
-          <h2 className="font-display text-2xl font-bold text-stone-900">
+          <Heading className="font-display text-2xl font-bold text-stone-900">
             {creature.name}
-          </h2>
+          </Heading>
           <button
             type="button"
             onClick={() => toggle(creature.id)}
