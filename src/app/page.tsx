@@ -16,6 +16,7 @@ import { SummonBurst } from "@/components/summon-burst";
 import { RollShareButton } from "@/components/roll-share-button";
 import { parseRollIds } from "@/lib/share-text";
 import { trackEvent } from "@/lib/analytics";
+import { generationOf } from "@/lib/generations";
 
 const MIN_QUANTITY = 1;
 const MAX_QUANTITY = 6;
@@ -24,6 +25,7 @@ export default function Home() {
   const [elementFilter, setElementFilter] = useState<Element | null>(null);
   const [personalityFilter, setPersonalityFilter] =
     useState<Personality | null>(null);
+  const [generationFilter, setGenerationFilter] = useState<number | null>(null);
   const [quantity, setQuantity] = useState<number>(5);
   const [bag, setBag] = useState<ShuffleBag>(() =>
     createShuffleBag(CREATURES.map((c) => c.id)),
@@ -37,9 +39,10 @@ export default function Home() {
       CREATURES.filter(
         (c) =>
           (elementFilter === null || c.element === elementFilter) &&
-          (personalityFilter === null || c.personality === personalityFilter),
+          (personalityFilter === null || c.personality === personalityFilter) &&
+          (generationFilter === null || generationOf(c) === generationFilter),
       ).map((c) => c.id),
-    [elementFilter, personalityFilter],
+    [elementFilter, personalityFilter, generationFilter],
   );
 
   // Changing a filter starts a fresh no-repeat round over the new pool.
@@ -85,6 +88,7 @@ export default function Home() {
       quantity,
       element: elementFilter ?? "all",
       personality: personalityFilter ?? "all",
+      generation: generationFilter ?? "all",
     });
     setIsGenerating(false);
   }
@@ -129,22 +133,16 @@ export default function Home() {
           elements (Ember, Tide, Grove, Storm, Crystal, and Dusk), six
           personalities, and two generations. No repeats within a batch.
         </p>
-        <p className="mt-4">
-          <Link
-            href="/creatures"
-            className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
-          >
-            Browse all {CREATURES.length} creatures →
-          </Link>
-        </p>
       </header>
 
       <div className="mx-auto max-w-2xl">
         <FilterPanel
           element={elementFilter}
           personality={personalityFilter}
+          generation={generationFilter}
           onElementChange={setElementFilter}
           onPersonalityChange={setPersonalityFilter}
+          onGenerationChange={setGenerationFilter}
         />
 
         <div className="mt-6 flex items-center justify-center gap-3">

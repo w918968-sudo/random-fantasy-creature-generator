@@ -42,7 +42,13 @@ export function Nav() {
           onClick={() => setOpen(false)}
           className="flex shrink-0 items-center gap-2 font-display text-lg font-bold text-stone-900"
         >
-          <span aria-hidden className="text-amber-500">✦</span>
+          <img
+            src="/logo.png"
+            alt=""
+            width={256}
+            height={256}
+            className="h-7 w-7 shrink-0 object-contain"
+          />
           Fantasy Creatures
         </Link>
 

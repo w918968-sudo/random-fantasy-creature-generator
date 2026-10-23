@@ -5,6 +5,7 @@ import type { Element, Personality } from "@/lib/types";
 import { ALL_ELEMENTS, ALL_PERSONALITIES } from "@/lib/types";
 import { ELEMENT_EMOJI } from "@/lib/elements";
 import { PERSONALITY_EMOJI } from "@/lib/personalities";
+import { ALL_GENERATIONS, GENERATION_EMOJI, generationOrdinal } from "@/lib/generations";
 
 function Chip({
   active,
@@ -31,17 +32,21 @@ function Chip({
   );
 }
 
-/** Element + personality filter chips. Single-select per dimension. */
+/** Element + personality + generation filter chips. Single-select per dimension. */
 export function FilterPanel({
   element,
   personality,
+  generation,
   onElementChange,
   onPersonalityChange,
+  onGenerationChange,
 }: {
   element: Element | null;
   personality: Personality | null;
+  generation: number | null;
   onElementChange: (element: Element | null) => void;
   onPersonalityChange: (personality: Personality | null) => void;
+  onGenerationChange: (generation: number | null) => void;
 }) {
   return (
     <section
@@ -88,6 +93,30 @@ export function FilterPanel({
             >
               <span aria-hidden>{PERSONALITY_EMOJI[p]}</span>
               {p}
+            </Chip>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-4">
+        <p className="text-xs font-bold uppercase tracking-widest text-stone-500">
+          Generation
+        </p>
+        <div className="mt-2 flex flex-wrap gap-2">
+          <Chip
+            active={generation === null}
+            onClick={() => onGenerationChange(null)}
+          >
+            All
+          </Chip>
+          {ALL_GENERATIONS.map((g) => (
+            <Chip
+              key={g}
+              active={generation === g}
+              onClick={() => onGenerationChange(g)}
+            >
+              <span aria-hidden>{GENERATION_EMOJI[g]}</span>
+              {generationOrdinal(g)} gen
             </Chip>
           ))}
         </div>

@@ -51,6 +51,12 @@ yarn-error.log*
 /scripts/.gen2-compare/
 /scripts/.make-comparison.mjs
 
+# favicon design candidates (scratch; pick one then clean up)
+/assets/favicon-candidates/
+
+# site mascot source image (1.6 MB, dev-time only — derived icon.png/logo.png are committed)
+/d66bb9e0-2d96-48fe-a2d5-3b3faa983379.png
+
 # vercel
 .vercel
 
