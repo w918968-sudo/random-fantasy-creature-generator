@@ -12,6 +12,8 @@ import path from "node:path";
 const root = process.cwd();
 
 const VALID_ELEMENTS = new Set(["Ember", "Tide", "Grove", "Storm", "Crystal", "Dusk"]);
+const VALID_HABITATS = new Set(["Forest", "Ocean", "Mountain", "Sky", "Cavern"]);
+const VALID_RARITIES = new Set(["Common", "Uncommon", "Rare", "Epic", "Legendary"]);
 const ID_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 let failed = false;
@@ -61,6 +63,12 @@ if (!existsSync(creaturesPath)) {
         }
         if (!VALID_ELEMENTS.has(c?.element)) {
           fail(`creature '${id}' has invalid element '${c?.element}'`);
+        }
+        if (!VALID_HABITATS.has(c?.habitat)) {
+          fail(`creature '${id}' has invalid habitat '${c?.habitat}'`);
+        }
+        if (!VALID_RARITIES.has(c?.rarity)) {
+          fail(`creature '${id}' has invalid rarity '${c?.rarity}'`);
         }
         if (typeof c?.alt !== "string" || c.alt.trim() === "") {
           fail(`creature '${id}' is missing 'alt'`);

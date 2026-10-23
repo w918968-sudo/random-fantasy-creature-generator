@@ -16,6 +16,20 @@ export type Personality =
   | "Curious"
   | "Loyal";
 
+export type Habitat =
+  | "Forest"
+  | "Ocean"
+  | "Mountain"
+  | "Sky"
+  | "Cavern";
+
+export type Rarity =
+  | "Common"
+  | "Uncommon"
+  | "Rare"
+  | "Epic"
+  | "Legendary";
+
 export type CreatureStatus = "draft" | "published";
 
 export interface Creature {
@@ -33,6 +47,14 @@ export interface Creature {
   element: Element;
   /** Personality used for filtering and (later) prompt shaping. */
   personality: Personality;
+  /** Natural home — a cross-cutting facet distinct from element. */
+  habitat: Habitat;
+  /** Assigned rarity tier, stable per creature (like a gacha roster). */
+  rarity: Rarity;
+  /** Evolution stage: 1 = first generation, 2 = evolved (2nd gen), and so on. Omitted = 1. */
+  generation?: number;
+  /** For evolved forms: the 1st-gen creature id this form evolved from. */
+  evolvesFrom?: string;
   /** Accurate alt text describing the artwork. */
   alt: string;
   /** Whether the creature is publicly visible. Drafts are excluded from the pool, pages, and sitemap. */
@@ -55,4 +77,20 @@ export const ALL_PERSONALITIES: readonly Personality[] = [
   "Fierce",
   "Curious",
   "Loyal",
+];
+
+export const ALL_HABITATS: readonly Habitat[] = [
+  "Forest",
+  "Ocean",
+  "Mountain",
+  "Sky",
+  "Cavern",
+];
+
+export const ALL_RARITIES: readonly Rarity[] = [
+  "Common",
+  "Uncommon",
+  "Rare",
+  "Epic",
+  "Legendary",
 ];

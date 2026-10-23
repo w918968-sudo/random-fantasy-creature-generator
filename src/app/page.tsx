@@ -6,41 +6,19 @@ import { CREATURES, getCreature } from "@/lib/data/creatures";
 import {
   createShuffleBag,
   drawMany,
+  shuffle,
   type ShuffleBag,
 } from "@/lib/generator/shuffle-bag";
 import type { Creature, Element, Personality } from "@/lib/types";
 import { CreatureCard } from "@/components/creature-card";
 import { FilterPanel } from "@/components/filter-panel";
-import { ELEMENT_COLORS } from "@/lib/elements";
+import { SummonBurst } from "@/components/summon-burst";
+import { RollShareButton } from "@/components/roll-share-button";
+import { parseRollIds } from "@/lib/share-text";
 import { trackEvent } from "@/lib/analytics";
 
 const MIN_QUANTITY = 1;
 const MAX_QUANTITY = 6;
-
-/** One-shot light flash + expanding ring when a creature is summoned. */
-function SummonBurst({ creature }: { creature: Creature }) {
-  const colors = ELEMENT_COLORS[creature.element];
-  return (
-    <>
-      <span
-        aria-hidden
-        className="pointer-events-none absolute inset-0 z-10 animate-flash rounded-[1.75rem]"
-        style={{
-          background:
-            "radial-gradient(circle at 50% 40%, rgba(255,255,255,0.95), rgba(255,255,255,0) 70%)",
-        }}
-      />
-      <span
-        aria-hidden
-        className="pointer-events-none absolute left-1/2 top-1/2 z-10 h-40 w-40 animate-burst-ring rounded-full"
-        style={{
-          border: `3px solid ${colors.from}`,
-          boxShadow: `0 0 32px ${colors.from}aa, inset 0 0 32px ${colors.from}66`,
-        }}
-      />
-    </>
-  );
-}
 
 export default function Home() {
   const [elementFilter, setElementFilter] = useState<Element | null>(null);
@@ -52,6 +30,7 @@ export default function Home() {
   );
   const [current, setCurrent] = useState<Creature[]>([]);
   const [isGenerating, setIsGenerating] = useState(false);
+  const [sharedRoll, setSharedRoll] = useState(false);
 
   const filteredIds = useMemo(
     () =>
@@ -68,6 +47,20 @@ export default function Home() {
     setBag(createShuffleBag(filteredIds));
     setCurrent([]);
   }, [filteredIds]);
+
+  // Reproduce a shared roll from `?roll=a,b,c` (client-only; keeps static
+  // export free of build-time URL state).
+  useEffect(() => {
+    const ids = parseRollIds(window.location.search);
+    if (ids.length === 0) return;
+    const creatures = ids
+      .map((id) => getCreature(id))
+      .filter((c): c is Creature => c !== null)
+      .slice(0, MAX_QUANTITY);
+    if (creatures.length === 0) return;
+    setCurrent(creatures);
+    setSharedRoll(true);
+  }, []);
 
   const total = filteredIds.length;
   const seen = total - bag.remaining.length;
@@ -87,12 +80,35 @@ export default function Home() {
         .map((id) => getCreature(id))
         .filter((c): c is Creature => c !== null),
     );
+    setSharedRoll(false);
     trackEvent("generate", {
       quantity,
       element: elementFilter ?? "all",
       personality: personalityFilter ?? "all",
     });
     setIsGenerating(false);
+  }
+
+  /** Swap one card for a creature not already on screen. */
+  function handleReroll(index: number) {
+    if (isGenerating) return;
+    const exclude = new Set(current.map((c) => c.id));
+    // Prefer the existing bag; if it only holds on-screen ids (e.g. after a
+    // shared roll), start a fresh round over the remaining pool.
+    let remaining = bag.remaining.filter((id) => !exclude.has(id));
+    let all = bag.all;
+    if (remaining.length === 0) {
+      all = bag.all.filter((id) => !exclude.has(id));
+      if (all.length === 0) return;
+      remaining = shuffle(all);
+    }
+    const nextId = remaining[0];
+    const creature = getCreature(nextId);
+    if (!creature) return;
+
+    setCurrent((cur) => cur.map((c, i) => (i === index ? creature : c)));
+    setBag({ all, remaining: remaining.slice(1) });
+    trackEvent("reroll", { id: nextId });
   }
 
   return (
@@ -109,16 +125,16 @@ export default function Home() {
         </h1>
         <p className="mx-auto mt-3 max-w-xl text-stone-600">
           Roll original fantasy creatures — each with its own name, story, and
-          traits. Browse 216 unique companions across six elements (Ember, Tide,
-          Grove, Storm, Crystal, and Dusk) and six personalities. No repeats
-          within a batch.
+          traits. Browse {CREATURES.length} unique companions across six
+          elements (Ember, Tide, Grove, Storm, Crystal, and Dusk), six
+          personalities, and two generations. No repeats within a batch.
         </p>
         <p className="mt-4">
           <Link
             href="/creatures"
             className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
           >
-            Browse all 216 creatures →
+            Browse all {CREATURES.length} creatures →
           </Link>
         </p>
       </header>
@@ -186,6 +202,14 @@ export default function Home() {
                   : `Generate ${quantity} more`
                 : "Generate creatures"}
           </button>
+          <p className="mt-4">
+            <Link
+              href="/random"
+              className="inline-flex items-center gap-1.5 rounded-full bg-white/70 px-4 py-2 text-sm font-semibold text-stone-700 ring-1 ring-stone-900/10 backdrop-blur-sm transition hover:bg-white"
+            >
+              <span aria-hidden>🎲</span> Feeling lucky? Roll a surprise
+            </Link>
+          </p>
         </div>
       </div>
 
@@ -215,24 +239,40 @@ export default function Home() {
           </div>
           <p className="mt-4 text-center">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-sm font-semibold text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
-              <span aria-hidden>🎴</span> Seen {seen} of {total} this round
+              <span aria-hidden>{sharedRoll ? "🎲" : "🎴"}</span>{" "}
+              {sharedRoll
+                ? "Shared roll · 1 creature"
+                : `Seen ${seen} of ${total} this round`}
             </span>
           </p>
         </div>
       ) : (
         <div className="mt-8">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {current.map((creature) => (
-              <div className="animate-pop-in" key={creature.id}>
+            {current.map((creature, index) => (
+              <div className="animate-pop-in relative" key={creature.id}>
                 <CreatureCard creature={creature} />
+                <button
+                  type="button"
+                  onClick={() => handleReroll(index)}
+                  aria-label={`Re-roll ${creature.name}`}
+                  title="Re-roll this one"
+                  className="absolute right-3 top-3 z-10 grid h-9 w-9 place-items-center rounded-full bg-white/90 text-base leading-none text-stone-700 shadow ring-1 ring-stone-900/10 backdrop-blur-sm transition hover:scale-105 hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-400"
+                >
+                  <span aria-hidden>↻</span>
+                </button>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-center">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-1.5 text-sm font-semibold text-stone-600 ring-1 ring-stone-900/10 backdrop-blur-sm">
-              <span aria-hidden>🎴</span> Seen {seen} of {total} this round
+              <span aria-hidden>{sharedRoll ? "🎲" : "🎴"}</span>{" "}
+              {sharedRoll
+                ? `Shared roll · ${current.length} creatures`
+                : `Seen ${seen} of ${total} this round`}
             </span>
-          </p>
+            <RollShareButton creatures={current} />
+          </div>
         </div>
       )}
     </main>

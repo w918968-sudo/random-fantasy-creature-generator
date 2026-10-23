@@ -2169,6 +2169,2166 @@
       "personality": "Gentle",
       "status": "published",
       "generated": "2026-10-19"
+    },
+    {
+      "id": "emberwhisk-prime",
+      "name": "Emberwhisk Prime",
+      "image": "/creatures/emberwhisk-prime.webp",
+      "source": "assets/creatures-gen2-source/emberwhisk-gen2.png",
+      "element": "Ember",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "cinderpaw-prime",
+      "name": "Cinderpaw Prime",
+      "image": "/creatures/cinderpaw-prime.webp",
+      "source": "assets/creatures-gen2-source/cinderpaw-gen2.png",
+      "element": "Ember",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glimmerfin-ancient",
+      "name": "Glimmerfin Ancient",
+      "image": "/creatures/glimmerfin-ancient.webp",
+      "source": "assets/creatures-gen2-source/glimmerfin-gen2.png",
+      "element": "Tide",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mossback-prime",
+      "name": "Mossback Prime",
+      "image": "/creatures/mossback-prime.webp",
+      "source": "assets/creatures-gen2-source/mossback-gen2.png",
+      "element": "Grove",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "stormling-grand",
+      "name": "Stormling Grand",
+      "image": "/creatures/stormling-grand.webp",
+      "source": "assets/creatures-gen2-source/stormling-gen2.png",
+      "element": "Storm",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "aurathorn-noble",
+      "name": "Aurathorn Noble",
+      "image": "/creatures/aurathorn-noble.webp",
+      "source": "assets/creatures-gen2-source/aurathorn-gen2.png",
+      "element": "Crystal",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "prismkit-regal",
+      "name": "Prismkit Regal",
+      "image": "/creatures/prismkit-regal.webp",
+      "source": "assets/creatures-gen2-source/prismkit-gen2.png",
+      "element": "Crystal",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskveil-elder",
+      "name": "Duskveil Elder",
+      "image": "/creatures/duskveil-elder.webp",
+      "source": "assets/creatures-gen2-source/duskveil-gen2.png",
+      "element": "Dusk",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "warmglow-ancient",
+      "name": "Warmglow Ancient",
+      "image": "/creatures/warmglow-ancient.webp",
+      "source": "assets/creatures-gen2-source/warmglow-gen2.png",
+      "element": "Ember",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "moonfin-venerable",
+      "name": "Moonfin Venerable",
+      "image": "/creatures/moonfin-venerable.webp",
+      "source": "assets/creatures-gen2-source/moonfin-gen2.png",
+      "element": "Tide",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thornbranch-grand",
+      "name": "Thornbranch Grand",
+      "image": "/creatures/thornbranch-grand.webp",
+      "source": "assets/creatures-gen2-source/thornbranch-gen2.png",
+      "element": "Grove",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "cloudsteed-venerable",
+      "name": "Cloudsteed Venerable",
+      "image": "/creatures/cloudsteed-venerable.webp",
+      "source": "assets/creatures-gen2-source/cloudsteed-gen2.png",
+      "element": "Storm",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gemfang-grand",
+      "name": "Gemfang Grand",
+      "image": "/creatures/gemfang-grand.webp",
+      "source": "assets/creatures-gen2-source/gemfang-gen2.png",
+      "element": "Crystal",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shadowwhisk-noble",
+      "name": "Shadowwhisk Noble",
+      "image": "/creatures/shadowwhisk-noble.webp",
+      "source": "assets/creatures-gen2-source/shadowwhisk-gen2.png",
+      "element": "Dusk",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "hearthound-sage",
+      "name": "Hearthound Sage",
+      "image": "/creatures/hearthound-sage.webp",
+      "source": "assets/creatures-gen2-source/hearthound-gen2.png",
+      "element": "Ember",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "flintwing-noble",
+      "name": "Flintwing Noble",
+      "image": "/creatures/flintwing-noble.webp",
+      "source": "assets/creatures-gen2-source/flintwing-gen2.png",
+      "element": "Ember",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "splashwit-regal",
+      "name": "Splashwit Regal",
+      "image": "/creatures/splashwit-regal.webp",
+      "source": "assets/creatures-gen2-source/splashwit-gen2.png",
+      "element": "Tide",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mistkoi-venerable",
+      "name": "Mistkoi Venerable",
+      "image": "/creatures/mistkoi-venerable.webp",
+      "source": "assets/creatures-gen2-source/mistkoi-gen2.png",
+      "element": "Tide",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shoalsong-sage",
+      "name": "Shoalsong Sage",
+      "image": "/creatures/shoalsong-sage.webp",
+      "source": "assets/creatures-gen2-source/shoalsong-gen2.png",
+      "element": "Tide",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "fernveil-prime",
+      "name": "Fernveil Prime",
+      "image": "/creatures/fernveil-prime.webp",
+      "source": "assets/creatures-gen2-source/fernveil-gen2.png",
+      "element": "Grove",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "sprigpaw-prime",
+      "name": "Sprigpaw Prime",
+      "image": "/creatures/sprigpaw-prime.webp",
+      "source": "assets/creatures-gen2-source/sprigpaw-gen2.png",
+      "element": "Grove",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "ivyjinx-grand",
+      "name": "Ivyjinx Grand",
+      "image": "/creatures/ivyjinx-grand.webp",
+      "source": "assets/creatures-gen2-source/ivyjinx-gen2.png",
+      "element": "Grove",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "drizzlefluff-grand",
+      "name": "Drizzlefluff Grand",
+      "image": "/creatures/drizzlefluff-grand.webp",
+      "source": "assets/creatures-gen2-source/drizzlefluff-gen2.png",
+      "element": "Storm",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "stormmane-venerable",
+      "name": "Stormmane Venerable",
+      "image": "/creatures/stormmane-venerable.webp",
+      "source": "assets/creatures-gen2-source/stormmane-gen2.png",
+      "element": "Storm",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "zapwisp-noble",
+      "name": "Zapwisp Noble",
+      "image": "/creatures/zapwisp-noble.webp",
+      "source": "assets/creatures-gen2-source/zapwisp-gen2.png",
+      "element": "Storm",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "chimeshard-ancient",
+      "name": "Chimeshard Ancient",
+      "image": "/creatures/chimeshard-ancient.webp",
+      "source": "assets/creatures-gen2-source/chimeshard-gen2.png",
+      "element": "Crystal",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "crystalbud-elder",
+      "name": "Crystalbud Elder",
+      "image": "/creatures/crystalbud-elder.webp",
+      "source": "assets/creatures-gen2-source/crystalbud-gen2.png",
+      "element": "Crystal",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "lanternmoth-sage",
+      "name": "Lanternmoth Sage",
+      "image": "/creatures/lanternmoth-sage.webp",
+      "source": "assets/creatures-gen2-source/lanternmoth-gen2.png",
+      "element": "Dusk",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "nightclaw-regal",
+      "name": "Nightclaw Regal",
+      "image": "/creatures/nightclaw-regal.webp",
+      "source": "assets/creatures-gen2-source/nightclaw-gen2.png",
+      "element": "Dusk",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "starwatch-prime",
+      "name": "Starwatch Prime",
+      "image": "/creatures/starwatch-prime.webp",
+      "source": "assets/creatures-gen2-source/starwatch-gen2.png",
+      "element": "Dusk",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "blazehowl-ancient",
+      "name": "Blazehowl Ancient",
+      "image": "/creatures/blazehowl-ancient.webp",
+      "source": "assets/creatures-gen2-source/blazehowl-gen2.png",
+      "element": "Ember",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "emberclaw-noble",
+      "name": "Emberclaw Noble",
+      "image": "/creatures/emberclaw-noble.webp",
+      "source": "assets/creatures-gen2-source/emberclaw-gen2.png",
+      "element": "Ember",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "cinderfang-regal",
+      "name": "Cinderfang Regal",
+      "image": "/creatures/cinderfang-regal.webp",
+      "source": "assets/creatures-gen2-source/cinderfang-gen2.png",
+      "element": "Ember",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "scorchmane-grand",
+      "name": "Scorchmane Grand",
+      "image": "/creatures/scorchmane-grand.webp",
+      "source": "assets/creatures-gen2-source/scorchmane-gen2.png",
+      "element": "Ember",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "pyreguard-prime",
+      "name": "Pyreguard Prime",
+      "image": "/creatures/pyreguard-prime.webp",
+      "source": "assets/creatures-gen2-source/pyreguard-gen2.png",
+      "element": "Ember",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "warmwhisper-grand",
+      "name": "Warmwhisper Grand",
+      "image": "/creatures/warmwhisper-grand.webp",
+      "source": "assets/creatures-gen2-source/warmwhisper-gen2.png",
+      "element": "Ember",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "hearthmote-regal",
+      "name": "Hearthmote Regal",
+      "image": "/creatures/hearthmote-regal.webp",
+      "source": "assets/creatures-gen2-source/hearthmote-gen2.png",
+      "element": "Ember",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "emberhush-elder",
+      "name": "Emberhush Elder",
+      "image": "/creatures/emberhush-elder.webp",
+      "source": "assets/creatures-gen2-source/emberhush-gen2.png",
+      "element": "Ember",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "softspark-grand",
+      "name": "Softspark Grand",
+      "image": "/creatures/softspark-grand.webp",
+      "source": "assets/creatures-gen2-source/softspark-gen2.png",
+      "element": "Ember",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glowcoil-noble",
+      "name": "Glowcoil Noble",
+      "image": "/creatures/glowcoil-noble.webp",
+      "source": "assets/creatures-gen2-source/glowcoil-gen2.png",
+      "element": "Ember",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "sunpaw-noble",
+      "name": "Sunpaw Noble",
+      "image": "/creatures/sunpaw-noble.webp",
+      "source": "assets/creatures-gen2-source/sunpaw-gen2.png",
+      "element": "Ember",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "emberlamb-elder",
+      "name": "Emberlamb Elder",
+      "image": "/creatures/emberlamb-elder.webp",
+      "source": "assets/creatures-gen2-source/emberlamb-gen2.png",
+      "element": "Ember",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "warmheart-prime",
+      "name": "Warmheart Prime",
+      "image": "/creatures/warmheart-prime.webp",
+      "source": "assets/creatures-gen2-source/warmheart-gen2.png",
+      "element": "Ember",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "ashdove-noble",
+      "name": "Ashdove Noble",
+      "image": "/creatures/ashdove-noble.webp",
+      "source": "assets/creatures-gen2-source/ashdove-gen2.png",
+      "element": "Ember",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "kindlesoft-elder",
+      "name": "Kindlesoft Elder",
+      "image": "/creatures/kindlesoft-elder.webp",
+      "source": "assets/creatures-gen2-source/kindlesoft-gen2.png",
+      "element": "Ember",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "emberhound-regal",
+      "name": "Emberhound Regal",
+      "image": "/creatures/emberhound-regal.webp",
+      "source": "assets/creatures-gen2-source/emberhound-gen2.png",
+      "element": "Ember",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "hearthguard-grand",
+      "name": "Hearthguard Grand",
+      "image": "/creatures/hearthguard-grand.webp",
+      "source": "assets/creatures-gen2-source/hearthguard-gen2.png",
+      "element": "Ember",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "brandstead-ancient",
+      "name": "Brandstead Ancient",
+      "image": "/creatures/brandstead-ancient.webp",
+      "source": "assets/creatures-gen2-source/brandstead-gen2.png",
+      "element": "Ember",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "coalheart-regal",
+      "name": "Coalheart Regal",
+      "image": "/creatures/coalheart-regal.webp",
+      "source": "assets/creatures-gen2-source/coalheart-gen2.png",
+      "element": "Ember",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "watchflame-noble",
+      "name": "Watchflame Noble",
+      "image": "/creatures/watchflame-noble.webp",
+      "source": "assets/creatures-gen2-source/watchflame-gen2.png",
+      "element": "Ember",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "sparkimp-prime",
+      "name": "Sparkimp Prime",
+      "image": "/creatures/sparkimp-prime.webp",
+      "source": "assets/creatures-gen2-source/sparkimp-gen2.png",
+      "element": "Ember",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "sootling-elder",
+      "name": "Sootling Elder",
+      "image": "/creatures/sootling-elder.webp",
+      "source": "assets/creatures-gen2-source/sootling-gen2.png",
+      "element": "Ember",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "embersneak-prime",
+      "name": "Embersneak Prime",
+      "image": "/creatures/embersneak-prime.webp",
+      "source": "assets/creatures-gen2-source/embersneak-gen2.png",
+      "element": "Ember",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "fizzsprite-venerable",
+      "name": "Fizzsprite Venerable",
+      "image": "/creatures/fizzsprite-venerable.webp",
+      "source": "assets/creatures-gen2-source/fizzsprite-gen2.png",
+      "element": "Ember",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "smolderpix-grand",
+      "name": "Smolderpix Grand",
+      "image": "/creatures/smolderpix-grand.webp",
+      "source": "assets/creatures-gen2-source/smolderpix-gen2.png",
+      "element": "Ember",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "sparknose-ancient",
+      "name": "Sparknose Ancient",
+      "image": "/creatures/sparknose-ancient.webp",
+      "source": "assets/creatures-gen2-source/sparknose-gen2.png",
+      "element": "Ember",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "coalpeek-venerable",
+      "name": "Coalpeek Venerable",
+      "image": "/creatures/coalpeek-venerable.webp",
+      "source": "assets/creatures-gen2-source/coalpeek-gen2.png",
+      "element": "Ember",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "flintpaw-prime",
+      "name": "Flintpaw Prime",
+      "image": "/creatures/flintpaw-prime.webp",
+      "source": "assets/creatures-gen2-source/flintpaw-gen2.png",
+      "element": "Ember",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "candlepup-venerable",
+      "name": "Candlepup Venerable",
+      "image": "/creatures/candlepup-venerable.webp",
+      "source": "assets/creatures-gen2-source/candlepup-gen2.png",
+      "element": "Ember",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glowgaze-ancient",
+      "name": "Glowgaze Ancient",
+      "image": "/creatures/glowgaze-ancient.webp",
+      "source": "assets/creatures-gen2-source/glowgaze-gen2.png",
+      "element": "Ember",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "warmquest-grand",
+      "name": "Warmquest Grand",
+      "image": "/creatures/warmquest-grand.webp",
+      "source": "assets/creatures-gen2-source/warmquest-gen2.png",
+      "element": "Ember",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "ripplepup-elder",
+      "name": "Ripplepup Elder",
+      "image": "/creatures/ripplepup-elder.webp",
+      "source": "assets/creatures-gen2-source/ripplepup-gen2.png",
+      "element": "Tide",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shellnose-regal",
+      "name": "Shellnose Regal",
+      "image": "/creatures/shellnose-regal.webp",
+      "source": "assets/creatures-gen2-source/shellnose-gen2.png",
+      "element": "Tide",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "foamwhisk-prime",
+      "name": "Foamwhisk Prime",
+      "image": "/creatures/foamwhisk-prime.webp",
+      "source": "assets/creatures-gen2-source/foamwhisk-gen2.png",
+      "element": "Tide",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "driftmote-sage",
+      "name": "Driftmote Sage",
+      "image": "/creatures/driftmote-sage.webp",
+      "source": "assets/creatures-gen2-source/driftmote-gen2.png",
+      "element": "Tide",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "pearlpeek-elder",
+      "name": "Pearlpeek Elder",
+      "image": "/creatures/pearlpeek-elder.webp",
+      "source": "assets/creatures-gen2-source/pearlpeek-gen2.png",
+      "element": "Tide",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "softtide-ancient",
+      "name": "Softtide Ancient",
+      "image": "/creatures/softtide-ancient.webp",
+      "source": "assets/creatures-gen2-source/softtide-gen2.png",
+      "element": "Tide",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "moonpool-regal",
+      "name": "Moonpool Regal",
+      "image": "/creatures/moonpool-regal.webp",
+      "source": "assets/creatures-gen2-source/moonpool-gen2.png",
+      "element": "Tide",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "driftveil-prime",
+      "name": "Driftveil Prime",
+      "image": "/creatures/driftveil-prime.webp",
+      "source": "assets/creatures-gen2-source/driftveil-gen2.png",
+      "element": "Tide",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shellhare-noble",
+      "name": "Shellhare Noble",
+      "image": "/creatures/shellhare-noble.webp",
+      "source": "assets/creatures-gen2-source/shellhare-gen2.png",
+      "element": "Tide",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "lagoonlull-grand",
+      "name": "Lagoonlull Grand",
+      "image": "/creatures/lagoonlull-grand.webp",
+      "source": "assets/creatures-gen2-source/lagoonlull-gen2.png",
+      "element": "Tide",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "tidesnicker-grand",
+      "name": "Tidesnicker Grand",
+      "image": "/creatures/tidesnicker-grand.webp",
+      "source": "assets/creatures-gen2-source/tidesnicker-gen2.png",
+      "element": "Tide",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "brineprank-ancient",
+      "name": "Brineprank Ancient",
+      "image": "/creatures/brineprank-ancient.webp",
+      "source": "assets/creatures-gen2-source/brineprank-gen2.png",
+      "element": "Tide",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "poolkicker-grand",
+      "name": "Poolkicker Grand",
+      "image": "/creatures/poolkicker-grand.webp",
+      "source": "assets/creatures-gen2-source/poolkicker-gen2.png",
+      "element": "Tide",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shellsteal-prime",
+      "name": "Shellsteal Prime",
+      "image": "/creatures/shellsteal-prime.webp",
+      "source": "assets/creatures-gen2-source/shellsteal-gen2.png",
+      "element": "Tide",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "foamfool-elder",
+      "name": "Foamfool Elder",
+      "image": "/creatures/foamfool-elder.webp",
+      "source": "assets/creatures-gen2-source/foamfool-gen2.png",
+      "element": "Tide",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "stillwave-elder",
+      "name": "Stillwave Elder",
+      "image": "/creatures/stillwave-elder.webp",
+      "source": "assets/creatures-gen2-source/stillwave-gen2.png",
+      "element": "Tide",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "deeplull-prime",
+      "name": "Deeplull Prime",
+      "image": "/creatures/deeplull-prime.webp",
+      "source": "assets/creatures-gen2-source/deeplull-gen2.png",
+      "element": "Tide",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "koiwhisper-prime",
+      "name": "Koiwhisper Prime",
+      "image": "/creatures/koiwhisper-prime.webp",
+      "source": "assets/creatures-gen2-source/koiwhisper-gen2.png",
+      "element": "Tide",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "coralhush-grand",
+      "name": "Coralhush Grand",
+      "image": "/creatures/coralhush-grand.webp",
+      "source": "assets/creatures-gen2-source/coralhush-gen2.png",
+      "element": "Tide",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "tidebreathe-grand",
+      "name": "Tidebreathe Grand",
+      "image": "/creatures/tidebreathe-grand.webp",
+      "source": "assets/creatures-gen2-source/tidebreathe-gen2.png",
+      "element": "Tide",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "reefwarden-regal",
+      "name": "Reefwarden Regal",
+      "image": "/creatures/reefwarden-regal.webp",
+      "source": "assets/creatures-gen2-source/reefwarden-gen2.png",
+      "element": "Tide",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "tidehound-ancient",
+      "name": "Tidehound Ancient",
+      "image": "/creatures/tidehound-ancient.webp",
+      "source": "assets/creatures-gen2-source/tidehound-gen2.png",
+      "element": "Tide",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "anchormate-ancient",
+      "name": "Anchormate Ancient",
+      "image": "/creatures/anchormate-ancient.webp",
+      "source": "assets/creatures-gen2-source/anchormate-gen2.png",
+      "element": "Tide",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "pearlkeeper-venerable",
+      "name": "Pearlkeeper Venerable",
+      "image": "/creatures/pearlkeeper-venerable.webp",
+      "source": "assets/creatures-gen2-source/pearlkeeper-gen2.png",
+      "element": "Tide",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "wavefaith-elder",
+      "name": "Wavefaith Elder",
+      "image": "/creatures/wavefaith-elder.webp",
+      "source": "assets/creatures-gen2-source/wavefaith-gen2.png",
+      "element": "Tide",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "maelstromfang-noble",
+      "name": "Maelstromfang Noble",
+      "image": "/creatures/maelstromfang-noble.webp",
+      "source": "assets/creatures-gen2-source/maelstromfang-gen2.png",
+      "element": "Tide",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "tideclaw-regal",
+      "name": "Tideclaw Regal",
+      "image": "/creatures/tideclaw-regal.webp",
+      "source": "assets/creatures-gen2-source/tideclaw-gen2.png",
+      "element": "Tide",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "reefbreak-regal",
+      "name": "Reefbreak Regal",
+      "image": "/creatures/reefbreak-regal.webp",
+      "source": "assets/creatures-gen2-source/reefbreak-gen2.png",
+      "element": "Tide",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "brinefang-noble",
+      "name": "Brinefang Noble",
+      "image": "/creatures/brinefang-noble.webp",
+      "source": "assets/creatures-gen2-source/brinefang-gen2.png",
+      "element": "Tide",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "wavebreaker-elder",
+      "name": "Wavebreaker Elder",
+      "image": "/creatures/wavebreaker-elder.webp",
+      "source": "assets/creatures-gen2-source/wavebreaker-gen2.png",
+      "element": "Tide",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "undertow-ancient",
+      "name": "Undertow Ancient",
+      "image": "/creatures/undertow-ancient.webp",
+      "source": "assets/creatures-gen2-source/undertow-gen2.png",
+      "element": "Tide",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "softmoss-noble",
+      "name": "Softmoss Noble",
+      "image": "/creatures/softmoss-noble.webp",
+      "source": "assets/creatures-gen2-source/softmoss-gen2.png",
+      "element": "Grove",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "leafbed-prime",
+      "name": "Leafbed Prime",
+      "image": "/creatures/leafbed-prime.webp",
+      "source": "assets/creatures-gen2-source/leafbed-gen2.png",
+      "element": "Grove",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "willowmist-regal",
+      "name": "Willowmist Regal",
+      "image": "/creatures/willowmist-regal.webp",
+      "source": "assets/creatures-gen2-source/willowmist-gen2.png",
+      "element": "Grove",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "acornkin-prime",
+      "name": "Acornkin Prime",
+      "image": "/creatures/acornkin-prime.webp",
+      "source": "assets/creatures-gen2-source/acornkin-gen2.png",
+      "element": "Grove",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "petalsoft-sage",
+      "name": "Petalsoft Sage",
+      "image": "/creatures/petalsoft-sage.webp",
+      "source": "assets/creatures-gen2-source/petalsoft-gen2.png",
+      "element": "Grove",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thornfang-prime",
+      "name": "Thornfang Prime",
+      "image": "/creatures/thornfang-prime.webp",
+      "source": "assets/creatures-gen2-source/thornfang-gen2.png",
+      "element": "Grove",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "brambleclaw-sage",
+      "name": "Brambleclaw Sage",
+      "image": "/creatures/brambleclaw-sage.webp",
+      "source": "assets/creatures-gen2-source/brambleclaw-gen2.png",
+      "element": "Grove",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "oakhide-grand",
+      "name": "Oakhide Grand",
+      "image": "/creatures/oakhide-grand.webp",
+      "source": "assets/creatures-gen2-source/oakhide-gen2.png",
+      "element": "Grove",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rootrage-prime",
+      "name": "Rootrage Prime",
+      "image": "/creatures/rootrage-prime.webp",
+      "source": "assets/creatures-gen2-source/rootrage-gen2.png",
+      "element": "Grove",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "vinerend-grand",
+      "name": "Vinerend Grand",
+      "image": "/creatures/vinerend-grand.webp",
+      "source": "assets/creatures-gen2-source/vinerend-gen2.png",
+      "element": "Grove",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "willowbreathe-elder",
+      "name": "Willowbreathe Elder",
+      "image": "/creatures/willowbreathe-elder.webp",
+      "source": "assets/creatures-gen2-source/willowbreathe-gen2.png",
+      "element": "Grove",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "meadowmoss-regal",
+      "name": "Meadowmoss Regal",
+      "image": "/creatures/meadowmoss-regal.webp",
+      "source": "assets/creatures-gen2-source/meadowmoss-gen2.png",
+      "element": "Grove",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "fernhush-elder",
+      "name": "Fernhush Elder",
+      "image": "/creatures/fernhush-elder.webp",
+      "source": "assets/creatures-gen2-source/fernhush-gen2.png",
+      "element": "Grove",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "dewdrop-regal",
+      "name": "Dewdrop Regal",
+      "image": "/creatures/dewdrop-regal.webp",
+      "source": "assets/creatures-gen2-source/dewdrop-gen2.png",
+      "element": "Grove",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "grovestill-grand",
+      "name": "Grovestill Grand",
+      "image": "/creatures/grovestill-grand.webp",
+      "source": "assets/creatures-gen2-source/grovestill-gen2.png",
+      "element": "Grove",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "seedpeek-noble",
+      "name": "Seedpeek Noble",
+      "image": "/creatures/seedpeek-noble.webp",
+      "source": "assets/creatures-gen2-source/seedpeek-gen2.png",
+      "element": "Grove",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "sporeling-regal",
+      "name": "Sporeling Regal",
+      "image": "/creatures/sporeling-regal.webp",
+      "source": "assets/creatures-gen2-source/sporeling-gen2.png",
+      "element": "Grove",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rootnose-grand",
+      "name": "Rootnose Grand",
+      "image": "/creatures/rootnose-grand.webp",
+      "source": "assets/creatures-gen2-source/rootnose-gen2.png",
+      "element": "Grove",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "leafhop-elder",
+      "name": "Leafhop Elder",
+      "image": "/creatures/leafhop-elder.webp",
+      "source": "assets/creatures-gen2-source/leafhop-gen2.png",
+      "element": "Grove",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "tendrilprobe-sage",
+      "name": "Tendrilprobe Sage",
+      "image": "/creatures/tendrilprobe-sage.webp",
+      "source": "assets/creatures-gen2-source/tendrilprobe-gen2.png",
+      "element": "Grove",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "acorntrick-venerable",
+      "name": "Acorntrick Venerable",
+      "image": "/creatures/acorntrick-venerable.webp",
+      "source": "assets/creatures-gen2-source/acorntrick-gen2.png",
+      "element": "Grove",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "vinesneak-sage",
+      "name": "Vinesneak Sage",
+      "image": "/creatures/vinesneak-sage.webp",
+      "source": "assets/creatures-gen2-source/vinesneak-gen2.png",
+      "element": "Grove",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mushroomprank-sage",
+      "name": "Mushroomprank Sage",
+      "image": "/creatures/mushroomprank-sage.webp",
+      "source": "assets/creatures-gen2-source/mushroomprank-gen2.png",
+      "element": "Grove",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "leafsnatcher-venerable",
+      "name": "Leafsnatcher Venerable",
+      "image": "/creatures/leafsnatcher-venerable.webp",
+      "source": "assets/creatures-gen2-source/leafsnatcher-gen2.png",
+      "element": "Grove",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "saplingtrick-grand",
+      "name": "Saplingtrick Grand",
+      "image": "/creatures/saplingtrick-grand.webp",
+      "source": "assets/creatures-gen2-source/saplingtrick-gen2.png",
+      "element": "Grove",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "grovewarden-ancient",
+      "name": "Grovewarden Ancient",
+      "image": "/creatures/grovewarden-ancient.webp",
+      "source": "assets/creatures-gen2-source/grovewarden-gen2.png",
+      "element": "Grove",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rootkeeper-sage",
+      "name": "Rootkeeper Sage",
+      "image": "/creatures/rootkeeper-sage.webp",
+      "source": "assets/creatures-gen2-source/rootkeeper-gen2.png",
+      "element": "Grove",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "oakcompanion-prime",
+      "name": "Oakcompanion Prime",
+      "image": "/creatures/oakcompanion-prime.webp",
+      "source": "assets/creatures-gen2-source/oakcompanion-gen2.png",
+      "element": "Grove",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "saplingguard-elder",
+      "name": "Saplingguard Elder",
+      "image": "/creatures/saplingguard-elder.webp",
+      "source": "assets/creatures-gen2-source/saplingguard-gen2.png",
+      "element": "Grove",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "seedvow-prime",
+      "name": "Seedvow Prime",
+      "image": "/creatures/seedvow-prime.webp",
+      "source": "assets/creatures-gen2-source/seedvow-gen2.png",
+      "element": "Grove",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thornprotector-elder",
+      "name": "Thornprotector Elder",
+      "image": "/creatures/thornprotector-elder.webp",
+      "source": "assets/creatures-gen2-source/thornprotector-gen2.png",
+      "element": "Grove",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gustprank-prime",
+      "name": "Gustprank Prime",
+      "image": "/creatures/gustprank-prime.webp",
+      "source": "assets/creatures-gen2-source/gustprank-gen2.png",
+      "element": "Storm",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rainbother-sage",
+      "name": "Rainbother Sage",
+      "image": "/creatures/rainbother-sage.webp",
+      "source": "assets/creatures-gen2-source/rainbother-gen2.png",
+      "element": "Storm",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thunderchuckle-elder",
+      "name": "Thunderchuckle Elder",
+      "image": "/creatures/thunderchuckle-elder.webp",
+      "source": "assets/creatures-gen2-source/thunderchuckle-gen2.png",
+      "element": "Storm",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "zapimp-grand",
+      "name": "Zapimp Grand",
+      "image": "/creatures/zapimp-grand.webp",
+      "source": "assets/creatures-gen2-source/zapimp-gen2.png",
+      "element": "Storm",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "misttease-grand",
+      "name": "Misttease Grand",
+      "image": "/creatures/misttease-grand.webp",
+      "source": "assets/creatures-gen2-source/misttease-gen2.png",
+      "element": "Storm",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thunderhoof-venerable",
+      "name": "Thunderhoof Venerable",
+      "image": "/creatures/thunderhoof-venerable.webp",
+      "source": "assets/creatures-gen2-source/thunderhoof-gen2.png",
+      "element": "Storm",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "galehound-elder",
+      "name": "Galehound Elder",
+      "image": "/creatures/galehound-elder.webp",
+      "source": "assets/creatures-gen2-source/galehound-gen2.png",
+      "element": "Storm",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "stormrider-grand",
+      "name": "Stormrider Grand",
+      "image": "/creatures/stormrider-grand.webp",
+      "source": "assets/creatures-gen2-source/stormrider-gen2.png",
+      "element": "Storm",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "cloudknight-sage",
+      "name": "Cloudknight Sage",
+      "image": "/creatures/cloudknight-sage.webp",
+      "source": "assets/creatures-gen2-source/cloudknight-gen2.png",
+      "element": "Storm",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rainwatcher-venerable",
+      "name": "Rainwatcher Venerable",
+      "image": "/creatures/rainwatcher-venerable.webp",
+      "source": "assets/creatures-gen2-source/rainwatcher-gen2.png",
+      "element": "Storm",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "softrain-noble",
+      "name": "Softrain Noble",
+      "image": "/creatures/softrain-noble.webp",
+      "source": "assets/creatures-gen2-source/softrain-gen2.png",
+      "element": "Storm",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "breezelull-ancient",
+      "name": "Breezelull Ancient",
+      "image": "/creatures/breezelull-ancient.webp",
+      "source": "assets/creatures-gen2-source/breezelull-gen2.png",
+      "element": "Storm",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "dewcloud-prime",
+      "name": "Dewcloud Prime",
+      "image": "/creatures/dewcloud-prime.webp",
+      "source": "assets/creatures-gen2-source/dewcloud-gen2.png",
+      "element": "Storm",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mistcradle-noble",
+      "name": "Mistcradle Noble",
+      "image": "/creatures/mistcradle-noble.webp",
+      "source": "assets/creatures-gen2-source/mistcradle-gen2.png",
+      "element": "Storm",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "zephyrpet-elder",
+      "name": "Zephyrpet Elder",
+      "image": "/creatures/zephyrpet-elder.webp",
+      "source": "assets/creatures-gen2-source/zephyrpet-gen2.png",
+      "element": "Storm",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thundermane-grand",
+      "name": "Thundermane Grand",
+      "image": "/creatures/thundermane-grand.webp",
+      "source": "assets/creatures-gen2-source/thundermane-gen2.png",
+      "element": "Storm",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "galeclaw-ancient",
+      "name": "Galeclaw Ancient",
+      "image": "/creatures/galeclaw-ancient.webp",
+      "source": "assets/creatures-gen2-source/galeclaw-gen2.png",
+      "element": "Storm",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "squallfang-venerable",
+      "name": "Squallfang Venerable",
+      "image": "/creatures/squallfang-venerable.webp",
+      "source": "assets/creatures-gen2-source/squallfang-gen2.png",
+      "element": "Storm",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "tempesthorn-prime",
+      "name": "Tempesthorn Prime",
+      "image": "/creatures/tempesthorn-prime.webp",
+      "source": "assets/creatures-gen2-source/tempesthorn-gen2.png",
+      "element": "Storm",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "boltstrike-prime",
+      "name": "Boltstrike Prime",
+      "image": "/creatures/boltstrike-prime.webp",
+      "source": "assets/creatures-gen2-source/boltstrike-gen2.png",
+      "element": "Storm",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "windnose-elder",
+      "name": "Windnose Elder",
+      "image": "/creatures/windnose-elder.webp",
+      "source": "assets/creatures-gen2-source/windnose-gen2.png",
+      "element": "Storm",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rainsniff-ancient",
+      "name": "Rainsniff Ancient",
+      "image": "/creatures/rainsniff-ancient.webp",
+      "source": "assets/creatures-gen2-source/rainsniff-gen2.png",
+      "element": "Storm",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "cloudpeek-ancient",
+      "name": "Cloudpeek Ancient",
+      "image": "/creatures/cloudpeek-ancient.webp",
+      "source": "assets/creatures-gen2-source/cloudpeek-gen2.png",
+      "element": "Storm",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "boltnose-venerable",
+      "name": "Boltnose Venerable",
+      "image": "/creatures/boltnose-venerable.webp",
+      "source": "assets/creatures-gen2-source/boltnose-gen2.png",
+      "element": "Storm",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "galequery-regal",
+      "name": "Galequery Regal",
+      "image": "/creatures/galequery-regal.webp",
+      "source": "assets/creatures-gen2-source/galequery-gen2.png",
+      "element": "Storm",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "stillwind-noble",
+      "name": "Stillwind Noble",
+      "image": "/creatures/stillwind-noble.webp",
+      "source": "assets/creatures-gen2-source/stillwind-gen2.png",
+      "element": "Storm",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "cloudrest-prime",
+      "name": "Cloudrest Prime",
+      "image": "/creatures/cloudrest-prime.webp",
+      "source": "assets/creatures-gen2-source/cloudrest-gen2.png",
+      "element": "Storm",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "rainsigh-prime",
+      "name": "Rainsigh Prime",
+      "image": "/creatures/rainsigh-prime.webp",
+      "source": "assets/creatures-gen2-source/rainsigh-gen2.png",
+      "element": "Storm",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "thunderlull-regal",
+      "name": "Thunderlull Regal",
+      "image": "/creatures/thunderlull-regal.webp",
+      "source": "assets/creatures-gen2-source/thunderlull-gen2.png",
+      "element": "Storm",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mistpeace-regal",
+      "name": "Mistpeace Regal",
+      "image": "/creatures/mistpeace-regal.webp",
+      "source": "assets/creatures-gen2-source/mistpeace-gen2.png",
+      "element": "Storm",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "zephyrhush-sage",
+      "name": "Zephyrhush Sage",
+      "image": "/creatures/zephyrhush-sage.webp",
+      "source": "assets/creatures-gen2-source/zephyrhush-gen2.png",
+      "element": "Storm",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "facetguard-venerable",
+      "name": "Facetguard Venerable",
+      "image": "/creatures/facetguard-venerable.webp",
+      "source": "assets/creatures-gen2-source/facetguard-gen2.png",
+      "element": "Crystal",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gemvow-prime",
+      "name": "Gemvow Prime",
+      "image": "/creatures/gemvow-prime.webp",
+      "source": "assets/creatures-gen2-source/gemvow-gen2.png",
+      "element": "Crystal",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "prismknight-noble",
+      "name": "Prismknight Noble",
+      "image": "/creatures/prismknight-noble.webp",
+      "source": "assets/creatures-gen2-source/prismknight-gen2.png",
+      "element": "Crystal",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shardkeeper-venerable",
+      "name": "Shardkeeper Venerable",
+      "image": "/creatures/shardkeeper-venerable.webp",
+      "source": "assets/creatures-gen2-source/shardkeeper-gen2.png",
+      "element": "Crystal",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "crystalcompanion-ancient",
+      "name": "Crystalcompanion Ancient",
+      "image": "/creatures/crystalcompanion-ancient.webp",
+      "source": "assets/creatures-gen2-source/crystalcompanion-gen2.png",
+      "element": "Crystal",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "facetgaze-venerable",
+      "name": "Facetgaze Venerable",
+      "image": "/creatures/facetgaze-venerable.webp",
+      "source": "assets/creatures-gen2-source/facetgaze-gen2.png",
+      "element": "Crystal",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shardpeek-elder",
+      "name": "Shardpeek Elder",
+      "image": "/creatures/shardpeek-elder.webp",
+      "source": "assets/creatures-gen2-source/shardpeek-gen2.png",
+      "element": "Crystal",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glintnose-elder",
+      "name": "Glintnose Elder",
+      "image": "/creatures/glintnose-elder.webp",
+      "source": "assets/creatures-gen2-source/glintnose-gen2.png",
+      "element": "Crystal",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "prismpup-noble",
+      "name": "Prismpup Noble",
+      "image": "/creatures/prismpup-noble.webp",
+      "source": "assets/creatures-gen2-source/prismpup-gen2.png",
+      "element": "Crystal",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "quartzkin-prime",
+      "name": "Quartzkin Prime",
+      "image": "/creatures/quartzkin-prime.webp",
+      "source": "assets/creatures-gen2-source/quartzkin-gen2.png",
+      "element": "Crystal",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shardclaw-elder",
+      "name": "Shardclaw Elder",
+      "image": "/creatures/shardclaw-elder.webp",
+      "source": "assets/creatures-gen2-source/shardclaw-gen2.png",
+      "element": "Crystal",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gemhowl-grand",
+      "name": "Gemhowl Grand",
+      "image": "/creatures/gemhowl-grand.webp",
+      "source": "assets/creatures-gen2-source/gemhowl-gen2.png",
+      "element": "Crystal",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "prismfang-prime",
+      "name": "Prismfang Prime",
+      "image": "/creatures/prismfang-prime.webp",
+      "source": "assets/creatures-gen2-source/prismfang-gen2.png",
+      "element": "Crystal",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "crystalrend-regal",
+      "name": "Crystalrend Regal",
+      "image": "/creatures/crystalrend-regal.webp",
+      "source": "assets/creatures-gen2-source/crystalrend-gen2.png",
+      "element": "Crystal",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "opalstrike-venerable",
+      "name": "Opalstrike Venerable",
+      "image": "/creatures/opalstrike-venerable.webp",
+      "source": "assets/creatures-gen2-source/opalstrike-gen2.png",
+      "element": "Crystal",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glassstill-sage",
+      "name": "Glassstill Sage",
+      "image": "/creatures/glassstill-sage.webp",
+      "source": "assets/creatures-gen2-source/glassstill-gen2.png",
+      "element": "Crystal",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "quartzrest-prime",
+      "name": "Quartzrest Prime",
+      "image": "/creatures/quartzrest-prime.webp",
+      "source": "assets/creatures-gen2-source/quartzrest-gen2.png",
+      "element": "Crystal",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "facetcalm-noble",
+      "name": "Facetcalm Noble",
+      "image": "/creatures/facetcalm-noble.webp",
+      "source": "assets/creatures-gen2-source/facetcalm-gen2.png",
+      "element": "Crystal",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "crystalbreathe-grand",
+      "name": "Crystalbreathe Grand",
+      "image": "/creatures/crystalbreathe-grand.webp",
+      "source": "assets/creatures-gen2-source/crystalbreathe-gen2.png",
+      "element": "Crystal",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shardpeace-noble",
+      "name": "Shardpeace Noble",
+      "image": "/creatures/shardpeace-noble.webp",
+      "source": "assets/creatures-gen2-source/shardpeace-gen2.png",
+      "element": "Crystal",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "softgem-prime",
+      "name": "Softgem Prime",
+      "image": "/creatures/softgem-prime.webp",
+      "source": "assets/creatures-gen2-source/softgem-gen2.png",
+      "element": "Crystal",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "opalglow-grand",
+      "name": "Opalglow Grand",
+      "image": "/creatures/opalglow-grand.webp",
+      "source": "assets/creatures-gen2-source/opalglow-gen2.png",
+      "element": "Crystal",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "crystalnurture-prime",
+      "name": "Crystalnurture Prime",
+      "image": "/creatures/crystalnurture-prime.webp",
+      "source": "assets/creatures-gen2-source/crystalnurture-gen2.png",
+      "element": "Crystal",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gentlefacet-sage",
+      "name": "Gentlefacet Sage",
+      "image": "/creatures/gentlefacet-sage.webp",
+      "source": "assets/creatures-gen2-source/gentlefacet-gen2.png",
+      "element": "Crystal",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glintkind-venerable",
+      "name": "Glintkind Venerable",
+      "image": "/creatures/glintkind-venerable.webp",
+      "source": "assets/creatures-gen2-source/glintkind-gen2.png",
+      "element": "Crystal",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "prismtrick-ancient",
+      "name": "Prismtrick Ancient",
+      "image": "/creatures/prismtrick-ancient.webp",
+      "source": "assets/creatures-gen2-source/prismtrick-gen2.png",
+      "element": "Crystal",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gemthief-prime",
+      "name": "Gemthief Prime",
+      "image": "/creatures/gemthief-prime.webp",
+      "source": "assets/creatures-gen2-source/gemthief-gen2.png",
+      "element": "Crystal",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shardprank-noble",
+      "name": "Shardprank Noble",
+      "image": "/creatures/shardprank-noble.webp",
+      "source": "assets/creatures-gen2-source/shardprank-gen2.png",
+      "element": "Crystal",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "facetjoke-sage",
+      "name": "Facetjoke Sage",
+      "image": "/creatures/facetjoke-sage.webp",
+      "source": "assets/creatures-gen2-source/facetjoke-gen2.png",
+      "element": "Crystal",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "glinttrick-regal",
+      "name": "Glinttrick Regal",
+      "image": "/creatures/glinttrick-regal.webp",
+      "source": "assets/creatures-gen2-source/glinttrick-gen2.png",
+      "element": "Crystal",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "crystalimp-venerable",
+      "name": "Crystalimp Venerable",
+      "image": "/creatures/crystalimp-venerable.webp",
+      "source": "assets/creatures-gen2-source/crystalimp-gen2.png",
+      "element": "Crystal",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "twilightrest-noble",
+      "name": "Twilightrest Noble",
+      "image": "/creatures/twilightrest-noble.webp",
+      "source": "assets/creatures-gen2-source/twilightrest-gen2.png",
+      "element": "Dusk",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shadowhush-ancient",
+      "name": "Shadowhush Ancient",
+      "image": "/creatures/shadowhush-ancient.webp",
+      "source": "assets/creatures-gen2-source/shadowhush-gen2.png",
+      "element": "Dusk",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "eveglow-prime",
+      "name": "Eveglow Prime",
+      "image": "/creatures/eveglow-prime.webp",
+      "source": "assets/creatures-gen2-source/eveglow-gen2.png",
+      "element": "Dusk",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskstill-grand",
+      "name": "Duskstill Grand",
+      "image": "/creatures/duskstill-grand.webp",
+      "source": "assets/creatures-gen2-source/duskstill-gen2.png",
+      "element": "Dusk",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mooncalm-noble",
+      "name": "Mooncalm Noble",
+      "image": "/creatures/mooncalm-noble.webp",
+      "source": "assets/creatures-gen2-source/mooncalm-gen2.png",
+      "element": "Dusk",
+      "personality": "Serene",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shadowtrick-elder",
+      "name": "Shadowtrick Elder",
+      "image": "/creatures/shadowtrick-elder.webp",
+      "source": "assets/creatures-gen2-source/shadowtrick-gen2.png",
+      "element": "Dusk",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskprank-regal",
+      "name": "Duskprank Regal",
+      "image": "/creatures/duskprank-regal.webp",
+      "source": "assets/creatures-gen2-source/duskprank-gen2.png",
+      "element": "Dusk",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gloomtrick-grand",
+      "name": "Gloomtrick Grand",
+      "image": "/creatures/gloomtrick-grand.webp",
+      "source": "assets/creatures-gen2-source/gloomtrick-gen2.png",
+      "element": "Dusk",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "nightpix-grand",
+      "name": "Nightpix Grand",
+      "image": "/creatures/nightpix-grand.webp",
+      "source": "assets/creatures-gen2-source/nightpix-gen2.png",
+      "element": "Dusk",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "veilsneak-noble",
+      "name": "Veilsneak Noble",
+      "image": "/creatures/veilsneak-noble.webp",
+      "source": "assets/creatures-gen2-source/veilsneak-gen2.png",
+      "element": "Dusk",
+      "personality": "Mischievous",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "moonpeek-sage",
+      "name": "Moonpeek Sage",
+      "image": "/creatures/moonpeek-sage.webp",
+      "source": "assets/creatures-gen2-source/moonpeek-gen2.png",
+      "element": "Dusk",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "starnose-regal",
+      "name": "Starnose Regal",
+      "image": "/creatures/starnose-regal.webp",
+      "source": "assets/creatures-gen2-source/starnose-gen2.png",
+      "element": "Dusk",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskprobe-grand",
+      "name": "Duskprobe Grand",
+      "image": "/creatures/duskprobe-grand.webp",
+      "source": "assets/creatures-gen2-source/duskprobe-gen2.png",
+      "element": "Dusk",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shadowgaze-prime",
+      "name": "Shadowgaze Prime",
+      "image": "/creatures/shadowgaze-prime.webp",
+      "source": "assets/creatures-gen2-source/shadowgaze-gen2.png",
+      "element": "Dusk",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "nightwonder-regal",
+      "name": "Nightwonder Regal",
+      "image": "/creatures/nightwonder-regal.webp",
+      "source": "assets/creatures-gen2-source/nightwonder-gen2.png",
+      "element": "Dusk",
+      "personality": "Curious",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "shadowfang-noble",
+      "name": "Shadowfang Noble",
+      "image": "/creatures/shadowfang-noble.webp",
+      "source": "assets/creatures-gen2-source/shadowfang-gen2.png",
+      "element": "Dusk",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "gloomclaw-elder",
+      "name": "Gloomclaw Elder",
+      "image": "/creatures/gloomclaw-elder.webp",
+      "source": "assets/creatures-gen2-source/gloomclaw-gen2.png",
+      "element": "Dusk",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskfang-regal",
+      "name": "Duskfang Regal",
+      "image": "/creatures/duskfang-regal.webp",
+      "source": "assets/creatures-gen2-source/duskfang-gen2.png",
+      "element": "Dusk",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "veilslash-regal",
+      "name": "Veilslash Regal",
+      "image": "/creatures/veilslash-regal.webp",
+      "source": "assets/creatures-gen2-source/veilslash-gen2.png",
+      "element": "Dusk",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "moonhowl-regal",
+      "name": "Moonhowl Regal",
+      "image": "/creatures/moonhowl-regal.webp",
+      "source": "assets/creatures-gen2-source/moonhowl-gen2.png",
+      "element": "Dusk",
+      "personality": "Fierce",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "nightguard-grand",
+      "name": "Nightguard Grand",
+      "image": "/creatures/nightguard-grand.webp",
+      "source": "assets/creatures-gen2-source/nightguard-gen2.png",
+      "element": "Dusk",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskwatch-noble",
+      "name": "Duskwatch Noble",
+      "image": "/creatures/duskwatch-noble.webp",
+      "source": "assets/creatures-gen2-source/duskwatch-gen2.png",
+      "element": "Dusk",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "mooncompanion-grand",
+      "name": "Mooncompanion Grand",
+      "image": "/creatures/mooncompanion-grand.webp",
+      "source": "assets/creatures-gen2-source/mooncompanion-gen2.png",
+      "element": "Dusk",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "starstead-prime",
+      "name": "Starstead Prime",
+      "image": "/creatures/starstead-prime.webp",
+      "source": "assets/creatures-gen2-source/starstead-gen2.png",
+      "element": "Dusk",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "nightwarden-elder",
+      "name": "Nightwarden Elder",
+      "image": "/creatures/nightwarden-elder.webp",
+      "source": "assets/creatures-gen2-source/nightwarden-gen2.png",
+      "element": "Dusk",
+      "personality": "Loyal",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "softnight-ancient",
+      "name": "Softnight Ancient",
+      "image": "/creatures/softnight-ancient.webp",
+      "source": "assets/creatures-gen2-source/softnight-gen2.png",
+      "element": "Dusk",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskcradle-sage",
+      "name": "Duskcradle Sage",
+      "image": "/creatures/duskcradle-sage.webp",
+      "source": "assets/creatures-gen2-source/duskcradle-gen2.png",
+      "element": "Dusk",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "moonlight-prime",
+      "name": "Moonlight Prime",
+      "image": "/creatures/moonlight-prime.webp",
+      "source": "assets/creatures-gen2-source/moonlight-gen2.png",
+      "element": "Dusk",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "starwhisper-ancient",
+      "name": "Starwhisper Ancient",
+      "image": "/creatures/starwhisper-ancient.webp",
+      "source": "assets/creatures-gen2-source/starwhisper-gen2.png",
+      "element": "Dusk",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "duskwarmth-ancient",
+      "name": "Duskwarmth Ancient",
+      "image": "/creatures/duskwarmth-ancient.webp",
+      "source": "assets/creatures-gen2-source/duskwarmth-gen2.png",
+      "element": "Dusk",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
+    },
+    {
+      "id": "nightcomfort-sage",
+      "name": "Nightcomfort Sage",
+      "image": "/creatures/nightcomfort-sage.webp",
+      "source": "assets/creatures-gen2-source/nightcomfort-gen2.png",
+      "element": "Dusk",
+      "personality": "Gentle",
+      "status": "published",
+      "generated": "2026-10-23"
     }
   ]
 }

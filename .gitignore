@@ -44,6 +44,13 @@ yarn-error.log*
 # high-resolution PNG source images (437 MB, dev-time only — WebP in public/ is committed)
 /assets/creatures-source/
 
+# 2nd-gen evolved source images (dev-time only, local-only — same convention as 1st-gen source)
+/assets/creatures-gen2-source/
+
+# scratch comparison/debug artifacts
+/scripts/.gen2-compare/
+/scripts/.make-comparison.mjs
+
 # vercel
 .vercel
 

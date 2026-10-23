@@ -7,6 +7,9 @@ import { CreatureImage } from "@/components/creature-image";
 import { ShareButton } from "@/components/share-button";
 import { ElementBadge } from "@/components/element-badge";
 import { PersonalityBadge } from "@/components/personality-badge";
+import { RarityBadge } from "@/components/rarity-badge";
+import { GenerationBadge } from "@/components/generation-badge";
+import { generationOf } from "@/lib/generations";
 import { ELEMENT_COLORS } from "@/lib/elements";
 
 /**
@@ -42,6 +45,12 @@ export function CreatureCard({
         <div className="absolute left-3 top-3 flex flex-col gap-1.5">
           <ElementBadge element={creature.element} />
           <PersonalityBadge personality={creature.personality} />
+          {generationOf(creature) > 1 && (
+            <GenerationBadge generation={generationOf(creature)} />
+          )}
+        </div>
+        <div className="absolute right-3 top-3">
+          <RarityBadge rarity={creature.rarity} />
         </div>
       </div>
 

@@ -6,6 +6,7 @@ import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import { CREATURES } from "@/lib/data/creatures";
 import { GoogleAnalytics } from "@/components/google-analytics";
 import { JsonLd } from "@/components/json-ld";
+import { Nav } from "@/components/nav";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Sparkles } from "@/components/sparkles";
 import { THEME_STORAGE_KEY } from "@/lib/themes";
@@ -92,6 +93,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{ __html: THEME_INIT }}
         />
+        <Nav />
         <div className="flex-1">{children}</div>
         <JsonLd
           data={{

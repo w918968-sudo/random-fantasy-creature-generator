@@ -4,21 +4,8 @@ import { useState } from "react";
 import type { Creature } from "@/lib/types";
 import { creatureShareUrl } from "@/lib/share-text";
 import { renderShareImage } from "@/lib/share-image";
+import { downloadCanvas } from "@/lib/download-canvas";
 import { trackEvent } from "@/lib/analytics";
-
-function downloadCanvas(canvas: HTMLCanvasElement, filename: string): void {
-  canvas.toBlob((blob) => {
-    if (!blob) return;
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-  }, "image/png");
-}
 
 export function ShareButton({ creature }: { creature: Creature }) {
   const [open, setOpen] = useState(false);

@@ -51,27 +51,47 @@ export function buildPrompt(creature, description = creature.description) {
 }
 
 /**
+ * Build the image-to-image prompt for a 2nd-gen (evolved) form. Seedream 5.0
+ * Pro feeds the 1st-gen art in as the `image` reference; this prompt tells it
+ * to keep the species/element/personality but age & empower the design so the
+ * result reads as an evolution, not a new creature.
+ */
+export function buildEvolutionPrompt(creature, description = creature.description) {
+  return [
+    `Evolved second-generation form of this creature — keep the same species, element, and personality, but make it older, larger, and more powerful, with more elaborate markings and a wiser, stronger presence. ${description}`,
+    `Element: ${creature.element}.`,
+    `Personality: ${creature.personality}.`,
+    STYLE,
+  ].join(" ");
+}
+
+/**
  * Generate one image and resolve to the base64 PNG string.
+ * Pass `image` (a URL or `data:` URI) to use image-to-image; omit it for
+ * text-to-image. Pass `prompt` to override `buildPrompt`.
  * Throws on API error or a missing b64_json in the response.
  */
 export async function generateImage(
   apiKey,
-  { creature, description, size = "1024x1280" },
+  { creature, description, size = "1024x1280", image = null, prompt },
 ) {
+  const payload = {
+    model: MODEL,
+    prompt: prompt ?? buildPrompt(creature, description),
+    size,
+    output_format: "png",
+    response_format: "b64_json",
+    watermark: false,
+  };
+  if (image) payload.image = image;
+
   const res = await fetch(ENDPOINT, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
     },
-    body: JSON.stringify({
-      model: MODEL,
-      prompt: buildPrompt(creature, description),
-      size,
-      output_format: "png",
-      response_format: "b64_json",
-      watermark: false,
-    }),
+    body: JSON.stringify(payload),
   });
 
   const body = await res.json();

@@ -9,10 +9,12 @@ export function CreatureImage({
   creature,
   className,
   priority = false,
+  fit = "cover",
 }: {
   creature: Creature;
   className?: string;
   priority?: boolean;
+  fit?: "cover" | "contain";
 }) {
   if (creature.image) {
     return (
@@ -24,7 +26,7 @@ export function CreatureImage({
         loading={priority ? "eager" : "lazy"}
         decoding="async"
         fetchPriority={priority ? "high" : "auto"}
-        className={`object-cover ${className ?? ""}`}
+        className={`object-${fit} ${className ?? ""}`}
       />
     );
   }

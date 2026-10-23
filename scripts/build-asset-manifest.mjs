@@ -12,6 +12,21 @@ const creatures = JSON.parse(
   readFileSync(path.join(root, "src", "data", "creatures.json"), "utf8"),
 );
 
+/**
+ * Map a creature's served WebP back to its high-res source PNG. 1st-gen sources
+ * live in assets/creatures-source/<id>.png; 2nd-gen (i2i) sources live in
+ * assets/creatures-gen2-source/<base-id>-gen2.png, keyed by `evolvesFrom`.
+ */
+function sourcePath(c) {
+  if (!c.image) return null;
+  if (c.generation === 2) {
+    return `assets/creatures-gen2-source/${c.evolvesFrom ?? c.id}-gen2.png`;
+  }
+  return c.image
+    .replace("/creatures/", "assets/creatures-source/")
+    .replace(/\.webp$/, ".png");
+}
+
 const manifest = {
   generated: "2026-10-19",
   artwork: {
@@ -28,11 +43,11 @@ const manifest = {
     id: c.id,
     name: c.name,
     image: c.image,
-    source: c.image ? c.image.replace("/creatures/", "assets/creatures-source/").replace(/\.webp$/, ".png") : null,
+    source: sourcePath(c),
     element: c.element,
     personality: c.personality,
     status: c.status,
-    generated: "2026-10-19",
+    generated: c.generation === 2 ? "2026-10-23" : "2026-10-19",
   })),
 };
 

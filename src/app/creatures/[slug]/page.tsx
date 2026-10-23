@@ -3,7 +3,12 @@ import Link from "next/link";
 import { CREATURES, getCreature } from "@/lib/data/creatures";
 import { CreatureCard } from "@/components/creature-card";
 import { JsonLd } from "@/components/json-ld";
+import { elementSlug } from "@/lib/elements";
+import { habitatSlug } from "@/lib/habitats";
+import { personalitySlug } from "@/lib/personalities";
+import { raritySlug } from "@/lib/rarities";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { generationLabel, generationOf, generationSlug } from "@/lib/generations";
 
 // Only the slugs we generate are valid; anything else 404s on a static host.
 export const dynamicParams = false;
@@ -70,6 +75,8 @@ export default async function CreaturePage({
   const related = CREATURES.filter(
     (c) => c.element === creature.element && c.id !== creature.id,
   ).slice(0, 4);
+  const isEvolved = generationOf(creature) > 1;
+  const base = creature.evolvesFrom ? getCreature(creature.evolvesFrom) : undefined;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -99,12 +106,29 @@ export default async function CreaturePage({
         <span className="font-semibold text-stone-800">{creature.name}</span>
       </nav>
 
+      {base && (
+        <p className="mb-4">
+          <Link
+            href={`/creatures/${base.id}`}
+            className="inline-flex items-center gap-1 text-sm font-semibold text-amber-700 underline decoration-amber-300 underline-offset-4 transition hover:text-amber-900"
+          >
+            ← Evolved form of {base.name}
+          </Link>
+        </p>
+      )}
+
       <CreatureCard creature={creature} headingLevel="h1" imagePriority />
 
       <p className="mt-6 text-sm leading-relaxed text-stone-600">
-        {creature.name} is an original fantasy creature aligned with{" "}
-        {creature.element}, with a {creature.personality.toLowerCase()} nature —
-        one of 216 handcrafted companions you can roll on the home page.
+        {creature.name}{" "}
+        {isEvolved
+          ? "is the evolved second-generation form of an original"
+          : "is an original"}{" "}
+        {creature.rarity.toLowerCase()} fantasy creature aligned with{" "}
+        {creature.element}, at home in {creature.habitat}, with a{" "}
+        {creature.personality.toLowerCase()} nature — one of{" "}
+        {CREATURES.length} handcrafted companions you can roll on the home
+        page.
       </p>
 
       {related.length > 0 && (
@@ -125,6 +149,38 @@ export default async function CreaturePage({
               </li>
             ))}
           </ul>
+          <p className="mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-center">
+            <Link
+              href={`/elements/${elementSlug(creature.element)}`}
+              className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+            >
+              See all {creature.element} creatures →
+            </Link>
+            <Link
+              href={`/habitats/${habitatSlug(creature.habitat)}`}
+              className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+            >
+              See all {creature.habitat} creatures →
+            </Link>
+            <Link
+              href={`/personalities/${personalitySlug(creature.personality)}`}
+              className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+            >
+              See all {creature.personality} creatures →
+            </Link>
+            <Link
+              href={`/rarities/${raritySlug(creature.rarity)}`}
+              className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+            >
+              See all {creature.rarity} creatures →
+            </Link>
+            <Link
+              href={`/generations/${generationSlug(generationOf(creature))}`}
+              className="text-sm font-semibold text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+            >
+              See all {generationLabel(generationOf(creature))} creatures →
+            </Link>
+          </p>
         </section>
       )}
 
